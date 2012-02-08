@@ -1,0 +1,16 @@
+<font color="#990000" size="3" face="Myriad Pro, Arial">This Skin is created for 6.xx version.</font><font size="3" face="Myriad Pro, Arial"><font color="#666666"><br/>
+
+<b><a href="http://www.AliNawaz.net" target="_blank">www.AliNawaz.net </a></b><font size="3" face="Myriad Pro, Arial"><font color="#666666">based Metro 7 Skins that I have modified for use with DNN 6.x</font>< br/>
+
+<br />
+<h3>Fixes Version 06.01.00</h3>
+<ul>
+<li>Deleted the jQuery and jQuery-ui files and using the jQuery files that shiped with DNN</li>
+<li>Modified the Banner slider for use with jQuery Versions 1.6.1 and above. </li>
+<li>Fixed some CSS color issues that caused with the DNN Blog module on the Blog_List and Blog_Categories.</li>
+<li>Ported to a Visual Studio 2008 project and included all 4 skin colors into one package and versioned. </li>
+<li>Added Social-Links to css file, so that it could be used in HTML module as on default DNN Skin. </li>
+</ul>
+<br />
+<font color="#990000" size="3" face="Myriad Pro, Arial">Support Forum on </font><b><a href="http://www.aarsys.de">www.aarsys.de</a></b>
+<font color="#990000" size="3" face="Myriad Pro, Arial">Support E-Mail </font><b><a href="mailto:support@aarsys.de">support@aarsys.de</a></b>
