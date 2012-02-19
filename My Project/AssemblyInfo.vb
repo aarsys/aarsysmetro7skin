@@ -10,15 +10,15 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("Aarsys Metro Skin")> 
 <Assembly: AssemblyDescription("4 color Metro style skin package for DotNetnuke")> 
-<Assembly: AssemblyCompany("Aarsys")> 
+<Assembly: AssemblyCompany("Aarsys - Matthias Schlomann")> 
 <Assembly: AssemblyProduct("Metro7SkinPackage")> 
-<Assembly: AssemblyCopyright("Copyright © 2012 Aarsys Matthias Schlomann")> 
-<Assembly: AssemblyTrademark("www.aarsys.de")> 
+<Assembly: AssemblyCopyright("Copyright ©  2012 Aarsys - Matthias Schlomann")> 
+<Assembly: AssemblyTrademark("http://www.aarsys.de")> 
 
 <Assembly: ComVisible(False)> 
 
 'Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-<Assembly: Guid("1782e606-9278-44b1-b191-13cd6a835001")> 
+<Assembly: Guid("131642f0-d2eb-444e-9449-c9467d7d2d57")> 
 
 ' Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 '
@@ -30,5 +30,5 @@ Imports System.Runtime.InteropServices
 ' Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 ' übernehmen, indem Sie "*" eingeben:
 
-<Assembly: AssemblyVersion("06.00.01.006")> 
-<Assembly: AssemblyFileVersion("06.00.01.006")> 
+<Assembly: AssemblyVersion("6.0.1035.0")> 
+<Assembly: AssemblyFileVersion("6.0.1035.0")> 

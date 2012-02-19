@@ -184,7 +184,7 @@
 /*-- Subheadings - DNN Default css     --*/ .SubHead { font-family: Calibri, "Segoe UI"; line-height:18px; font-size: 13px; font-weight: bold; color: #309930; padding: 0; }
 /*-- Headings - DNN Default css        --*/ .Head {  font-family: Calibri, "Segoe UI"; line-height:18px; font-size: 13px; color: #309930; background: transparent; font-weight: bold; padding: 0;}
 
-/*-- command Button in Containers      --*/ .CommandButton, a.CommandButton:link, a.CommandButton:visited, a.CommandButton:active { color: #309930 ; font-family: Calibri, "Segoe UI"; font-size: 13px; font-weight: bold; text-decoration: none; padding:2px 10px; background-color:#309930;}
+/*-- command Button in Containers      --*/ .CommandButton, a.CommandButton:link, a.CommandButton:visited, a.CommandButton:active { color: #1BA0E1 ; font-family: Calibri, "Segoe UI"; font-size: 13px; font-weight: bold; text-decoration: none; padding:2px 10px; background-color:#309930;}
 /*-- command Button in Containers hover--*/ a.CommandButton:hover { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-size: 13px; text-decoration: none; font-weight: bold; padding: 2px 10px; background-color:#CC3399; }
 
 /*-- SkinObject Text            	   --*/ .SkinObject, a.SkinObject:link, a.SkinObject:visited, a.SkinObject:active { color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; text-decoration: none; padding: 0 5px 0 5px;}
