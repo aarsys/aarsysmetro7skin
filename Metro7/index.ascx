@@ -12,7 +12,7 @@
 
 <link href="skin.css" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" media="all" href="<%= SkinPath %>banner/style.css" />
-<script type="text/javascript" src="<%= SkinPath %>banner/jquery.js"></script>
+
 <script runat="server">
 
      Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -73,6 +73,20 @@
 
        	</div>
         <!-- End of JBanner -->
+          <div class="SearchCell">
+          <h2>Search</h2>
+          <div class="SearchCellBG"><dnn:SEARCH runat="server" id="dnnSEARCH" showWeb="False" showSite="False" Submit="&lt;img src=&quot;spacer2.gif&quot; border=&quot;0&quot; hspace=&quot;2&quot; align=&quot;absmiddle&quot;&gt;"/></div>
+        </div>
+        <!-- End of Search -->
+        <div class="LoginRegisterCell ">
+	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" /><br />
+    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" />
+            <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" /></div>
+      	</div>
+        <!-- End of Login Register -->
+        
+    </div>
+    <!-- End of Banner -->
     
   <div class="ContentPanesCells">
     <table border="0" cellpadding="0" cellspacing="0" class="FullWidth">
