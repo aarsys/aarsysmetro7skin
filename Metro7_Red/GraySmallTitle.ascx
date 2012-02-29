@@ -19,7 +19,7 @@
     <td>&nbsp;</td>
     <td Class="GraySmallTitleBottom"><table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td colspan="2" align="left" nowrap="nowrap" id="ContentPane" runat="server" valign="top" Class="GraySmallTitleBody"></td>
+        <td colspan="2" align="left" id="ContentPane" runat="server" valign="top" Class="GraySmallTitleBody"></td>
         </tr>
       <tr>
         <td align="left" valign="middle" nowrap="nowrap"><dnn:ACTIONBUTTON1 runat="server" id="dnnACTIONBUTTON1" CommandName="AddContent.Action" DisplayIcon="True" DisplayLink="False" /></td>
