@@ -34,6 +34,10 @@
 
 /*-- Footer cell    				   --*/ .FooterCell { float: left; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 0 15px 10px 15px; font-family: Calibri, "Segoe UI"; color:#999999; font-size:12px;}
 
+/*-- Banner Pane internal Page         --*/ .BannerPaneCells { float: left; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
+
+
+
 
 /*========================================================*/
 /*  Menu Table CSS	                                      */
@@ -97,6 +101,8 @@
 /*-- left2 content pane          	   --*/ .LeftPane2 { padding: 0 0 0 0; width: auto;}
 
 /*-- Extended inside pane 2  	       --*/ .ExtendedPane { width: 100%; padding: 0 0 0 0; }
+
+/*-- Banner pane          	   --*/ .BannerPane { padding: 0 0 0 0; width: 630; height: 250;}
 
 
 

@@ -36,7 +36,8 @@
 
     <Target Name="SetVersionInfo">
         <!-- Obtain Version information from version.txt -->
-        <Version BuildType="Automatic" RevisionType="None" VersionFile="version.txt" StartDate="20/4/2009">
+        <Version BuildType="None" RevisionType="BuildIncrement" VersionFile="$(MSBuildProjectDirectory)\version.txt" StartDate="4/1/2009">
+ 
             <Output TaskParameter="Major" PropertyName="Major" />
             <Output TaskParameter="Minor" PropertyName="Minor" />
             <Output TaskParameter="Build" PropertyName="Build" />

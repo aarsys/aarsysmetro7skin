@@ -3,7 +3,17 @@
 <b><a href="http://www.AliNawaz.net" target="_blank">www.AliNawaz.net </a></b><font size="3" face="Myriad Pro, Arial"><font color="#666666">based Metro 7 Skins that I have modified for use with DNN 6.x</font>< br/>
 
 <br />
-<h3>Fixes Version 06.00.1035.0</h3>
+<h3>Fixes Version 06.01.00</h3>
+<ul>
+<li>Fixed issue where GraySmallTitle Container collapses the Layout</li>
+<li>Fixed issue where on the blue Metro7 Slin the search and login box is missed</li>
+<li>Fixed issue with Version No. on the Target file</li>
+<li>Fixed issue where the file cleanup not worked for deleting the jQuery and jQuery-UI files</li>
+<li>Added a internal page where the Image Slider would be replaces with a BannerPane</li>
+
+</ul>
+<br />
+<h3>Fixes Version 06.00.1035.00</h3>
 <ul>
 <li>changing project to a Visual Studio 2008 DNN Skin project</li>
 <li>added all 4 colors to one package</li>

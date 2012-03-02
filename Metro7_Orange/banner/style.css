@@ -8,4 +8,6 @@
 #JBanner ul.banner_item li.ui-tabs-selected { background:url(banner-active.png) no-repeat left top; }
 #JBanner ul.banner_item li a { display:block; width:16px; height:14px; overflow:hidden; }
 #JBanner .ui-tabs-hide {display:none; }
+/*-- Banner Pane internal Page         --*/ 
+#JBanner .BannerPaneCells { float: left; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
 

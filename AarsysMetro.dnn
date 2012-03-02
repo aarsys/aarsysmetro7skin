@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="5.0">
     <packages>
-        <package name="Metro7" type="Skin" version="06.00.1035.00">
+        <package name="Metro7" type="Skin" version="06.01.00.02">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <owner>
@@ -111,6 +111,18 @@
                         <skinFile>
                             <name>thumbnail_index.jpg</name>
                             <sourceFileName>Metro7_Red\thumbnail_index.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>thumbnail_internal.jpg</name>
+                            <sourceFileName>Metro7_Red\thumbnail_internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.jpg</name>
+                            <sourceFileName>Metro7_Red\internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.ascx</name>
+                            <sourceFileName>Metro7_Red\internal.ascx</sourceFileName>
                         </skinFile>
                     </skinFiles>
                 </component>
@@ -282,6 +294,18 @@
                             <name>thumbnail_index.jpg</name>
                             <sourceFileName>Metro7_Green\thumbnail_index.jpg</sourceFileName>
                         </skinFile>
+                        <skinFile>
+                            <name>thumbnail_internal.jpg</name>
+                            <sourceFileName>Metro7_Green\thumbnail_internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.jpg</name>
+                            <sourceFileName>Metro7_Green\internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.ascx</name>
+                            <sourceFileName>Metro7_Green\internal.ascx</sourceFileName>
+                        </skinFile>
                     </skinFiles>
                 </component>
                 <component type="Container">
@@ -451,6 +475,18 @@
                         <skinFile>
                             <name>thumbnail_index.jpg</name>
                             <sourceFileName>Metro7\thumbnail_index.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>thumbnail_internal.jpg</name>
+                            <sourceFileName>Metro7\thumbnail_internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.jpg</name>
+                            <sourceFileName>Metro7\internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.ascx</name>
+                            <sourceFileName>Metro7\internal.ascx</sourceFileName>
                         </skinFile>
                     </skinFiles>
                 </component>
@@ -622,6 +658,18 @@
                             <name>thumbnail_index.jpg</name>
                             <sourceFileName>Metro7_Orange\thumbnail_index.jpg</sourceFileName>
                         </skinFile>
+                        <skinFile>
+                            <name>thumbnail_internal.jpg</name>
+                            <sourceFileName>Metro7_Orange\thumbnail_internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.jpg</name>
+                            <sourceFileName>Metro7_Orange\internal.jpg</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <name>internal.ascx</name>
+                            <sourceFileName>Metro7_Orange\internal.ascx</sourceFileName>
+                        </skinFile>
                     </skinFiles>
                 </component>
                 <component type="Container">
@@ -694,7 +742,8 @@
                         </containerFile>
                     </containerFiles>
                 </component>
-                <component type="Cleanup" version="1.0.0">
+                <component type="Cleanup" version="06.01.00">
+                
                 <files>
                     <file>
                         <path>Portals\_default\Skins\Metro7\banner</path>
