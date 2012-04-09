@@ -3,6 +3,13 @@
 <b><a href="http://www.AliNawaz.net" target="_blank">www.AliNawaz.net </a></b><font size="3" face="Myriad Pro, Arial"><font color="#666666">based Metro 7 Skins that I have modified for use with DNN 6.x</font>< br/>
 
 <br />
+<h3>Fixes Version 06.02.00</h3>
+<ul>
+<li>Migrated Menu Proviter from SolPart Menu Provider to DDR Menu Provider</li>
+<li>Moved out the Solpartactions from the Metro7 containers, it's no longer needed for DNN 6 and above.>/li>
+
+</ul>
+<br />
 <h3>Fixes Version 06.01.00</h3>
 <ul>
 <li>Fixed issue where GraySmallTitle Container collapses the Layout</li>
