@@ -11,6 +11,7 @@
   <tr>
     <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
+	    <td valign="middle" nowrap="nowrap"><dnn:ACTIONS runat="server" id="dnnACTIONS" /></td>
 	    <td valign="middle" nowrap="nowrap"><dnn:ICON runat="server" ID="dnnICON" /></td>
         <td valign="middle" width="100%" nowrap="nowrap"><dnn:TITLE runat="server" id="dnnTITLE" CssClass="PinkTitleTitle" /></td>
         </tr>

@@ -1,4 +1,5 @@
 <%@ Control language="vb" CodeBehind="~/admin/Containers/container.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Containers.Container" %>
+<%@ Register TagPrefix="dnn" TagName="ACTIONS" Src="~/Admin/Containers/Actions.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="ICON" Src="~/Admin/Containers/Icon.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="TITLE" Src="~/Admin/Containers/Title.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="VISIBILITY" Src="~/Admin/Containers/Visibility.ascx" %>
@@ -9,6 +10,7 @@
 <%@ Register TagPrefix="dnn" TagName="ACTIONBUTTON4" Src="~/Admin/Containers/ActionButton.ascx" %>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
+    <td valign="middle" nowrap="nowrap"><dnn:ACTIONS runat="server" id="dnnACTIONS" /></td>
     <td nowrap="nowrap" class="GraySmallTitleTIcon"><dnn:ICON runat="server" ID="dnnICON" /></td>
     <td class="GraySmallTitleTD"><dnn:TITLE runat="server" id="dnnTITLE" CssClass="GraySmallTitleTitle" /></td>
   </tr>
