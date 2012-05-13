@@ -1,16 +1,20 @@
 ﻿<dotnetnuke type="Package" version="5.0">
     <packages>
-        <package name="Metro7" type="Skin" version="06.01.00.02">
+        <package name="Metro7" type="Skin" version="06.01.00.11">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <owner>
                 <name>Matthias Schlomann</name>
                 <organization>Aarsys</organization>
-                <url>http://www.aarsys.de</url>
-                <email>support@aarsys.de</email>
+                <url><![CDATA[<a href="http://www.aarsys.de" target="_new">www.aarsys.de</a>]]>
+            </url>
+                <email>
+                    <![CDATA[<a href="mailto:support@aarsys.de">support@aarsys.de</a>
+            ]]>
+                </email>
             </owner>
-            <license src="license.txt" />
-            <releaseNotes src="releasenotes.txt" />
+            <license src="license.html" />
+            <releaseNotes src="releasenotes.html" />
             <dependencies>
                 <dependency type="Type">DotNetNuke.UI.Utilities.MSAJAX</dependency>
             </dependencies>
