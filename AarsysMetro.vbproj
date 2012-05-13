@@ -52,7 +52,7 @@
     <Content Include="Documentation\folderopen.gif" />
     <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
     <Content Include="Documentation\file.gif" />
-    <Content Include="AarsysMetro.dnn" />
+    <None Include="AarsysMetro.dnn6" />
     <Content Include="DNNSkin.targets" />
     <Content Include="license.html" />
     <Content Include="Metro7\banner\banner-active.png" />

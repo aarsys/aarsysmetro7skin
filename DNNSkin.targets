@@ -14,7 +14,7 @@
     </PropertyGroup>
     <ItemGroup>
         <deployTargetFile Include="$(MSBuildProjectDirectory)\DNNSkin.targets" />
-        <dnnFile Include="$(MSBuildProjectDirectory)\*.dnn" />
+        <dnnFile Include="$(MSBuildProjectDirectory)\*.dnn6" />
     </ItemGroup>
 
     <!-- Import to use Common Targets\Tasks -->
@@ -120,7 +120,7 @@
 							$(MSBuildProjectDirectory)\Metro7_Orange\images\*.png;
 							$(MSBuildProjectDirectory)\Metro7_Red\images\*.png;
 							$(MSBuildProjectDirectory)\*.txt;
-							$(MSBuildProjectDirectory)\*.dnn;
+							$(MSBuildProjectDirectory)\*.dnn6;
 							$(MSBuildProjectDirectory)\*.html;
 							">
             <Output TaskParameter="Include" ItemName="InstallZipFiles" />

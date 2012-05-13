@@ -1,8 +1,9 @@
-﻿<dotnetnuke type="Package" version="5.0">
+﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="06.01.00.11">
+        <package name="Metro7" type="Skin" version="06.01.00.13">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
+            <iconFile></iconFile>
             <owner>
                 <name>Matthias Schlomann</name>
                 <organization>Aarsys</organization>
@@ -17,6 +18,7 @@
             <releaseNotes src="releasenotes.html" />
             <dependencies>
                 <dependency type="Type">DotNetNuke.UI.Utilities.MSAJAX</dependency>
+                <dependency type="CoreVersion">06.01.00</dependency>
             </dependencies>
             <components>
                 <component type="Skin">
