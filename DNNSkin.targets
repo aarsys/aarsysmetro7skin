@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!-- PLEASE NOTE THAT CHANGES TO THIS FILE WILL NOT TAKE AFFECT UNTIL YOU UNLOAD AND RELOAD YOUR PROJECT! -->
+	<PropertyGroup>
+        <CompanyName>AARSYS</CompanyName>
+        <SkinName>MetroPackage</SkinName>
+        <DotNetNukeDir>C:\Develope\DNN6\Website</DotNetNukeDir>
+
+        <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
+        <DeployDir>$(RootDir)\deploy</DeployDir>
+        <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
+        <MSBuildDir>$(RootDir)\AarsysMetro\lib\msbuild</MSBuildDir>
+        <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
+    </PropertyGroup>
+    <ItemGroup>
+        <deployTargetFile Include="$(MSBuildProjectDirectory)\DNNSkin.targets" />
+        <dnnFile Include="$(MSBuildProjectDirectory)\*.dnn6" />
+    </ItemGroup>
+
+    <!-- Import to use Common Targets\Tasks -->
+    <Import Project="$(MSBuildDir)\MSBuild.Community.Tasks.Targets"/>
+
+    <Target Name="Build">
+        <CallTarget Targets="BeforeBuild" />
+        <!-- Don't build anything -->
+        <CallTarget Targets="AfterBuild" />
+    </Target>
+
+    <Target Name="BeforeBuild">
+        <CallTarget Targets="SetVersionInfo" />
+    </Target>
+    <Target Name="AfterBuild">
+        <CallTarget Targets="DeployFiles" />
+    </Target>
+
+
+    <Target Name="SetVersionInfo">
+        <!-- Obtain Version information from version.txt -->
+        <Version BuildType="None" RevisionType="BuildIncrement" VersionFile="$(MSBuildProjectDirectory)\version.txt" StartDate="4/1/2009">
+ 
+            <Output TaskParameter="Major" PropertyName="Major" />
+            <Output TaskParameter="Minor" PropertyName="Minor" />
+            <Output TaskParameter="Build" PropertyName="Build" />
+            <Output TaskParameter="Revision" PropertyName="Revision" />
+        </Version>
+        <!-- DNN requires single digits to be prefixed with a zero -->
+        <CreateProperty Value="0$(Major)" Condition="$(Major) &lt;= 9" >
+            <Output TaskParameter="Value" PropertyName="Major" />
+        </CreateProperty>
+        <CreateProperty Value="0$(Minor)" Condition="$(Minor) &lt;= 9" >
+            <Output TaskParameter="Value" PropertyName="Minor" />
+        </CreateProperty>
+        <CreateProperty Value="0$(Build)" Condition="$(Build) &lt;= 9" >
+            <Output TaskParameter="Value" PropertyName="Build" />
+        </CreateProperty>
+        <CreateProperty Value="0$(Revision)" Condition="$(Revision) &lt;= 9" >
+            <Output TaskParameter="Value" PropertyName="Revision" />
+        </CreateProperty>
+
+        <!-- Write new version to assemblyinfo.cs -->
+        <FileUpdate Files="@(dnnFile)" Regex="&lt;version&gt;.*&lt;/version&gt;" ReplacementText="&lt;version&gt;$(Major).$(Minor).$(Build).$(Revision)&lt;/version&gt;" />
+        <FileUpdate Files="@(dnnFile)" Regex="&quot;Skin&quot; version=&quot;.*&quot;" ReplacementText="&quot;Skin&quot; version=&quot;$(Major).$(Minor).$(Build).$(Revision)&quot;" />
+
+    </Target>
+
+    <Target Name="DeployFiles">
+        <MakeDir Directories="$(DeployDir)" />
+        <CallTarget Targets="ZipFiles" />
+        <CallTarget Targets="CopyFilesToDotNetNuke" Condition="'$(DotNetNukeDir)'!=''" />
+    </Target>
+
+    <Target Name="ZipFiles">
+        <!-- Obtain reference to installation files -->
+        <CreateItem Include="$(MSBuildProjectDirectory)\Skins\Metro7\*.ascx;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Green\*.ascx;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.ascx;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Red\*.ascx;
+							$(MSBuildProjectDirectory)\Skins\Metro7\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7\*.xml;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.xml;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.xml;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.xml;
+							$(MSBuildProjectDirectory)\Skins\Metro7\*.html;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.html;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.html;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.html;
+							$(MSBuildProjectDirectory)\Skins\Metro7\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7\banner\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\banner\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\banner\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\banner\*.jpg;
+							$(MSBuildProjectDirectory)\Skins\Metro7\banner\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\banner\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\banner\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\banner\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7\banner\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\banner\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\banner\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\banner\*.css;
+							$(MSBuildProjectDirectory)\Skins\Metro7\*.gif;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.gif;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.gif;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.gif;
+							$(MSBuildProjectDirectory)\Skins\Metro7\images\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Green\images\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\images\*.png;
+							$(MSBuildProjectDirectory)\Skins\Metro7_Red\images\*.png;
+                            ***
+                            $(MSBuildProjectDirectory)\Containers\Metro7\*.ascx;
+                            $(MSBuildProjectDirectory)\Containers\Metro7_Green\*.ascx;
+                            $(MSBuildProjectDirectory)\Containers\Metro7_Orange\*.ascx;
+                            $(MSBuildProjectDirectory)\Containers\Metro7_Red\*.ascx;
+							$(MSBuildProjectDirectory)\Containers\Metro7\*.css;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Green\*.css;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\*.css;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Red\*.css;
+							$(MSBuildProjectDirectory)\Containers\Metro7\*.xml;
+							$(MSBuildProjectDirectory)\Containers\Metro7\*.jpg;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Green\*.jpg;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\*.jpg;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Red\*.jpg;
+							$(MSBuildProjectDirectory)\Containers\Metro7\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Green\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Red\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7\*.gif;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Green\*.gif;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\*.gif;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Red\*.gif;
+							$(MSBuildProjectDirectory)\Containers\Metro7\images\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Green\images\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\images\*.png;
+							$(MSBuildProjectDirectory)\Containers\Metro7_Red\images\*.png;
+
+
+							$(MSBuildProjectDirectory)\*.txt;
+							$(MSBuildProjectDirectory)\*.dnn6;
+							$(MSBuildProjectDirectory)\*.html;
+							">
+            <Output TaskParameter="Include" ItemName="InstallZipFiles" />
+        </CreateItem>
+        <!-- Zip installation files -->
+        <Zip Files="@(InstallZipFiles)" WorkingDirectory="$(MSBuildProjectDirectory)\" ZipFileName="$(DeployDir)\$(CompanyName).$(SkinName).install.v$(Major).$(Minor).$(Build).$(Revision).zip" />
+
+        <!-- Create exclude file list -->
+        <CreateItem Include="**\.svn\**;**\obj\**;**\bin\**;**\*.user;**\*.suo;**\*.zip;**\installation\**">
+            <Output TaskParameter="Include" ItemName="DefaultExclude" />
+        </CreateItem>
+
+        <!-- Obtain reference to source files -->
+        <CreateItem Include="**\*.*" Exclude="@(DefaultExclude)">
+            <Output TaskParameter="Include" ItemName="SourceZipFiles"/>
+        </CreateItem>
+
+        <!-- Reset DNN Dir for distribution code -->
+        <FileUpdate Files="@(deployTargetFile)" Regex="&lt;DotNetNukeDir&gt;.*&lt;/DotNetNukeDir&gt;" ReplacementText="&lt;DotNetNukeDir&gt;&lt;/DotNetNukeDir&gt;"  />
+        <Zip Files="@(SourceZipFiles)" WorkingDirectory="$(MSBuildProjectDirectory)" ZipFileName="$(DeployDir)\$(CompanyName).$(SkinName).source.v$(Major).$(Minor).$(Build).$(Revision).zip"  />
+        <!-- Reset DNN Dir to its original value -->
+        <FileUpdate Files="@(deployTargetFile)" Regex="&lt;DotNetNukeDir&gt;.*&lt;/DotNetNukeDir&gt;" ReplacementText="&lt;DotNetNukeDir&gt;$(DotNetNukeDir)&lt;/DotNetNukeDir&gt;" />
+
+        <!-- Change hardcoded path for msbuild (needed for initial setup) to relative one -->
+        <FileUpdate Files="@(deployTargetFile)" Regex="&lt;MSBuildDir&gt;.*&lt;/MSBuildDir&gt;" ReplacementText="&lt;MSBuildDir&gt;%24(RootDir)\lib\msbuild&lt;/MSBuildDir&gt;" />
+    </Target>
+    <Target Name="CopyFilesToDotNetNuke">
+        <!-- Obtain reference to installation files -->
+        <CreateItem Include="$(DeployDir)\$(CompanyName).$(SkinName).install.v$(Major).$(Minor).$(Build).$(Revision).zip">
+            <Output TaskParameter="Include" ItemName="InstallZip" />
+        </CreateItem>
+        <!-- Copy Files to DotNetNuke Installation -->
+        <Copy SourceFiles="@(InstallZip)" DestinationFolder="$(DotNetNukeDir)\Install\skin\" SkipUnchangedFiles="false" ContinueOnError="true" />
+    </Target>
+</Project>

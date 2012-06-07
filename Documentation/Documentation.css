@@ -1,0 +1,135 @@
+
+Body, A
+{
+   font-family: Verdana, Arial, Helvetica, Sans Serif;
+   font-size: 10pt;
+   font-weight: normal;
+   color: black;
+}
+
+Body
+{
+    background-color: white;
+    margin-left:25px;
+}
+
+H1
+{
+	font-size: 2.0em;
+	font-weight: bold;
+	color: Black;
+	text-decoration: underline;
+}
+
+H2  {
+	font-size: 1.6em;
+    font-weight: bold;
+    color: #75808A;
+}
+
+H3  {
+    font-size:  1.4em;
+    font-weight:  bold;
+    color: #75808A;
+}
+
+H4  {
+    font-size:  1.2em;
+    font-weight: bold;
+    color: #75808A;
+}
+
+H5  {
+    font-size:  1.1em;
+    font-weight:    bold;
+    color: #75808A;
+}
+
+H6  {
+    font-size:  1.0em;
+    font-weight:    bold;
+    color: #75808A;
+}
+
+A:link  {
+    font-size:  1.0em;
+    text-decoration: underline;
+    color:  #0000cc;
+}
+
+A:visited   {
+    font-size:  1.0em;
+    text-decoration: underline;
+    color:  #0000cc;
+}
+
+A:active    {
+    font-size:  1.0em;
+    text-decoration: underline;
+    color:  #0000cc;
+}
+
+A:hover {
+    font-size:  1.0em;
+    text-decoration: underline;
+    color:  #cc0000;
+}
+
+HR {
+    color: dimgrey;
+    height:1pt;
+    text-align:left
+}
+
+.directory
+{
+	border: solid 1px;
+	width: 340px;
+	padding: 5px;
+	padding-left: 20px;
+	background-color: #f5f5f5;
+}
+
+.directory li
+{
+	list-style-image: url('folderopen.gif');
+	list-style-position: inside;
+	margin-left: -10px;
+}
+
+.directory li li li
+{
+	list-style-image: url('file.gif');
+}
+
+.directory .folder
+{
+	list-style-image: url('folderopen.gif');
+	list-style-position: inside;
+	margin-left: -10px;
+}
+
+.important
+{
+	color: Red;
+}
+
+.cheatSheet
+{
+    border: 1px solid #333333;
+}
+
+.cheatSheet th
+{
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid #333333;
+    text-align: left;
+    background-color: #800000;
+    color: #FFFFFF;
+}
+.cheatSheet td
+{
+    font-size: 10px;
+    border: 1px solid #333333;
+}

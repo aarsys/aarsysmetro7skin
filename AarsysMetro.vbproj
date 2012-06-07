@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED2E0790-66A9-4205-BDFC-8F9A88E7CFF2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AARSYS</RootNamespace>
+    <AssemblyName>AARSYS.AarsysMetro</AssemblyName>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AarsysMetro.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AarsysMetro.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetNuke, Version=6.1.1.12, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bin\DotNetNuke.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Containers\Metro7\DefaultContainer.ascx" />
+    <Content Include="Containers\Metro7\DefaultContainer.css" />
+    <Content Include="Containers\Metro7\DefaultContainer.jpg" />
+    <Content Include="Containers\Metro7\GraySmallTitle.ascx" />
+    <Content Include="Containers\Metro7\GraySmallTitle.css" />
+    <Content Include="Containers\Metro7\GraySmallTitle.jpg" />
+    <Content Include="Containers\Metro7\GrayTitle.ascx" />
+    <Content Include="Containers\Metro7\GrayTitle.css" />
+    <Content Include="Containers\Metro7\GrayTitle.jpg" />
+    <Content Include="Containers\Metro7\Icon_more.jpg" />
+    <Content Include="Containers\Metro7\PinkTitle.ascx" />
+    <Content Include="Containers\Metro7\PinkTitle.css" />
+    <Content Include="Containers\Metro7\PinkTitle.jpg" />
+    <Content Include="Containers\Metro7\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Containers\Metro7\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Containers\Metro7\thumbnail_graytitle.jpg" />
+    <Content Include="Containers\Metro7\thumbnail_pinktitle.jpg" />
+    <Content Include="Containers\Metro7_Green\Bullets.png" />
+    <Content Include="Containers\Metro7_Green\DefaultContainer.ascx" />
+    <Content Include="Containers\Metro7_Green\DefaultContainer.css" />
+    <Content Include="Containers\Metro7_Green\DefaultContainer.jpg" />
+    <Content Include="Containers\Metro7_Green\GraySmallTitle.ascx" />
+    <Content Include="Containers\Metro7_Green\GraySmallTitle.css" />
+    <Content Include="Containers\Metro7_Green\GraySmallTitle.jpg" />
+    <Content Include="Containers\Metro7_Green\GrayTitle.ascx" />
+    <Content Include="Containers\Metro7_Green\GrayTitle.css" />
+    <Content Include="Containers\Metro7_Green\GrayTitle.jpg" />
+    <Content Include="Containers\Metro7_Green\Icon_more.jpg" />
+    <Content Include="Containers\Metro7_Green\PinkTitle.ascx" />
+    <Content Include="Containers\Metro7_Green\PinkTitle.css" />
+    <Content Include="Containers\Metro7_Green\PinkTitle.jpg" />
+    <Content Include="Containers\Metro7_Green\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Containers\Metro7_Green\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Containers\Metro7_Green\thumbnail_graytitle.jpg" />
+    <Content Include="Containers\Metro7_Green\thumbnail_pinktitle.jpg" />
+    <Content Include="Containers\Metro7_Orange\Bullets.png" />
+    <Content Include="Containers\Metro7_Orange\DefaultContainer.ascx" />
+    <Content Include="Containers\Metro7_Orange\DefaultContainer.css" />
+    <Content Include="Containers\Metro7_Orange\DefaultContainer.jpg" />
+    <Content Include="Containers\Metro7_Orange\GraySmallTitle.ascx" />
+    <Content Include="Containers\Metro7_Orange\GraySmallTitle.css" />
+    <Content Include="Containers\Metro7_Orange\GraySmallTitle.jpg" />
+    <Content Include="Containers\Metro7_Orange\GrayTitle.ascx" />
+    <Content Include="Containers\Metro7_Orange\GrayTitle.css" />
+    <Content Include="Containers\Metro7_Orange\GrayTitle.jpg" />
+    <Content Include="Containers\Metro7_Orange\Icon_more.jpg" />
+    <Content Include="Containers\Metro7_Orange\PinkTitle.ascx" />
+    <Content Include="Containers\Metro7_Orange\PinkTitle.css" />
+    <Content Include="Containers\Metro7_Orange\PinkTitle.jpg" />
+    <Content Include="Containers\Metro7_Orange\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Containers\Metro7_Orange\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Containers\Metro7_Orange\thumbnail_graytitle.jpg" />
+    <Content Include="Containers\Metro7_Orange\thumbnail_pinktitle.jpg" />
+    <Content Include="Containers\Metro7_Red\Bullets.png" />
+    <Content Include="Containers\Metro7_Red\DefaultContainer.ascx" />
+    <Content Include="Containers\Metro7_Red\DefaultContainer.css" />
+    <Content Include="Containers\Metro7_Red\DefaultContainer.jpg" />
+    <Content Include="Containers\Metro7_Red\GraySmallTitle.ascx" />
+    <Content Include="Containers\Metro7_Red\GraySmallTitle.css" />
+    <Content Include="Containers\Metro7_Red\GraySmallTitle.jpg" />
+    <Content Include="Containers\Metro7_Red\GrayTitle.ascx" />
+    <Content Include="Containers\Metro7_Red\GrayTitle.css" />
+    <Content Include="Containers\Metro7_Red\GrayTitle.jpg" />
+    <Content Include="Containers\Metro7_Red\Icon_more.jpg" />
+    <Content Include="Containers\Metro7_Red\PinkTitle.ascx" />
+    <Content Include="Containers\Metro7_Red\PinkTitle.css" />
+    <Content Include="Containers\Metro7_Red\PinkTitle.jpg" />
+    <Content Include="Containers\Metro7_Red\spacer2.gif" />
+    <Content Include="Containers\Metro7_Red\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Containers\Metro7_Red\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Containers\Metro7_Red\thumbnail_graytitle.jpg" />
+    <Content Include="Containers\Metro7_Red\thumbnail_pinktitle.jpg" />
+    <Content Include="Documentation\Documentation.css" />
+    <Content Include="Documentation\Documentation.html" />
+    <Content Include="Documentation\logo.gif" />
+    <Content Include="Documentation\folderopen.gif" />
+    <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
+    <Content Include="Documentation\file.gif" />
+    <None Include="AarsysMetro.dnn6" />
+    <Content Include="DNNSkin.targets" />
+    <Content Include="license.html" />
+    <Content Include="releasenotes.html" />
+    <Content Include="Skins\Bullets.png" />
+    <Content Include="Skins\index.ascx" />
+    <Content Include="Skins\index.doctype.xml" />
+    <Content Include="Skins\index.jpg" />
+    <Content Include="Skins\internal.ascx" />
+    <Content Include="Skins\internal.jpg" />
+    <Content Include="Skins\LoginIconBG.png" />
+    <Content Include="Skins\Metro7\Banner\banner-active.png" />
+    <Content Include="Skins\Metro7\Banner\banner-idel.png" />
+    <Content Include="Skins\Metro7\Banner\Banner_1.jpg" />
+    <Content Include="Skins\Metro7\Banner\Banner_2.jpg" />
+    <Content Include="Skins\Metro7\Banner\Banner_3.jpg" />
+    <Content Include="Skins\Metro7\Banner\Banner_4.jpg" />
+    <Content Include="Skins\Metro7\Banner\Banner_5.jpg" />
+    <Content Include="Skins\Metro7\Banner\style.css" />
+    <Content Include="Skins\Metro7\Bullets.png" />
+    <Content Include="Skins\Metro7\images\banner-active.png" />
+    <Content Include="Skins\Metro7\images\banner-idel.png" />
+    <Content Include="Skins\Metro7\images\Banner_1.jpg" />
+    <Content Include="Skins\Metro7\images\Banner_2.jpg" />
+    <Content Include="Skins\Metro7\images\Banner_3.jpg" />
+    <Content Include="Skins\Metro7\images\Banner_4.jpg" />
+    <Content Include="Skins\Metro7\images\Banner_5.jpg" />
+    <Content Include="Skins\Metro7\images\style.css" />
+    <Content Include="Skins\Metro7\index.ascx" />
+    <Content Include="Skins\Metro7\index.doctype.xml" />
+    <Content Include="Skins\Metro7\index.jpg" />
+    <Content Include="Skins\Metro7\internal.ascx" />
+    <Content Include="Skins\Metro7\internal.jpg" />
+    <Content Include="Skins\Metro7\LoginIconBG.png" />
+    <Content Include="Skins\Metro7\Metro7_logo.jpg" />
+    <Content Include="Skins\Metro7\SearchBG.png" />
+    <Content Include="Skins\Metro7\SearchIconBG.png" />
+    <Content Include="Skins\Metro7\skin.css" />
+    <Content Include="Skins\Metro7\spacer2.gif" />
+    <Content Include="Skins\Metro7\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Skins\Metro7\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Skins\Metro7\thumbnail_graytitle.jpg" />
+    <Content Include="Skins\Metro7\thumbnail_index.jpg" />
+    <Content Include="Skins\Metro7\thumbnail_internal.jpg" />
+    <Content Include="Skins\Metro7\thumbnail_pinktitle.jpg" />
+    <Content Include="Skins\Metro7_Green\Banner\banner-active.png" />
+    <Content Include="Skins\Metro7_Green\Banner\banner-idel.png" />
+    <Content Include="Skins\Metro7_Green\Banner\Banner_1.jpg" />
+    <Content Include="Skins\Metro7_Green\Banner\Banner_2.jpg" />
+    <Content Include="Skins\Metro7_Green\Banner\Banner_3.jpg" />
+    <Content Include="Skins\Metro7_Green\Banner\Banner_4.jpg" />
+    <Content Include="Skins\Metro7_Green\Banner\Banner_5.jpg" />
+    <Content Include="Skins\Metro7_Green\Banner\style.css" />
+    <Content Include="Skins\Metro7_Green\Bullets.png" />
+    <Content Include="Skins\Metro7_Green\Icon_more.jpg" />
+    <Content Include="Skins\Metro7_Green\images\SocialMedia.png" />
+    <Content Include="Skins\Metro7_Green\index.ascx" />
+    <Content Include="Skins\Metro7_Green\index.doctype.xml" />
+    <Content Include="Skins\Metro7_Green\index.jpg" />
+    <Content Include="Skins\Metro7_Green\internal.ascx" />
+    <Content Include="Skins\Metro7_Green\internal.jpg" />
+    <Content Include="Skins\Metro7_Green\LoginIconBG.png" />
+    <Content Include="Skins\Metro7_Green\Metro7_logo.jpg" />
+    <Content Include="Skins\Metro7_Green\SearchBG.png" />
+    <Content Include="Skins\Metro7_Green\SearchIconBG.png" />
+    <Content Include="Skins\Metro7_Green\skin.css" />
+    <Content Include="Skins\Metro7_Green\spacer2.gif" />
+    <Content Include="Skins\Metro7_Green\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Skins\Metro7_Green\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Skins\Metro7_Green\thumbnail_graytitle.jpg" />
+    <Content Include="Skins\Metro7_Green\thumbnail_index.jpg" />
+    <Content Include="Skins\Metro7_Green\thumbnail_internal.jpg" />
+    <Content Include="Skins\Metro7_Green\thumbnail_pinktitle.jpg" />
+    <Content Include="Skins\Metro7_logo.jpg" />
+    <Content Include="Skins\Metro7_Orange\Banner\banner-active.png" />
+    <Content Include="Skins\Metro7_Orange\Banner\banner-idel.png" />
+    <Content Include="Skins\Metro7_Orange\Banner\Banner_1.jpg" />
+    <Content Include="Skins\Metro7_Orange\Banner\Banner_2.jpg" />
+    <Content Include="Skins\Metro7_Orange\Banner\Banner_3.jpg" />
+    <Content Include="Skins\Metro7_Orange\Banner\Banner_4.jpg" />
+    <Content Include="Skins\Metro7_Orange\Banner\Banner_5.jpg" />
+    <Content Include="Skins\Metro7_Orange\Banner\style.css" />
+    <Content Include="Skins\Metro7_Orange\Bullets.png" />
+    <Content Include="Skins\Metro7_Orange\Icon_more.jpg" />
+    <Content Include="Skins\Metro7_Orange\images\SocialMedia.png" />
+    <Content Include="Skins\Metro7_Orange\index.ascx" />
+    <Content Include="Skins\Metro7_Orange\index.doctype.xml" />
+    <Content Include="Skins\Metro7_Orange\index.jpg" />
+    <Content Include="Skins\Metro7_Orange\internal.ascx" />
+    <Content Include="Skins\Metro7_Orange\internal.jpg" />
+    <Content Include="Skins\Metro7_Orange\LoginIconBG.png" />
+    <Content Include="Skins\Metro7_Orange\Metro7_logo.jpg" />
+    <Content Include="Skins\Metro7_Orange\SearchBG.png" />
+    <Content Include="Skins\Metro7_Orange\SearchIconBG.png" />
+    <Content Include="Skins\Metro7_Orange\skin.css" />
+    <Content Include="Skins\Metro7_Orange\spacer2.gif" />
+    <Content Include="Skins\Metro7_Orange\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Skins\Metro7_Orange\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Skins\Metro7_Orange\thumbnail_graytitle.jpg" />
+    <Content Include="Skins\Metro7_Orange\thumbnail_index.jpg" />
+    <Content Include="Skins\Metro7_Orange\thumbnail_internal.jpg" />
+    <Content Include="Skins\Metro7_Orange\thumbnail_pinktitle.jpg" />
+    <Content Include="Skins\Metro7_Red\Banner\banner-active.png" />
+    <Content Include="Skins\Metro7_Red\Banner\banner-idel.png" />
+    <Content Include="Skins\Metro7_Red\Banner\Banner_1.jpg" />
+    <Content Include="Skins\Metro7_Red\Banner\Banner_2.jpg" />
+    <Content Include="Skins\Metro7_Red\Banner\Banner_3.jpg" />
+    <Content Include="Skins\Metro7_Red\Banner\Banner_4.jpg" />
+    <Content Include="Skins\Metro7_Red\Banner\Banner_5.jpg" />
+    <Content Include="Skins\Metro7_Red\Banner\style.css" />
+    <Content Include="Skins\Metro7_Red\images\SocialMedia.png" />
+    <Content Include="Skins\SearchBG.png" />
+    <Content Include="Skins\SearchIconBG.png" />
+    <Content Include="Skins\skin.css" />
+    <Content Include="Skins\spacer2.gif" />
+    <Content Include="Skins\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Skins\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Skins\thumbnail_graytitle.jpg" />
+    <Content Include="Skins\thumbnail_index.jpg" />
+    <Content Include="Skins\thumbnail_internal.jpg" />
+    <Content Include="Skins\thumbnail_pinktitle.jpg" />
+    <Content Include="version.txt" />
+    <Content Include="web.config" />
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildProjectDirectory)\DNNSkin.Targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60521</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://dev6</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://dev6/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>
