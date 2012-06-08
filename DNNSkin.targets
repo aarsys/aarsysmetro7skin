@@ -9,7 +9,7 @@
         <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
         <DeployDir>$(RootDir)\deploy</DeployDir>
         <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-        <MSBuildDir>$(RootDir)\lib\msbuild</MSBuildDir>
+        <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
         <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     </PropertyGroup>
     <ItemGroup>
@@ -115,7 +115,6 @@
 							$(MSBuildProjectDirectory)\Skins\Metro7_Green\images\*.png;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\images\*.png;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Red\images\*.png;
-                            ***
                             $(MSBuildProjectDirectory)\Containers\Metro7\*.ascx;
                             $(MSBuildProjectDirectory)\Containers\Metro7_Green\*.ascx;
                             $(MSBuildProjectDirectory)\Containers\Metro7_Orange\*.ascx;
@@ -141,8 +140,6 @@
 							$(MSBuildProjectDirectory)\Containers\Metro7_Green\images\*.png;
 							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\images\*.png;
 							$(MSBuildProjectDirectory)\Containers\Metro7_Red\images\*.png;
-
-
 							$(MSBuildProjectDirectory)\*.txt;
 							$(MSBuildProjectDirectory)\*.dnn6;
 							$(MSBuildProjectDirectory)\*.html;
