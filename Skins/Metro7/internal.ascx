@@ -54,7 +54,8 @@
 <div id="BannerPaneCells">
     <table border="0" cellpadding="" cellspacing="0" float="left" >
     		<tr>
-            <td colspan="2" align="left" valign="top" class="BannerPane" id="BannerPane" runat="server" visible="false" 
+            <td colspan="2" align="left" valign="top" class="BannerPane" id="BannerPane" runat="server" visible="false" 
+
 width="630" height="250" float="left"></td>
             </tr>
 </table>
@@ -117,5 +118,8 @@ width="630" height="250" float="left"></td>
 </td>
   </tr>
 </table>
+
+
+
 
 
