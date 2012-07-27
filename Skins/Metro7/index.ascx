@@ -103,11 +103,15 @@
           <div id="FullWidth2" class="FullWidth2">
           <div class="TopPane" runat="server" id="TopPane"></div>
           <div class="SocialPane" runat="server" id="SocialPane"></div>
+          <div style="clear:both;">
           <div class="LeftPane1" runat="server" id="LeftPane1"></div>
           <div class="RightPane" runat="server" id="RightPane"></div>
+          <div style="clear:left;">
           <div class="LeftPane" runat="server" id="LeftPane"></div>
           <div class="ContentPane" runat="server" id="ContentPane"></div>
+          </div>
           <div class="LeftPane2" runat="server" id="LeftPane2"></div>
+          </div>
           <div class="ExtendedPane" runat="server" id="ExtendedPane"></div>
           
     </div>      
@@ -123,9 +127,9 @@
 
 
 <dnn:DnnJsInclude runat="server" FilePath="jquery.cycle.min.js" PathNameAlias="SkinPath" />
-<dnn:DnnJsInclude runat="server" FilePath="/DNNStandard/StandardMenu.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
-<dnn:DnnCssInclude runat="server" FilePath="/DNNStandard/StandardMenu.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
 
 
 
