@@ -56,7 +56,7 @@
       </div>
    		
     <div class="MenuCell">
-        <ddr:MENU MenuStyle="DNNStandard" runat="server" />
+        <ddr:MENU MenuStyle="DNNMetro" runat="server" />
     </div>
     
     <div id="banner_index" class="banner_index">

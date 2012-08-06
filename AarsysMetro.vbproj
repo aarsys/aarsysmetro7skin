@@ -134,13 +134,6 @@
     <Content Include="DNNSkin.targets" />
     <Content Include="license.html" />
     <Content Include="releasenotes.html" />
-    <Content Include="Skins\Bullets.png" />
-    <Content Include="Skins\index.ascx" />
-    <Content Include="Skins\index.doctype.xml" />
-    <Content Include="Skins\index.jpg" />
-    <Content Include="Skins\internal.ascx" />
-    <Content Include="Skins\internal.jpg" />
-    <Content Include="Skins\LoginIconBG.png" />
     <Content Include="Skins\Metro7\Banner\banner-active.png" />
     <Content Include="Skins\Metro7\Banner\banner-idel.png" />
     <Content Include="Skins\Metro7\Banner\Banner_1.jpg" />
@@ -150,6 +143,10 @@
     <Content Include="Skins\Metro7\Banner\Banner_5.jpg" />
     <Content Include="Skins\Metro7\Banner\style.css" />
     <Content Include="Skins\Metro7\Bullets.png" />
+    <Content Include="Skins\Metro7\DNNMetro\DNNMetro-menudef.xml" />
+    <Content Include="Skins\Metro7\DNNMetro\MetroMenu.css" />
+    <Content Include="Skins\Metro7\DNNMetro\MetroMenu.js" />
+    <Content Include="Skins\Metro7\DNNMetro\ULTokens.txt" />
     <Content Include="Skins\Metro7\images\banner-active.png" />
     <Content Include="Skins\Metro7\images\banner-idel.png" />
     <Content Include="Skins\Metro7\images\Banner_1.jpg" />
@@ -157,24 +154,25 @@
     <Content Include="Skins\Metro7\images\Banner_3.jpg" />
     <Content Include="Skins\Metro7\images\Banner_4.jpg" />
     <Content Include="Skins\Metro7\images\Banner_5.jpg" />
+    <Content Include="Skins\Metro7\images\loginIcons.png" />
     <Content Include="Skins\Metro7\images\style.css" />
+    <Content Include="Skins\Metro7\images\userLoginSprite.png" />
     <Content Include="Skins\Metro7\index.ascx" />
     <Content Include="Skins\Metro7\index.doctype.xml" />
     <Content Include="Skins\Metro7\index.jpg" />
     <Content Include="Skins\Metro7\internal.ascx" />
+    <Content Include="Skins\Metro7\internal.doctype.xml" />
     <Content Include="Skins\Metro7\internal.jpg" />
+    <Content Include="Skins\Metro7\jquery.cycle.min.js" />
+    <Content Include="Skins\Metro7\js\jquery.metro.js" />
     <Content Include="Skins\Metro7\LoginIconBG.png" />
     <Content Include="Skins\Metro7\Metro7_logo.jpg" />
     <Content Include="Skins\Metro7\SearchBG.png" />
     <Content Include="Skins\Metro7\SearchIconBG.png" />
     <Content Include="Skins\Metro7\skin.css" />
     <Content Include="Skins\Metro7\spacer2.gif" />
-    <Content Include="Skins\Metro7\thumbnail_defaultcontainer.jpg" />
-    <Content Include="Skins\Metro7\thumbnail_graysmalltitle.jpg" />
-    <Content Include="Skins\Metro7\thumbnail_graytitle.jpg" />
     <Content Include="Skins\Metro7\thumbnail_index.jpg" />
     <Content Include="Skins\Metro7\thumbnail_internal.jpg" />
-    <Content Include="Skins\Metro7\thumbnail_pinktitle.jpg" />
     <Content Include="Skins\Metro7_Green\Banner\banner-active.png" />
     <Content Include="Skins\Metro7_Green\Banner\banner-idel.png" />
     <Content Include="Skins\Metro7_Green\Banner\Banner_1.jpg" />
@@ -203,7 +201,6 @@
     <Content Include="Skins\Metro7_Green\thumbnail_index.jpg" />
     <Content Include="Skins\Metro7_Green\thumbnail_internal.jpg" />
     <Content Include="Skins\Metro7_Green\thumbnail_pinktitle.jpg" />
-    <Content Include="Skins\Metro7_logo.jpg" />
     <Content Include="Skins\Metro7_Orange\Banner\banner-active.png" />
     <Content Include="Skins\Metro7_Orange\Banner\banner-idel.png" />
     <Content Include="Skins\Metro7_Orange\Banner\Banner_1.jpg" />
@@ -240,36 +237,41 @@
     <Content Include="Skins\Metro7_Red\Banner\Banner_4.jpg" />
     <Content Include="Skins\Metro7_Red\Banner\Banner_5.jpg" />
     <Content Include="Skins\Metro7_Red\Banner\style.css" />
+    <Content Include="Skins\Metro7_Red\Bullets.png" />
+    <Content Include="Skins\Metro7_Red\Icon_more.jpg" />
     <Content Include="Skins\Metro7_Red\images\SocialMedia.png" />
-    <Content Include="Skins\SearchBG.png" />
-    <Content Include="Skins\SearchIconBG.png" />
-    <Content Include="Skins\skin.css" />
-    <Content Include="Skins\spacer2.gif" />
-    <Content Include="Skins\thumbnail_defaultcontainer.jpg" />
-    <Content Include="Skins\thumbnail_graysmalltitle.jpg" />
-    <Content Include="Skins\thumbnail_graytitle.jpg" />
-    <Content Include="Skins\thumbnail_index.jpg" />
-    <Content Include="Skins\thumbnail_internal.jpg" />
-    <Content Include="Skins\thumbnail_pinktitle.jpg" />
+    <Content Include="Skins\Metro7_Red\index.ascx" />
+    <Content Include="Skins\Metro7_Red\index.doctype.xml" />
+    <Content Include="Skins\Metro7_Red\index.jpg" />
+    <Content Include="Skins\Metro7_Red\internal.ascx" />
+    <Content Include="Skins\Metro7_Red\internal.doctype.xml" />
+    <Content Include="Skins\Metro7_Red\internal.jpg" />
+    <Content Include="Skins\Metro7_Red\LoginIconBG.png" />
+    <Content Include="Skins\Metro7_Red\Metro7_logo.jpg" />
+    <Content Include="Skins\Metro7_Red\SearchBG.png" />
+    <Content Include="Skins\Metro7_Red\SearchIconBG.png" />
+    <Content Include="Skins\Metro7_Red\skin.css" />
+    <Content Include="Skins\Metro7_Red\spacer2.gif" />
+    <Content Include="Skins\Metro7_Red\thumbnail_defaultcontainer.jpg" />
+    <Content Include="Skins\Metro7_Red\thumbnail_graysmalltitle.jpg" />
+    <Content Include="Skins\Metro7_Red\thumbnail_graytitle.jpg" />
+    <Content Include="Skins\Metro7_Red\thumbnail_index.jpg" />
+    <Content Include="Skins\Metro7_Red\thumbnail_internal.jpg" />
+    <Content Include="Skins\Metro7_Red\thumbnail_pinktitle.jpg" />
     <Content Include="version.txt" />
-    <Content Include="web.config" />
-    <Content Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
-    </Content>
-    <Content Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Skins\Metro7\DNNMetro\images\" />
+  </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\DNNSkin.Targets" />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60521</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
