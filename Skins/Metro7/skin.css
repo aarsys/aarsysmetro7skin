@@ -7,7 +7,7 @@
 
 /*html{height:100%;}
 #Body{height:100%;font-family:Helvetica, Arial, sans-serif;color:#333;}*/
-#Form{height:100%;}
+/*#Form{height:100%;}*/
 /*a{outline:0;border:0;}
 p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*========================================================*/
@@ -23,15 +23,15 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*  Main SKIN Elements CSS                                */
 /*========================================================*/
 
-/*-- Skin Main / Default Width    	   --*/ .DefaultWidth { width: 960px; min-height:600px; margin:0 auto; position:relative; }
-/*-- Skin Main header		    	   --*/ .header_index { float: left; margin: 20px 15px 20px 10px; width: auto; }
-/*-- Skin Main banner		    	   --*/ .banner_index { float: left; margin: 20px 10px 20px 15px; width: 930px; }
+/*-- Skin Main / Default Width    	   --*/ .DefaultWidth { width: 960px; min-height:600px; margin:0 auto; position:relative; z-index:1; }
+/*-- Skin Main header		    	   --*/ .header_index { float: left;position:relative; margin: 20px 15px 20px 10px; width: auto; z-index:2; }
+/*-- Skin Main banner		    	   --*/ .banner_index { float: left; position:relative; margin: 20px 10px 20px 15px; width: 930px; z-index:3;}
 
-/*-- 100% height 				 	   --*/ .FullHeight { height:100%; }
+/*-- 100% height 				 	   --*/ .FullHeight { height:100%; position:relative; }
 /*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
 .FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
 
-/*-- cell containing logo table    	   --*/ .LogoCell { float:left; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
+/*-- cell containing logo table    	   --*/ .LogoCell { float:left; position:relative; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
 
 /*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #1BA0E1; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
@@ -42,15 +42,15 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 
 /*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px;}
 
-/*-- Footer cell    				   --*/ .FooterCell { float:left; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
+/*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
 
-/*-- Banner Pane internal Page         --*/ .BannerPaneCells { margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
+/*-- Banner Pane internal Page         --*/ .BannerPaneCells { position:relative; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
 
 /*========================================================*/
 /*  Menu Table CSS	                                      */
 /*========================================================*/
 
-.MenuCell { position:static; padding: 0 0 0 0; }
+.MenuCell { float:right; margin: -20px 0 0 0;vertical-align:middle; }
 
 
 
@@ -59,21 +59,21 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*========================================================*/
 
 
-/*-- content2 pane          	       --*/ .TopPane { float:left; text-align:left; padding: 0 0 0 0; width:640px; max-width:640px; }
+/*-- content2 pane          	       --*/ .TopPane { float:left; position:relative; text-align:left; padding: 0 0 0 0; width:640px; max-width:640px; }
 
-/*-- social Pane pane           	   --*/ .SocialPane { float:left; margin: 0 0 0 10px; min-width: 270px; }
-/*-- right2 content pane        	   --*/ .RightPane { float:right; margin: 0 6px 0 5px; min-height:112px; width: 210px; }
+/*-- social Pane pane           	   --*/ .SocialPane { float:right; position:relative; margin: 0 0 0 10px; min-width: 270px; }
+/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 5px; }
 
-/*-- left2 content pane          	   --*/ .LeftPane { float: left; padding: 0 0 0 0; width: 150px; }
+/*-- left2 content pane          	   --*/ .LeftPane { float: left; position:relative; width: 150px; padding:5px 5px 5px 5px; }
 
-/*-- left1 content pane          	   --*/ .LeftPane1 { float:left; min-width: 75%; max-width:725px;}
-/*-- left3 content pane          	   --*/ .LeftPane3 { float:left; width: 150px;}
-/*-- left4 content pane          	   --*/ .ContentPane { float:left; min-width:545px; max-width:572px;  }
-/*-- left2 content pane          	   --*/ .LeftPane2 { float:left; width: 75%; max-width:725px; }
+/*-- left1 content pane          	   --*/ .LeftPane1 { float:left; position:relative; min-width: 65%; max-width:680px;}
+/*-- left3 content pane          	   --*/ .LeftPane3 { float:left; position:relative; width: 150px;}
+/*-- left4 content pane          	   --*/ .ContentPane { float:left; position:relative; min-width:500px; max-width:500px; padding:5px 10px 5px 10px;  }
+/*-- left2 content pane          	   --*/ .LeftPane2 { float:left; position:relative; min-width: 65%; max-width:680px; }
 
-/*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; width: 922px; margin: 0 -20px 0 0; }
+/*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; width: 922px; margin: 0 -20px 0 0; }
 
-/*-- Banner pane          	   --*/ .BannerPane { width: 630; height: 250;}
+/*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630; height: 250;}
 
 
 
@@ -271,7 +271,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*  Banner CSS	                                          */
 /*========================================================*/
 
-/*-- DNN Action Token             		--*/ .action { padding-top:0px; float:left;}  
+/*-- DNN Action Token             		--*/ .action { padding-top:0px; float:left; }  
 
 
 
@@ -280,19 +280,19 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*========================================================*/
 
 
-.Social-Links{text-align:right;padding:15px 0 0 0;}
+.Social-Links{text-align:right;padding:10px 0 0 0;}
 	.Social-Links a{margin:0 0 0 10px;}
-	.icoIN{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -192px 0;}
-	.icoFacebook{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat 0 0;}
-	.icoTwitter{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -32px 0;}
-	.icoTwitter2{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -576px 0;}
+	.icoIN{width:32px;height:32px;background:url(images/LinkedIn.png) no-repeat;}
+	.icoFacebook{width:32px;height:32px;background:url(images/facebook.png) no-repeat;}
+	.icoTwitter{width:32px;height:32px;background:url(images/Twitter.png) no-repeat;}
+	.icoTwitter2{width:32px;height:32px;background:url(images/TwitterBird.png) no-repeat;}
 	
 	.icoMySpace{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -64px 0;}
-	.icoStumbleUpon{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -96px 0;}
-	.icoDigg{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -128px 0;}
+	.icoYahoo{width:32px;height:32px;background:url(images/Yahoo.png) no-repeat;}
+	.icoYahoo1{width:32px;height:32px;background:url(images/Yahoo1.png) no-repeat -128px 0;}
 	.icoFlickr{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -160px 0;}
-	.icoLinkedIn{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -192px 0;}
-	.icoYouTube{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -224px 0;}
+	.icoLinkedIn{width:32px;height:32px;background:url(images/LinkedIn.png);}
+	.icoYouTube{width:32px;height:32px;background:url(images/youtube.png) no-repeat;}
 	.icoDelicious{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -256px 0;}
 	.icoBlogger{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -288px 0;}
 	.icoRSS{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -320px 0;}
@@ -303,6 +303,10 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 	.icoVimeo{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -480px 0;}
 	.icoWordPress{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -512px 0;}
 	.icoBebo{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -544px 0;}
+    .icoXing{width:32px; height:32px; background:url(images/Xing.png) no-repeat;}
+    .icoGoogleplus{width:32px; height:32px; background:url(images/GooglePlus.png)no-repeat;}
+    .icoGoogle{width:32px; height:32px; background:url(images/Google.png)no-repeat;}
+
 
 
 

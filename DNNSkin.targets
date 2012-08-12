@@ -7,7 +7,7 @@
         <DotNetNukeDir>C:\Develope\DNN6\Website</DotNetNukeDir>
 
         <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
-        <DeployDir>$(RootDir)\deploy</DeployDir>
+        <DeployDir>$(RootDir)\_default\deploy</DeployDir>
         <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
         <MSBuildDir>$(RootDir)\lib\msbuild</MSBuildDir>
         <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
@@ -108,6 +108,11 @@
 							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\banner\*.css;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Red\banner\*.css;
 							$(MSBuildProjectDirectory)\Skins\Metro7\*.gif;
+                            $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.xml;
+                            $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.css;
+                            $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.js;
+                            $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.txt;
+                            $(MSBuildProjectDirectory)\Skins\Metro7\*.js;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.gif;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.gif;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.gif;
@@ -140,6 +145,7 @@
 							$(MSBuildProjectDirectory)\Containers\Metro7_Green\images\*.png;
 							$(MSBuildProjectDirectory)\Containers\Metro7_Orange\images\*.png;
 							$(MSBuildProjectDirectory)\Containers\Metro7_Red\images\*.png;
+                            $(MSBuildProjectDirectory)\Containers\Metro7\images\*.ico;
 							$(MSBuildProjectDirectory)\*.txt;
 							$(MSBuildProjectDirectory)\*.dnn6;
 							$(MSBuildProjectDirectory)\*.html;
@@ -150,12 +156,12 @@
         <Zip Files="@(InstallZipFiles)" WorkingDirectory="$(MSBuildProjectDirectory)\" ZipFileName="$(DeployDir)\$(CompanyName).$(SkinName).install.v$(Major).$(Minor).$(Build).$(Revision).zip" />
 
         <!-- Create exclude file list -->
-        <CreateItem Include="**\.svn\**;**\obj\**;**\bin\**;**\*.user;**\*.suo;**\*.zip;**\installation\**">
+        <CreateItem Include="**\.svn\**;**\obj\**;**\bin\**;**\*.user;**\*.suo;**\*.zip;**\installation\**;**\_ReSharper.AarsysMetro\**;**\_ReSharper.AarsysMetro2008\**;**\_ReSharper.AarsysMetro2010\**;**\cache\**;**\EventQueue\**;**\images\**;**\Logs\**;**\MergedTemplate\**;**\Smileys\**;**\Templates\**;**Users\**;aarsysMetro.5.1.ReSharper.user;*.resx;*.tmp;*.temp;*.css;subhost.*;">
             <Output TaskParameter="Include" ItemName="DefaultExclude" />
         </CreateItem>
 
         <!-- Obtain reference to source files -->
-        <CreateItem Include="**\*.*" Exclude="@(DefaultExclude)">
+        <CreateItem Include="**\*.*" Exclude="@(DefaultExclude);">
             <Output TaskParameter="Include" ItemName="SourceZipFiles"/>
         </CreateItem>
 

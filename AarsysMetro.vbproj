@@ -154,9 +154,29 @@
     <Content Include="Skins\Metro7\images\Banner_3.jpg" />
     <Content Include="Skins\Metro7\images\Banner_4.jpg" />
     <Content Include="Skins\Metro7\images\Banner_5.jpg" />
+    <Content Include="Skins\Metro7\images\Facebook.png" />
+    <Content Include="Skins\Metro7\images\favicon.ico" />
+    <Content Include="Skins\Metro7\images\GooglePlus.png" />
+    <Content Include="Skins\Metro7\images\GoogleSearch.png" />
+    <Content Include="Skins\Metro7\images\Google-Talk.png" />
+    <Content Include="Skins\Metro7\images\Google.png" />
+    <Content Include="Skins\Metro7\images\LinkedIn.png" />
     <Content Include="Skins\Metro7\images\loginIcons.png" />
+    <Content Include="Skins\Metro7\images\Metro.png" />
+    <Content Include="Skins\Metro7\images\Metro24.png" />
+    <Content Include="Skins\Metro7\images\Microsoft-Lync.png" />
+    <Content Include="Skins\Metro7\images\RSS.png" />
+    <Content Include="Skins\Metro7\images\Settings24.png" />
+    <Content Include="Skins\Metro7\images\Settings32.png" />
     <Content Include="Skins\Metro7\images\style.css" />
+    <Content Include="Skins\Metro7\images\twitter.png" />
+    <Content Include="Skins\Metro7\images\TwitterBird.png" />
     <Content Include="Skins\Metro7\images\userLoginSprite.png" />
+    <Content Include="Skins\Metro7\images\WarningMessage.png" />
+    <Content Include="Skins\Metro7\images\Xing.png" />
+    <Content Include="Skins\Metro7\images\Yahoo.png" />
+    <Content Include="Skins\Metro7\images\Yahoo1.png" />
+    <Content Include="Skins\Metro7\images\YouTube.png" />
     <Content Include="Skins\Metro7\index.ascx" />
     <Content Include="Skins\Metro7\index.doctype.xml" />
     <Content Include="Skins\Metro7\index.jpg" />
@@ -182,6 +202,10 @@
     <Content Include="Skins\Metro7_Green\Banner\Banner_5.jpg" />
     <Content Include="Skins\Metro7_Green\Banner\style.css" />
     <Content Include="Skins\Metro7_Green\Bullets.png" />
+    <Content Include="Skins\Metro7_Green\DNNMetro\DNNMetro-menudef.xml" />
+    <Content Include="Skins\Metro7_Green\DNNMetro\MetroMenu.css" />
+    <Content Include="Skins\Metro7_Green\DNNMetro\MetroMenu.js" />
+    <Content Include="Skins\Metro7_Green\DNNMetro\ULTokens.txt" />
     <Content Include="Skins\Metro7_Green\Icon_more.jpg" />
     <Content Include="Skins\Metro7_Green\images\SocialMedia.png" />
     <Content Include="Skins\Metro7_Green\index.ascx" />
@@ -265,6 +289,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Skins\Metro7\DNNMetro\images\" />
+    <Folder Include="Skins\Metro7_Green\DNNMetro\Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildProjectDirectory)\DNNSkin.Targets" />
   <ProjectExtensions>
