@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="06.02.00.11">
+        <package name="Metro7" type="Skin" version="06.02.00.15">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -360,10 +360,6 @@
                         <name>ULTokens.txt</name>
                         <sourceFileName>Skins\Metro7_Green\DNNMetro\ULTokens.txt</sourceFileName>
                       </skinFile>
-                      <skinFile>
-                        <name>jquery.cycle.min.js</name>
-                        <sourceFileName>Skins\Metro7_Green\jquery.cycle.min.js</sourceFileName>
-                      </skinFile>
                     </skinFiles>
                 </component>
                 <component type="Container">
@@ -670,10 +666,6 @@
                             <path>DNNMetro</path>
                             <name>ULTokens.txt</name>
                             <sourceFileName>Skins\Metro7\DNNMetro\ULTokens.txt</sourceFileName>
-                        </skinFile>
-                        <skinFile>
-                            <name>jquery.cycle.min.js</name>
-                            <sourceFileName>Skins\Metro7\jquery.cycle.min.js</sourceFileName>
                         </skinFile>
                     </skinFiles>
                 </component>

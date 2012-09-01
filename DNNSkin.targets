@@ -4,12 +4,12 @@
 	<PropertyGroup>
         <CompanyName>AARSYS</CompanyName>
         <SkinName>MetroPackage</SkinName>
-        <DotNetNukeDir>C:\Develope\DNN6\Website</DotNetNukeDir>
+        <DotNetNukeDir>C:\Develope\DEV6\website</DotNetNukeDir>
 
         <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
         <DeployDir>$(RootDir)\_default\deploy</DeployDir>
         <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-        <MSBuildDir>$(RootDir)\lib\msbuild</MSBuildDir>
+        <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
         <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     </PropertyGroup>
     <ItemGroup>
@@ -113,6 +113,12 @@
                             $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.js;
                             $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.txt;
                             $(MSBuildProjectDirectory)\Skins\Metro7\*.js;
+                            
+                    $(MSBuildProjectDirectory)\Skins\Metro7_Green\DNNMetro\*.xml;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Green\DNNMetro\*.css;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Green\DNNMetro\*.js;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Green\DNNMetro\*.txt;
+                            $(MSBuildProjectDirectory)\Skins\Metro7_Green\*.js;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Green\*.gif;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.gif;
 							$(MSBuildProjectDirectory)\Skins\Metro7_Red\*.gif;
