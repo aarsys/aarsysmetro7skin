@@ -25,7 +25,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 
 /*-- Skin Main / Default Width    	   --*/ .DefaultWidth { width: 960px; min-height:600px; margin:0 auto; position:relative; z-index:1; }
 /*-- Skin Main header		    	   --*/ .header_index { float: left;position:relative; margin: 20px 15px 20px 10px; width: auto; z-index:2; }
-/*-- Skin Main banner		    	   --*/ .banner_index { float: left; position:relative; margin: 20px 10px 20px 15px; width: 930px; z-index:3;}
+/*-- Skin Main banner		    	   --*/ .banner_index { float: left; position:relative; margin: 20px 10px 20px 15px; width: 930px;}
 
 /*-- 100% height 				 	   --*/ .FullHeight { height:100%; position:relative; }
 /*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
@@ -306,6 +306,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
     .icoXing{width:32px; height:32px; background:url(images/Xing.png) no-repeat;}
     .icoGoogleplus{width:32px; height:32px; background:url(images/GooglePlus.png)no-repeat;}
     .icoGoogle{width:32px; height:32px; background:url(images/Google.png)no-repeat;}
+
 
 
 
