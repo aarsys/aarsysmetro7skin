@@ -75,6 +75,8 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 
 /*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630px; height: 250px;}
 
+                                      /*Search Text color*/ .SearchCell h2 {color: #FFF;}
+
 
 
 /*========================================================*/
@@ -189,7 +191,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*========================================================*/
 
 /*-- Heading # 1              			--*/ H1 { FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #D0312D; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
-/*-- Heading # 2              			--*/ H2 { FONT-WEIGHT: normal; FONT-SIZE: 37px; COLOR: #FFFFFF; FONT-FAMILY: Calibri, "Segoe UI", Helvetica, Serif; margin:0 0 5px 0;}
+/*-- Heading # 2              			--*/ H2 { FONT-WEIGHT: normal; FONT-SIZE: 37px; COLOR: #1BA0E1; FONT-FAMILY: Calibri, "Segoe UI", Helvetica, Serif; margin:0 0 5px 0;}
 /*-- Heading # 3              			--*/ H3 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #D0312D; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
 /*-- Heading # 4              			--*/ H4 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
 /*-- Heading # 5              			--*/ H5 { FONT-WEIGHT: bold; font-size: 13px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
