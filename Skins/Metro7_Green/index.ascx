@@ -31,10 +31,10 @@
 </script>
 <script type="text/javascript">
     jQuery(function () {
-        jQuery("#JBanner").tabs({ fx: { opacity: "toggle"} }).tabs("rotate", 10000, true);
+        jQuery("#JBanner").tabs({ fx: { opacity: "toggle" } }).tabs("rotate", 10000, true);
 
     });
-        
+
 </script>
 
 
