@@ -73,7 +73,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 
 /*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; width: 922px; margin: 0 -20px 0 0; }
 
-/*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630; height: 250;}
+/*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630px; height: 250px;}
 
 
 
