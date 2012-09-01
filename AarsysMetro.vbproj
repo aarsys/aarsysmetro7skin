@@ -21,6 +21,10 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -132,7 +136,9 @@
     <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
     <Content Include="Documentation\file.gif" />
     <None Include="AarsysMetro.dnn6" />
-    <Content Include="DNNSkin.targets" />
+    <Content Include="DNNSkin.targets">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="license.html" />
     <Content Include="releasenotes.html" />
     <Content Include="Skins\Metro7\Banner\banner-active.png" />
@@ -184,7 +190,6 @@
     <Content Include="Skins\Metro7\internal.ascx" />
     <Content Include="Skins\Metro7\internal.doctype.xml" />
     <Content Include="Skins\Metro7\internal.jpg" />
-    <Content Include="Skins\Metro7\jquery.cycle.min.js" />
     <Content Include="Skins\Metro7\js\jquery.metro.js" />
     <Content Include="Skins\Metro7\LoginIconBG.png" />
     <Content Include="Skins\Metro7\Metro7_logo.jpg" />
@@ -213,6 +218,7 @@
     <Content Include="Skins\Metro7_Green\index.doctype.xml" />
     <Content Include="Skins\Metro7_Green\index.jpg" />
     <Content Include="Skins\Metro7_Green\internal.ascx" />
+    <Content Include="Skins\Metro7_Green\internal.doctype.xml" />
     <Content Include="Skins\Metro7_Green\internal.jpg" />
     <Content Include="Skins\Metro7_Green\LoginIconBG.png" />
     <Content Include="Skins\Metro7_Green\Metro7_logo.jpg" />
@@ -291,6 +297,9 @@
   <ItemGroup>
     <Folder Include="Skins\Metro7\DNNMetro\images\" />
     <Folder Include="Skins\Metro7_Green\DNNMetro\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

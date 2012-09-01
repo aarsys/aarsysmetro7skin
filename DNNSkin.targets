@@ -9,7 +9,7 @@
         <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
         <DeployDir>$(RootDir)\_default\deploy</DeployDir>
         <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-        <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
+        <MSBuildDir>$(RootDir)\lib\msbuild</MSBuildDir>
         <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     </PropertyGroup>
     <ItemGroup>
