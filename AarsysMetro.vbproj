@@ -241,6 +241,10 @@
     <Content Include="Skins\Metro7_Orange\Banner\Banner_5.jpg" />
     <Content Include="Skins\Metro7_Orange\Banner\style.css" />
     <Content Include="Skins\Metro7_Orange\Bullets.png" />
+    <Content Include="Skins\Metro7_Orange\DNNMetro\DNNMetro-menudef.xml" />
+    <Content Include="Skins\Metro7_Orange\DNNMetro\MetroMenu.css" />
+    <Content Include="Skins\Metro7_Orange\DNNMetro\MetroMenu.js" />
+    <Content Include="Skins\Metro7_Orange\DNNMetro\ULTokens.txt" />
     <Content Include="Skins\Metro7_Orange\Icon_more.jpg" />
     <Content Include="Skins\Metro7_Orange\images\SocialMedia.png" />
     <Content Include="Skins\Metro7_Orange\index.ascx" />
@@ -269,6 +273,10 @@
     <Content Include="Skins\Metro7_Red\Banner\Banner_5.jpg" />
     <Content Include="Skins\Metro7_Red\Banner\style.css" />
     <Content Include="Skins\Metro7_Red\Bullets.png" />
+    <Content Include="Skins\Metro7_Red\DNNMetro\DNNMetro-menudef.xml" />
+    <Content Include="Skins\Metro7_Red\DNNMetro\MetroMenu.css" />
+    <Content Include="Skins\Metro7_Red\DNNMetro\MetroMenu.js" />
+    <Content Include="Skins\Metro7_Red\DNNMetro\ULTokens.txt" />
     <Content Include="Skins\Metro7_Red\Icon_more.jpg" />
     <Content Include="Skins\Metro7_Red\images\SocialMedia.png" />
     <Content Include="Skins\Metro7_Red\index.ascx" />
@@ -297,6 +305,8 @@
   <ItemGroup>
     <Folder Include="Skins\Metro7\DNNMetro\images\" />
     <Folder Include="Skins\Metro7_Green\DNNMetro\Images\" />
+    <Folder Include="Skins\Metro7_Orange\DNNMetro\images\" />
+    <Folder Include="Skins\Metro7_Red\DNNMetro\images\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

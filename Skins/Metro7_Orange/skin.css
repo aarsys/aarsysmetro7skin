@@ -44,7 +44,7 @@
 .MenuCell { float: right; padding: 0 0 0 10px; width:65%; text-align:right;}
 
 .MainMenu_MenuContainer 	{ background: transparent; }
-.MainMenu_MenuBar 			{ cursor: pointer; cursor: hand; background: transparent; }
+.MainMenu_MenuBar 			{ cursor: pointer; cursor: default; background: transparent; }
 
 .MainMenu_SubMenu			{ margin: 0 0 0 0; background:#EEEEEE; }
 .MainMenu_Idle TD 			{ vertical-align:bottom; color: #999999; background-color:#EEEEEE; font-family: calibri; font-size: 18px; font-weight: bold; padding: 60px 0px 10px 0px; font-weight: normal; }

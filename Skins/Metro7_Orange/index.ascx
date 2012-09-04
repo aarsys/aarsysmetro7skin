@@ -3,6 +3,8 @@
 <%@ Register TagPrefix="dnn" TagName="SOLPARTMENU" src="~/DesktopModules/DDRMenu/SolPartMenu.ascx" %>
 <%@ Register TagPrefix="ddr" TagName="MENU" src="~/DesktopModules/DDRMenu/Menu.ascx" %>
 <%@ Register TagPrefix="ddr" Namespace="DotNetNuke.Web.DDRMenu.TemplateEngine" Assembly="DotNetNuke.Web.DDRMenu" %>
+<%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
+
 <%@ Register TagPrefix="dnn" TagName="SEARCH" Src="~/Admin/Skins/Search.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
@@ -11,9 +13,13 @@
 <%@ Register TagPrefix="dnn" TagName="TERMS" Src="~/Admin/Skins/Terms.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="LANGUAGE" Src="~/Admin/Skins/Language.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="STYLES" Src="~/Admin/Skins/Styles.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LINKTOMOBILE" Src="~/Admin/Skins/LinkToMobileSite.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="CONTROLPANEL" Src="~/Admin/Skins/controlpanel.ascx" %>
 
 <link href="skin.css" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" media="all" href="<%= SkinPath %>banner/style.css" />
+
 <script runat="server">
 
      Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -24,39 +30,36 @@
 	End Sub
 </script>
 <script type="text/javascript">
-	jQuery(function(){
-	jQuery("#JBanner").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 10000, true);
-	
-	});
-        
+    jQuery(function () {
+        jQuery("#JBanner").tabs({ fx: { opacity: "toggle" } }).tabs("rotate", 10000, true);
+
+    });
+
 </script>
 
-<table border="0" cellspacing="0" cellpadding="0" class="DefaultWidth" align="center">
-  <tr>
-    <td>
 
-	<div class="header_index">
-   	  <div class="LogoCell"><dnn:LOGO runat="server" id="dnnLOGO" /><br /><br /><dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" /></div>
-   		<div class="MenuCell"><dnn:SOLPARTMENU
-											runat="server"
-											id="dnnSOLPARTMENU"
-											menualignment="right"
-											separatecss="true"
-											userootbreadcrumbarrow="false"
-											usesubmenubreadcrumbarrow="false"
-											menueffectsmouseoverdisplay="none"
-											rootmenuitemcssclass="MainMenu_Idle"
-											rootmenuitemactivecssclass="MainMenu_Active"
-											rootmenuitemselectedcssclass="MainMenu_Selected"
-											rootmenuitembreadcrumbcssclass="MainMenu_BreadcrumbActive"
-											rootmenuitemlefthtml="&nbsp;&nbsp;&nbsp;&nbsp;"
-											rootmenuitemrighthtml="&nbsp;&nbsp;&nbsp;&nbsp;"
-											rightseparator="&lt;DIV class='MainMenu_Seperator'&gt;&nbsp;&lt;/DIV&gt;"
-											rightseparatoractive="&lt;DIV class='MainMenu_Seperator'&gt;&nbsp;&lt;/DIV&gt;"
-											rightseparatorbreadcrumb="&lt;DIV class='MainMenu_Seperator'&gt;&nbsp;&lt;/DIV&gt;"
-											/></div>
-  	</div>
-    <div class="banner_index">
+
+
+    <div id="Header">
+        <div id="ContentBG">
+            <div id="ControlPanelWrapper">
+                <dnn:CONTROLPANEL runat="server" id="cp"  IsDockable="True" />
+		    </div>
+            </div>
+            </div>
+    
+    <div class="DefaultWidth" >
+    <div class="FullWidth" >
+
+	<div  id="header_index" class="header_index">
+   	  <div class="LogoCell"><dnn:LOGO runat="server" id="dnnLOGO" /><br /><br /><dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
+      </div>
+   		
+    <div class="MenuCell">
+        <ddr:MENU MenuStyle="DNNMetro" runat="server" />
+    </div>
+    
+    <div id="banner_index" class="banner_index">
    	  	<div id="JBanner">
 <ul class="banner_item">
        	  <li class="banner_item li.ui-tabs-selected" id="nav-banner-1" ><a href="#ui-tabs-1"></a></li>
@@ -74,66 +77,58 @@
             <div class="ui-tabs-panel ui-tabs-hide" id="ui-tabs-5" style=""><img alt="" src="<%= SkinPath %>banner/Banner_5.jpg" /></div>
 
        	</div>
-        <!-- End of JBanner -->        
-        <div class="SearchCell">
+        <!-- End of JBanner -->
+          <div class="SearchCell">
           <h2>Search</h2>
-          <div class="SearchCellBG"><dnn:SEARCH runat="server" id="dnnSEARCH" showWeb="False" showSite="False" Submit="&lt;img src=&quot;spacer2.gif&quot; border=&quot;0&quot; hspace=&quot;2&quot; align=&quot;absmiddle&quot;&gt;"/></div>
+          <div class="SearchCellBG"><dnn:SEARCH runat="server" id="dnnSEARCH" showWeb="False" showSite="False" Submit="&lt;img src=&quot;spacer2.gif&quot; border=&quot;0&quot; hspace=&quot;2&quot; align=&quot;absmiddle&quot;&gt;"/>
+          </div>
         </div>
         <!-- End of Search -->
         <div class="LoginRegisterCell ">
-	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" /><br />
-    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" />
-            <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" /></div>
+	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" /><br />
+    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" />
+            <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" />
+            </div>
       	</div>
         <!-- End of Login Register -->
         
     </div>
-    <!-- End of Banner -->
     
-  <div class="ContentPanesCells">
-    <table border="0" cellpadding="0" cellspacing="0" class="FullWidth">
-    		<tr>
-            <td colspan="2" align="left" valign="top" class="ContentPane2" id="ContentPane" runat="server" visible="false"></td>
-            </tr>
-              <tr>
-                <td align="left" valign="top" class="LeftSide"><table border="0" cellpadding="0" cellspacing="0" class="FullWidth">
-                  <tr>
-                    <td align="left" valign="top" class="LeftPane"></td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top" visible="false"><table border="0" cellpadding="0" cellspacing="0" class="FullWidth">
-                      <tr>
-                        <td align="left" valign="top" class="LeftPane1" id="LeftPane1" runat="server" visible="false"></td>
-                      </tr>
-                    </table></td>
-                  </tr>
-                  <tr>
-                    <td align="left" valign="top"><table border="0" cellpadding="0" cellspacing="0" class="FullWidth">
-                      <tr>
-                        <td align="left" valign="top" class="LeftPane3" id="LeftPane3" runat="server" visible="false"></td>
-                        <td align="left" valign="top" class="LeftPane4" id="LeftPane4" runat="server" visible="false"></td>
-                      </tr>
-                    </table></td>
-                  </tr>
-                  <tr>
-                        <td align="left" valign="top" class="LeftPane2" id="LeftPane2" runat="server" visible="false"></td>
-                      </tr>
-                </table></td>
-                <td align="left" valign="top" class="RightPane" id="RightPane" runat="server" visible="false"></td>
-              </tr>
-              <tr>
-                <td colspan="2" align="left" valign="top" class="ExtendedPane" id="ExtendedPane" runat="server" visible="false"></td>
-              </tr>
-          </table>
-  </div>
-    <div class="FooterCell"><dnn:PRIVACY runat="server" id="dnnPRIVACY" CssClass="FooterLinks" /> | <dnn:TERMS runat="server" id="dnnTERMS" CssClass="FooterLinks"/> | <dnn:COPYRIGHT runat="server" id="dnnCOPYRIGHT" CssClass="FooterLinks"/>
+    <!-- End of Banner -->
     </div>
-</td>
-  </tr>
-</table>
+    
+  <div id="ContentPanesCells" class="ContentPanesCells">
+  
+   
+          <div id="FullWidth2" class="FullWidth2">
+          <div class="TopPane" runat="server" id="TopPane"></div>
+          <div class="SocialPane" runat="server" id="SocialPane"></div>
+          <div style="clear:both;">
+          <div class="LeftPane1" runat="server" id="LeftPane1"></div>
+          <div class="RightPane" runat="server" id="RightPane"></div>
+          <div style="clear:left;">
+          <div class="LeftPane" runat="server" id="LeftPane"></div>
+          <div class="ContentPane" runat="server" id="ContentPane"></div>
+          </div>
+          <div class="LeftPane2" runat="server" id="LeftPane2"></div>
+          </div>
+          <div class="ExtendedPane" runat="server" id="ExtendedPane"></div>
+          
+    </div>      
+  
+    <div id="FooterCell" class="FooterCell"><dnn:PRIVACY runat="server" id="dnnPRIVACY" CssClass="FooterLinks" /> | <dnn:TERMS runat="server" id="dnnTERMS" CssClass="FooterLinks"/> | <dnn:COPYRIGHT runat="server" id="dnnCOPYRIGHT" CssClass="FooterLinks"/>
+    </div>
+    
 
 
+</div>
+</div>
+</div>
 
+
+<dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
+<dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
 
 
 
