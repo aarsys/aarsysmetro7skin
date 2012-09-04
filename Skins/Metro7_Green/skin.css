@@ -5,11 +5,6 @@
 /*========================================================*/
 
 
-/*html{height:100%;}
-#Body{height:100%;font-family:Helvetica, Arial, sans-serif;color:#333;}*/
-/*#Form{height:100%;}*/
-/*a{outline:0;border:0;}
-p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*========================================================*/
 /*  Default HTML CSS                                      */
 /*========================================================*/
@@ -17,7 +12,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /* Default HTML PAGE css		       --*/ html { height: 100%; }
 /* Default HTML BODY css	           --*/ body { margin:0; background-color:#E5E5E5; height:100%;  }
 /* Default HTML table and text css	   --*/ table, tr, td{ font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; }
-/* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; padding:0px;  margin:0px;}
+/* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; padding:0 0 0 0;  margin:0 0 0 0; }
 
 /*========================================================*/
 /*  Main SKIN Elements CSS                                */
@@ -36,8 +31,8 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #309930; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
                                           
-/*-- cell containing Login table  	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #309930; width:250px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 15px 15px 15px;  }
-/*-- cell containing Login table  	   --*/ .CurrentDateCell { padding-top:5px; text-align:left;}
+/*-- cell containing Login Container 	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #309930; width:250px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 15px 15px 15px;  }
+/*-- cell containing Login Container  	   --*/ .CurrentDateCell { padding-top:5px; text-align:left;}
 
 
 /*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px;}
@@ -114,7 +109,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 		}
 
         #Login .loginGroup a strong{
-			position: absolute;
+			position: relative;
 			left:0; top:0;
 			width:100%; height:100%;
 			display:none;
@@ -127,15 +122,15 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 		
 		.registerGroup .userMessages strong,
 		.registerGroup .userNotifications strong{
-			margin: 0 0 0px -20px; display: table-row;
+			margin: 0 0 0px -20px; display:table-row;
 		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
-		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 16px }
-		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 16px; color:#CCCCCC}
-		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px;font-size: 16px; color: #CCCCCC}
-		.registerGroup .userMessages strong:active{background-position:15px -91px; font-size: 16px}
-		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;font-size: 16px}
+		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 16px; }
+		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 16px; color:#CCCCCC;}
+		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px;font-size: 16px; color: #CCCCCC;}
+		.registerGroup .userMessages strong:active{background-position:15px -91px; font-size: 16px;}
+		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;font-size: 16px;}
 		.registerGroup a span{
-			position: relative;
+			position: static;
 			right:5px; top:-7px;
 			display:block;
 			padding:2px 4px;

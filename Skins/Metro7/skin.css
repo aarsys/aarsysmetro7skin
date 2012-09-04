@@ -129,11 +129,11 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 		.registerGroup .userNotifications strong{
 			margin: 0 0 0px -20px; display: table-row;
 		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
-		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 16px }
-		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 16px; color:#CCCCCC}
-		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px;font-size: 16px; color: #CCCCCC}
-		.registerGroup .userMessages strong:active{background-position:15px -91px; font-size: 16px}
-		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;font-size: 16px}
+		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 15px; }
+		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 15px; color:#CCCCCC;}
+		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px;font-size: 15px; color: #CCCCCC;}
+		.registerGroup .userMessages strong:active{background-position:15px -91px; font-size: 15px;}
+		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;font-size: 15px;}
 		.registerGroup a span{
 			position: relative;
 			right:5px; top:-7px;
