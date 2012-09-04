@@ -1,84 +1,57 @@
 /*========================================================*/
-/*        		 Created by AliNawaz.net             	  */
-/*		     Ali Nawaz (DNN SEO Consultant)			      */
+/*        		 Created by AliNawaz.net                  */
+/*		     Ali Nawaz (DNN SEO Consultant)	              */
+/*    Modified by Matthias Schlomann (Aarsys) (c) 2012    */
 /*========================================================*/
 
+
+/*html{height:100%;}
+#Body{height:100%;font-family:Helvetica, Arial, sans-serif;color:#333;}*/
+/*#Form{height:100%;}*/
+/*a{outline:0;border:0;}
+p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*========================================================*/
 /*  Default HTML CSS                                      */
 /*========================================================*/
 
 /* Default HTML PAGE css		       --*/ html { height: 100%; }
 /* Default HTML BODY css	           --*/ body { margin:0; background-color:#E5E5E5; height:100%;  }
-/* Default HTML table and text css	   --*/ table, tr, td{ font-family: Calibri, "Segoe UI"; }
-/* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI"; padding:0px;  margin:0px;}
+/* Default HTML table and text css	   --*/ table, tr, td{ font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; }
+/* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; padding:0px;  margin:0px;}
 
 /*========================================================*/
 /*  Main SKIN Elements CSS                                */
 /*========================================================*/
 
-/*-- Skin Main / Default Width    	   --*/ .DefaultWidth { width: 960px; background-color:#FFFFFF; height:100%; }
-/*-- Skin Main header		    	   --*/ .header_index { float: left; margin: 20px 15px 20px 15px; width: 930px; }
-/*-- Skin Main banner		    	   --*/ .banner_index { float: left; margin: 10px 15px 20px 15px; width: 930px; }
+/*-- Skin Main / Default Width    	   --*/ .DefaultWidth { width: 960px; min-height:600px; margin:0 auto; position:relative; z-index:1; }
+/*-- Skin Main header		    	   --*/ .header_index { float: left;position:relative; margin: 20px 15px 20px 10px; width: auto; z-index:2; }
+/*-- Skin Main banner		    	   --*/ .banner_index { float: left; position:relative; margin: 20px 10px 20px 15px; width: 930px;}
 
-/*-- 100% height 				 	   --*/ .FullHeight { height:100%; }
-/*-- 100% Width					  	   --*/ .FullWidth { width:100%; }
+/*-- 100% height 				 	   --*/ .FullHeight { height:100%; position:relative; }
+/*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
+.FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
 
-/*-- cell containing logo table    	   --*/ .LogoCell { float:left; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
+/*-- cell containing logo table    	   --*/ .LogoCell { float:left; position:relative; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
 
-/*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #E51301; width:250px; float:right; text-align:left; padding:10px 15px 15px 15px; }
+/*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #E51301; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
-/*-- cell containing Login table  	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #E51301; width:250px; float:right; text-align:left; padding:10px 15px 15px 15px;  }
-/*-- cell containing Login table  	   --*/ .CurrentDateCell { padding-top:10px; text-align:left;}
+                                          
+/*-- cell containing Login table  	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #E51301; width:250px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 15px 15px 15px;  }
+/*-- cell containing Login table  	   --*/ .CurrentDateCell { padding-top:5px; text-align:left;}
 
-/*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells { float: left; margin: 15px 15px 10px 15px; width: 930px;}
 
-/*-- Footer cell    				   --*/ .FooterCell { float: left; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 0 15px 10px 15px; font-family: Calibri, "Segoe UI"; color:#999999; font-size:12px;}
+/*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px;}
 
-/*-- Banner Pane internal Page         --*/ .BannerPaneCells { float: left; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
+/*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
 
+/*-- Banner Pane internal Page         --*/ .BannerPaneCells { position:relative; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
 
 /*========================================================*/
 /*  Menu Table CSS	                                      */
 /*========================================================*/
 
-.MenuCell { float: right; padding: 0 0 0 10px; width:65%; text-align:right;}
+.MenuCell { float:right; margin: -20px 0 0 0;vertical-align:middle; }
 
-.MainMenu_MenuContainer 	{ background: transparent; }
-.MainMenu_MenuBar 			{ cursor: pointer; cursor: hand; background: transparent; }
-
-.MainMenu_SubMenu			{ margin: 0 0 0 0; background:#EEEEEE; }
-.MainMenu_Idle TD 			{ vertical-align:bottom; color: #999999; background-color:#EEEEEE; font-family: calibri; font-size: 18px; font-weight: bold; padding: 60px 0px 10px 0px; font-weight: normal; }
-.MainMenu_Selected TD 		{ vertical-align:bottom; color: #FFFFFF; background-color:#E51301; font-family: calibri; font-size: 18px; font-weight: bold; padding: 60px 0px 10px 0px; font-weight: normal; }
-
-.MainMenu_Active TD, 
-.MainMenu_BreadcrumbActive TD { vertical-align:bottom; color: #FFFFFF; background-color:#E51301; font-family: calibri; font-size: 18px; font-weight: bold;  padding: 60px 0px 10px 0px; font-weight: normal; }
-.MainMenu_Seperator 		{ width:10px; font-size:1px; border-bottom:0px solid #999999; border-top:0px solid #999999;}
-
-.MainMenu_MenuArrow, 
-.MainMenu_RootMenuArrow, 
-.MainMenu_MenuIcon  		{ display: none; }
-.ModuleTitle_MenuContainer 	{ color: #2c2c2c; }
-.ModuleTitle_MenuBar 		{ cursor: pointer; cursor: hand;}
-
-.ModuleTitle_MenuItem, 
-.ModuleTitle_MenuItemSel 	{ padding: 0 0 0 0; }
-
-.MainMenuSeperator, 
-.ModuleTitle_MenuArrow, 
-.ModuleTitle_RootMenuArrow 	{ display: none; }
-.ModuleTitle_MenuIcon 		{ padding: 0px 10px 0px 10px; margin: 0 0 0 0; font-size: 0px; }
-.ModuleTitle_MenuIcon IMG 	{ padding: -8px 10px 0 10px;  }
-.MainMenu_MenuBreak 		{ padding:0 0 0 0; background:transparent; height:90px; border-bottom:0px solid #999999; border-top:0px solid #999999;}
-
-.ModuleTitle_SubMenu 		{ margin: 0 0 0 0; background:#EEEEEE; }
-
-.MainMenu_SubMenu, 
-.ModuleTitle_SubMenu 		{ padding: 0 0 0 0; border: 1px solid #999999; z-index: 1000;  cursor: pointer;  cursor: hand; font-weight: normal; filter: none; }
-.MainMenu_MenuItem 			{ background: transparent; color: #999999; font-family: calibri; font-size: 12px; font-weight: normal; font-style: normal; padding: 0px 10px 0px 10px; height: 23px; border:0; border-bottom:1px solid #999999;} 
-.ModuleTitle_MenuItem 		{ color: #999999; font-family: calibri; font-size: 12px; font-weight: normal; font-style: normal; padding: 0px 10px 0px 10px; height: 23px; border-bottom:1px solid #999999;}
-
-.MainMenu_MenuItemSel, 
-.ModuleTitle_MenuItemSel 	{ background: #E51301; color: #FFFFFF; font-family: calibri; font-size: 12px; font-weight: normal; cursor: pointer; cursor: hand; padding: 0px 10px 0px 10px; height: 23px; border: 0; border-bottom:1px solid #999999;}
 
 
 /*========================================================*/
@@ -86,21 +59,23 @@
 /*========================================================*/
 
 
-/*-- content2 pane          	       --*/ .ContentPane2 { text-align:left; padding: 0 0 0 0; }
+/*-- content2 pane          	       --*/ .TopPane { float:left; position:relative; text-align:left; padding: 0 0 0 0; width:640px; max-width:640px; }
 
-/*-- left2 content pane          	   --*/ .LeftSide { padding: 0 20px 0 0; width: 70%; }
-/*-- right2 content pane        	   --*/ .RightPane {  padding: 0 0 0 15px; width: 30%;  }
+/*-- social Pane pane           	   --*/ .SocialPane { float:right; position:relative; margin: 0 0 0 10px; min-width: 270px; }
+/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 5px; }
 
-/*-- left2 content pane          	   --*/ .LeftPane { padding: 0 0 0 0; width: auto; }
+/*-- left2 content pane          	   --*/ .LeftPane { float: left; position:relative; width: 150px; padding:5px 5px 5px 5px; }
 
-/*-- left1 content pane          	   --*/ .LeftPane1 { padding: 0 0 0 0; width: 50%;}
-/*-- left3 content pane          	   --*/ .LeftPane3 { padding: 0 15px 0 0; width: 15%;}
-/*-- left4 content pane          	   --*/ .LeftPane4 { padding: 0 0 0 15px; width: auto;  }
-/*-- left2 content pane          	   --*/ .LeftPane2 { padding: 0 0 0 0; width: auto;}
+/*-- left1 content pane          	   --*/ .LeftPane1 { float:left; position:relative; min-width: 65%; max-width:680px;}
+/*-- left3 content pane          	   --*/ .LeftPane3 { float:left; position:relative; width: 150px;}
+/*-- left4 content pane          	   --*/ .ContentPane { float:left; position:relative; min-width:500px; max-width:500px; padding:5px 10px 5px 10px;  }
+/*-- left2 content pane          	   --*/ .LeftPane2 { float:left; position:relative; min-width: 65%; max-width:680px; }
 
-/*-- Extended inside pane 2  	       --*/ .ExtendedPane { width: 100%; padding: 0 0 0 0; }
+/*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; width: 922px; margin: 0 -20px 0 0; }
 
-/*-- Banner pane          	   --*/ .BannerPane { padding: 0 0 0 0; width: 630; height: 250;}
+/*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630px; height: 250px;}
+
+                                      /*Search Text color*/ .SearchCell h2 {color: #FFF;}
 
 
 
@@ -108,28 +83,119 @@
 /*  Default DNN Skin Tokens CSS                           */
 /*========================================================*/
 
-/*-- Login Register token              --*/ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 26px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:35px;}
-/*-- Login Register token hover        --*/ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri; font-size: 26px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:35px;}
+ .registerGroup LI {
+ border-right-width: 0px;
+ margin-left:-0px;
+ }
 
-/*-- Current Date Token			  	   --*/ .CurrentDate { font-family:"Segoe UI", Calibri; font-size:15px; color:#FFFFFF;}
+ .registerGroup a {
+ padding-left: 0;
+ padding-right: 10px;
+ }
 
-/*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
-/*-- Footer Links token hover          --*/ a.FooterLinks:hover { color:#E51301; font-family: Calibri; font-size: 12px; text-decoration: none;  font-weight: normal; padding: 0 10px 0 10px;}
+ .registerGroup a:hover,
+	.loginGroup a:hover{ 
+    text-decoration:none;
+    color: #CCCCCC;	
+    }
+
+ .registerGroup a img{
+			border:1px solid blue;
+			height:42px; width:42px;
+			background:transparent;
+            float:left;
+            margin: 5px 10px 0 0; 
+            
+            
+			
+			-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+			-moz-box-shadow: 	0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+			box-shadow: 		0px 1px 0px 0px rgba(0, 0, 0, 0.2); 
+		}
+
+        #Login .loginGroup a strong{
+			position: absolute;
+			left:0; top:0;
+			width:100%; height:100%;
+			display:none;
+			font-size:16px;
+			font-weight:bold;
+			vertical-align:baseline;
+			overflow: hidden;
+			text-indent:-9999px;
+		}
+		
+		.registerGroup .userMessages strong,
+		.registerGroup .userNotifications strong{
+			margin: 0 0 0px -20px; display: table-row;
+		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
+		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 15px; }
+		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 15px; color:#CCCCCC;}
+		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px;font-size: 15px; color: #CCCCCC;}
+		.registerGroup .userMessages strong:active{background-position:15px -91px; font-size: 15px;}
+		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;font-size: 15px;}
+		.registerGroup a span{
+			position: relative;
+			right:5px; top:-7px;
+			display:block;
+			padding:2px 4px;
+			min-width:7px;
+			text-align:left;
+			margin-right:3px;
+			background: rgb(31,152,241); /* Old browsers */
+			font-size:16px;
+			color:#FFF;
+            overflow:hidden;
+			text-shadow: 0px 0px 0px #333333;
+			
+			/*CSS3*/	
+			background: -moz-linear-gradient(top, rgba(31,152,241,1) 0%, rgba(2,111,196,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Opera 11.10+ */
+			background: linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* W3C */
+			
+			-webkit-border-radius: 	3px;
+			-moz-border-radius: 	3px;
+			border-radius: 			3px; 
+			
+			-webkit-box-shadow: 0px 1px 0px 0px #222222;
+			-moz-box-shadow: 0px 1px 0px 0px #222222;
+			box-shadow: 0px 1px 0px 0px #222222; 		
+		}
+
+        .registerGroup a:active,
+		.loginGroup a:active{
+			color:#fff;
+			text-shadow: 0px -1px 0px #333333;
+		}
+		
+		#Login .registerGroup a:hover,
+		#Login .loginGroup a:hover{text-decoration: none; }
+
+/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:25px;}
+                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:25px; margin:0 0 0 -5;}
+/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
+                                            a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
+/*-- Current Date Token			  	   --*/ .CurrentDate { font-family:"Segoe UI", Calibri, Arial, Serif ; font-size:15px; color:#FFFFFF;}
+
+/*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri, Arial, Serif; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
+/*-- Footer Links token hover          --*/ a.FooterLinks:hover { color:#E51301; font-family: Calibri, Arial, Serif; font-size: 12px; text-decoration: none;  font-weight: normal; padding: 0 10px 0 10px;}
 
 /*-- Links Token 	 		           --*/ .links, a.links:link, a.links:visited, a.links:active { font-family: Calibri, "Segoe UI"; font-size:10px; color:#999999; padding-right:0 0 0 0; text-decoration:none;}
-/*-- Links Token hover       		   --*/ a.links:hover { font-family: Calibri, "Segoe UI"; font-size:10px; color: #FFFFFF; padding-right:0 0 0 0; text-decoration:none}
+/*-- Links Token hover       		   --*/ a.links:hover { font-family: Calibri, "Segoe UI", Arial, Serif; font-size:10px; color: #FFFFFF; padding-right:0 0 0 0; text-decoration:none}
 
 
 /*========================================================*/
 /*  Default HTML Headings                                 */
 /*========================================================*/
 
-/*-- Heading # 1              			--*/ H1 { FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #D0312D; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica;}
-/*-- Heading # 2              			--*/ H2 { FONT-WEIGHT: normal; FONT-SIZE: 37px; COLOR: #FFFFFF; FONT-FAMILY: Calibri, "Segoe UI", Helvetica; margin:0 0 5px 0;}
-/*-- Heading # 3              			--*/ H3 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #D0312D; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica;}
-/*-- Heading # 4              			--*/ H4 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica;}
-/*-- Heading # 5              			--*/ H5 { FONT-WEIGHT: bold; font-size: 13px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica;}
-/*-- Heading # 6              			--*/ H6 { FONT-WEIGHT: bold; font-size: 13px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica;}
+/*-- Heading # 1              			--*/ H1 { FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #D0312D; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
+/*-- Heading # 2              			--*/ H2 { FONT-WEIGHT: normal; FONT-SIZE: 37px; COLOR: #E51301; FONT-FAMILY: Calibri, "Segoe UI", Helvetica, Serif; margin:0 0 5px 0;}
+/*-- Heading # 3              			--*/ H3 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #D0312D; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
+/*-- Heading # 4              			--*/ H4 { FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
+/*-- Heading # 5              			--*/ H5 { FONT-WEIGHT: bold; font-size: 13px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
+/*-- Heading # 6              			--*/ H6 { FONT-WEIGHT: bold; font-size: 13px; COLOR: #999999; FONT-FAMILY: "Myriad Pro", Calibri, Arial, Helvetica, Serif;}
 
 
 /*========================================================*/
@@ -162,10 +228,10 @@
 /*========================================================*/
 
 /*-- Default links 					   --*/ a:link, a:visited, a:active { color: #E51301; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration: none; }
-/*-- Default links hover               --*/ a:hover { color: #E50141; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: underline;  font-weight: normal;}
+/*-- Default links hover               --*/ a:hover { color: #999CCC; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: underline;  font-weight: normal;}
 
-/*-- Normal links 					   --*/ a.Normal:link, a.Normal:visited, a.Normal:active { color: #E51301; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration: none; }
-/*-- Normal links hover                --*/ a.Normal:hover { color: #E50141; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: none; font-weight: normal; }
+/*-- Normal links 					   --*/ a.Normal:link, a.Normal:visited, a.Normal:active { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration: none; }
+/*-- Normal links hover                --*/ a.Normal:hover { color: #E51301; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: none; font-weight: normal; }
 
 /*-- Normal links 					   --*/ a.NormalRed:link, a.NormalRed:visited, a.NormalRed:active { color: #E7002A; font-family: Calibri, "Segoe UI"; font-weight: bold; font-size: 13px; text-decoration: none; }
 /*-- Normal links hover                --*/ a.NormalRed:hover { color: #333333; font-family: Calibri, "Segoe UI"; font-size: 13px; font-weight: bold ; text-decoration: none; }
@@ -188,8 +254,8 @@
 /*-- Subheadings - DNN Default css     --*/ .SubHead { font-family: Calibri, "Segoe UI"; line-height:18px; font-size: 13px; font-weight: bold; color: #E51301; padding: 0; }
 /*-- Headings - DNN Default css        --*/ .Head {  font-family: Calibri, "Segoe UI"; line-height:18px; font-size: 13px; color: #E51301; background: transparent; font-weight: bold; padding: 0;}
 
-/*-- command Button in Containers      --*/ .CommandButton, a.CommandButton:link, a.CommandButton:visited, a.CommandButton:active { color: #1BA0E1 ; font-family: Calibri, "Segoe UI"; font-size: 13px; font-weight: bold; text-decoration: none; padding:2px 10px; background-color:#E51301;}
-/*-- command Button in Containers hover--*/ a.CommandButton:hover { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-size: 13px; text-decoration: none; font-weight: bold; padding: 2px 10px; background-color:#CC3399; }
+/*-- command Button in Containers      --*/ .CommandButton, a.CommandButton:link, a.CommandButton:visited, a.CommandButton:active { color: #E51301 ; font-family: Calibri, "Segoe UI"; font-size: 13px; font-weight: bold; text-decoration: none; padding:2px 10px; background-color:Transparent;}
+/*-- command Button in Containers hover--*/ a.CommandButton:hover { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-size: 13px; text-decoration: none; font-weight: bold; padding: 2px 10px; background-color:#CC3399;}
 
 /*-- SkinObject Text            	   --*/ .SkinObject, a.SkinObject:link, a.SkinObject:visited, a.SkinObject:active { color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; text-decoration: none; padding: 0 5px 0 5px;}
 /*-- SkinObject Text hover        	   --*/ a.SkinObject:hover { color: #E51301; font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-decoration: none; font-weight: normal; padding: 0 5px 0 5px; }
@@ -216,19 +282,19 @@
 /*========================================================*/
 
 
-.Social-Links{text-align:right;padding:15px 0 0 0;}
+.Social-Links{text-align:right;padding:10px 0 0 0;}
 	.Social-Links a{margin:0 0 0 10px;}
-	.icoIN{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -192px 0;}
-	.icoFacebook{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat 0 0;}
-	.icoTwitter{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -32px 0;}
-	.icoTwitter2{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -576px 0;}
+	.icoIN{width:32px;height:32px;background:url(images/LinkedIn.png) no-repeat;}
+	.icoFacebook{width:32px;height:32px;background:url(images/facebook.png) no-repeat;}
+	.icoTwitter{width:32px;height:32px;background:url(images/Twitter.png) no-repeat;}
+	.icoTwitter2{width:32px;height:32px;background:url(images/TwitterBird.png) no-repeat;}
 	
 	.icoMySpace{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -64px 0;}
-	.icoStumbleUpon{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -96px 0;}
-	.icoDigg{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -128px 0;}
+	.icoYahoo{width:32px;height:32px;background:url(images/Yahoo.png) no-repeat;}
+	.icoYahoo1{width:32px;height:32px;background:url(images/Yahoo1.png) no-repeat -128px 0;}
 	.icoFlickr{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -160px 0;}
-	.icoLinkedIn{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -192px 0;}
-	.icoYouTube{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -224px 0;}
+	.icoLinkedIn{width:32px;height:32px;background:url(images/LinkedIn.png);}
+	.icoYouTube{width:32px;height:32px;background:url(images/youtube.png) no-repeat;}
 	.icoDelicious{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -256px 0;}
 	.icoBlogger{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -288px 0;}
 	.icoRSS{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -320px 0;}
@@ -239,11 +305,6 @@
 	.icoVimeo{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -480px 0;}
 	.icoWordPress{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -512px 0;}
 	.icoBebo{width:32px;height:32px;background:url(images/SocialMedia.png) no-repeat -544px 0;}
-
-
-
-
-
-
-
-
+    .icoXing{width:32px; height:32px; background:url(images/Xing.png) no-repeat;}
+    .icoGoogleplus{width:32px; height:32px; background:url(images/GooglePlus.png)no-repeat;}
+    .icoGoogle{width:32px; height:32px; background:url(images/Google.png)no-repeat;}

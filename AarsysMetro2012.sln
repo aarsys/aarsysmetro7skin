@@ -4,6 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AarsysMetro", "AarsysMetro.vbproj", "{ED2E0790-66A9-4205-BDFC-8F9A88E7CFF2}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs03
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AarsysMetro.vbproj
+		SccLocalPath1 = .
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
