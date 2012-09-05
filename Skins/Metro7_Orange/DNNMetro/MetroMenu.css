@@ -17,7 +17,7 @@
 #dnnMenu .subLevel li{float: none; display:block; margin:0 0 0 -35px; z-index:10000;}
 /*#dnnMenu .subLevel li{margin-bottom:-.5em;height:30px; border: 1 0 #000; margin:0 -5px 0 0;  }*/
 #dnnMenu .subLevel li.item a{background-color:#EEEEEE; height:25px;padding:0 0 0 0px;margin:0 0 0 -0px;}
-#dnnMenu .subLevel li.item a div{position: relative; background-color:#EEEEEE; font-size:small; color:#999999;line-height:25px;padding:0 15px 0 5px; margin:0 0 0 -5px; border: 1px solid #999CCC;}
+#dnnMenu .subLevel li.item a div{position: relative; background-color:#EEEEEE; font-size:small; color:#999999;line-height:25px;padding:0 15px 0 5px; margin:0 0 0 -5px; border: 1px solid #F08901;}
 /*#dnnMenu .subLevel li.item a div img{margin-right:.5em;width:16px;height:30px;vertical-align:middle; }*/
 #dnnMenu .subLevel li.item a div span{ height:25px; margin:0 -10px 15px -11px; padding:5px 10px 5px 10px;}
 #dnnMenu .subLevel li.item a:hover div{color:#FFFFFF; font-size:small; background-color:#FEAD41; z-index:10000; }

@@ -10,14 +10,14 @@
 #dnnMenu .topLevel li.hover a div, #dnnMenu .topLevel li a:hover div{background-color:#309930; padding-top:60px; padding-left:10px; padding-right:10px; z-index:1200;}
 #dnnMenu .topLevel li.active a div, #dnnMenu .topLevel li.selected a div, #dnnMenu .topLevel li a:active div{background-color:#309930; padding-top:60px; padding-left:10px; padding-right:10px;}
 
-#dnnMenu .subLevel{display:none;position:absolute;width:auto;margin:0;padding:0;z-index:1210;}
+#dnnMenu .subLevel{display:none;position:absolute;width:auto;margine;padding:0;z-index:1210;}
 
 #dnnMenu .topLevel li.hover .subLevel{display:block;white-space:nowrap; padding: 0 5px 0 0px; margin: 0px 0px 0 0;}
 #dnnMenu .subLevel ul{display: block; padding: 0 -5px 0 0px;position: static;z-index:1200;background-color:#EEEEEE;}
 #dnnMenu .subLevel li{float: none; display:block; margin:0 0 0 -35px; z-index:10000;}
 /*#dnnMenu .subLevel li{margin-bottom:-.5em;height:30px; border: 1 0 #000; margin:0 -5px 0 0;  }*/
 #dnnMenu .subLevel li.item a{background-color:#EEEEEE; height:25px;padding:0 0 0 0px;margin:0 0 0 -0px;}
-#dnnMenu .subLevel li.item a div{position: relative; background-color:#EEEEEE; font-size:small; color:#999999;line-height:25px;padding:0 15px 0 5px; margin:0 0 0 -5px; border: 1px solid #999CCC;}
+#dnnMenu .subLevel li.item a div{position: relative; background-color:#EEEEEE; font-size:small; color:#999999;line-height:25px;padding:0 15px 0 5px; margin:0 0 0 -5px; border: 1px solid #367036;}
 /*#dnnMenu .subLevel li.item a div img{margin-right:.5em;width:16px;height:30px;vertical-align:middle; }*/
 #dnnMenu .subLevel li.item a div span{ height:25px; margin:0 -10px 15px -11px; padding:5px 10px 5px 10px;}
 #dnnMenu .subLevel li.item a:hover div{color:#FFFFFF; font-size:small; background-color:#309930; z-index:10000; }
