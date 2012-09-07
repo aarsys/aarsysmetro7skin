@@ -127,7 +127,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 		
 		.registerGroup .userMessages strong,
 		.registerGroup .userNotifications strong{
-			margin: 0 0 0px -20px; display: table-row;
+			margin: 0 0 0px 0px; display: table-row inline;
 		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
 		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 15px; }
 		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 15px; color:#CCCCCC;}
