@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="06.02.00.21">
+        <package name="Metro7" type="Skin" version="06.02.00.22">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -70,6 +70,26 @@
                             <name>SocialMedia.png</name>
                             <sourceFileName>Skins\Metro7_Red\images\SocialMedia.png</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>LinkedIn.png</name>
+                        <sourceFileName>Skins\Metro7_Red\images\LinkedIn.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Facebook.png</name>
+                        <sourceFileName>Skins\Metro7_Red\images\Facebook.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Twitter.png</name>
+                        <sourceFileName>Skins\Metro7_Red\images\Twitter.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>TwitterBird.png</name>
+                        <sourceFileName>Skins\Metro7_Red\images\TwitterBird.png</sourceFileName>
+                      </skinFile>
                         <skinFile>
                             <name>Bullets.png</name>
                             <sourceFileName>Skins\Metro7_Red\Bullets.png</sourceFileName>
@@ -134,6 +154,107 @@
                             <name>internal.ascx</name>
                             <sourceFileName>Skins\Metro7_Red\internal.ascx</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                            <path>images</path>
+                            <name>google-talk.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\google-talk.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>googleplus.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\googleplus.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>google.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\google.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>googlesearch.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\googlesearch.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>loginIcons.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\loginIcons.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Metro.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\Metro.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Metro24.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\Metro24.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Microsoft-Lync.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\Microsoft-Lync.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>rss.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\rss.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>settings24.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\settings24.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>settings32.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\settings32.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>WarningMessage.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\WarningMessage.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Xing.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\Xing.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Yahoo.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\Yahoo.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Yahoo1.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\Yahoo1.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>YouTube.png</name>
+                            <sourceFileName>Skins\Metro7_Red\images\YouTube.png</sourceFileName>
+                        </skinFile>
+                        
+                    <skinFile>
+                        <path>DNNMetro</path>
+                        <name>DNNMetro-menudef.xml</name>
+                        <sourceFileName>Skins\Metro7_Green\DNNMetro\DNNMetro-menudef.xml</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>DNNMetro</path>
+                        <name>MetroMenu.css</name>
+                        <sourceFileName>Skins\Metro7_Red\DNNMetro\MetroMenu.css</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>DNNMetro</path>
+                        <name>MetroMenu.js</name>
+                        <sourceFileName>Skins\Metro7_Red\DNNMetro\MetroMenu.js</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>DNNMetro</path>
+                        <name>ULTokens.txt</name>
+                        <sourceFileName>Skins\Metro7_Red\DNNMetro\ULTokens.txt</sourceFileName>
+                      </skinFile>
                     </skinFiles>
                 </component>
            <component type="Container">
@@ -258,22 +379,22 @@
                         </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
+                        <name>LinkedIn.png</name>
                         <sourceFileName>Skins\Metro7_Green\images\LinkedIn.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
+                        <name>Facebook.png</name>
                         <sourceFileName>Skins\Metro7_Green\images\Facebook.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
+                        <name>Twitter.png</name>
                         <sourceFileName>Skins\Metro7_Green\images\Twitter.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
+                        <name>TwitterBird.png</name>
                         <sourceFileName>Skins\Metro7_Green\images\TwitterBird.png</sourceFileName>
                       </skinFile>
                         <skinFile>
@@ -340,6 +461,87 @@
                             <name>internal.ascx</name>
                             <sourceFileName>Skins\Metro7_Green\internal.ascx</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                            <path>images</path>
+                            <name>google-talk.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\google-talk.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>googleplus.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\googleplus.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>google.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\google.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>googlesearch.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\googlesearch.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>loginIcons.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\loginIcons.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Metro.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\Metro.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Metro24.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\Metro24.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Microsoft-Lync.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\Microsoft-Lync.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>rss.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\rss.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>settings24.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\settings24.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>settings32.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\settings32.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>WarningMessage.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\WarningMessage.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Xing.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\Xing.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Yahoo.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\Yahoo.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Yahoo1.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\Yahoo1.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>YouTube.png</name>
+                            <sourceFileName>Skins\Metro7_Green\images\YouTube.png</sourceFileName>
+                        </skinFile>
+                        
                       <skinFile>
                         <path>DNNMetro</path>
                         <name>DNNMetro-menudef.xml</name>
@@ -484,23 +686,23 @@
                         </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\LinkedIn.png</sourceFileName>
+                        <name>LinkedIn.png</name>
+                        <sourceFileName>Skins\Metro7\images\LinkedIn.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\Facebook.png</sourceFileName>
+                        <name>Facebook.png</name>
+                        <sourceFileName>Skins\Metro7\images\Facebook.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\Twitter.png</sourceFileName>
+                        <name>Twitter.png</name>
+                        <sourceFileName>Skins\Metro7\images\Twitter.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>SocialMedia.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\TwitterBird.png</sourceFileName>
+                        <name>Twitter.png</name>
+                        <sourceFileName>Skins\Metro7\images\TwitterBird.png</sourceFileName>
                       </skinFile>
                         <skinFile>
                             <name>Bullets.png</name>
@@ -789,6 +991,26 @@
                             <name>SocialMedia.png</name>
                             <sourceFileName>Skins\Metro7_Orange\images\SocialMedia.png</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>LinkedIn.png</name>
+                        <sourceFileName>Skins\Metro7_Green\images\LinkedIn.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Facebook.png</name>
+                        <sourceFileName>Skins\Metro7_Green\images\Facebook.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Twitter.png</name>
+                        <sourceFileName>Skins\Metro7_Green\images\Twitter.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>TwitterBird.png</name>
+                        <sourceFileName>Skins\Metro7_Green\images\TwitterBird.png</sourceFileName>
+                      </skinFile>
                         <skinFile>
                             <name>Bullets.png</name>
                             <sourceFileName>Skins\Metro7_Orange\Bullets.png</sourceFileName>
@@ -853,6 +1075,107 @@
                             <name>internal.ascx</name>
                             <sourceFileName>Skins\Metro7_Orange\internal.ascx</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                            <path>images</path>
+                            <name>google-talk.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\google-talk.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>googleplus.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\googleplus.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>google.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\google.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>googlesearch.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\googlesearch.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>loginIcons.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\loginIcons.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Metro.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\Metro.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Metro24.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\Metro24.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Microsoft-Lync.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\Microsoft-Lync.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>rss.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\rss.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>settings24.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\settings24.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>settings32.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\settings32.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>WarningMessage.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\WarningMessage.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Xing.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\Xing.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Yahoo.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\Yahoo.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>Yahoo1.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\Yahoo1.png</sourceFileName>
+                        </skinFile>
+                        <skinFile>
+                            <path>images</path>
+                            <name>YouTube.png</name>
+                            <sourceFileName>Skins\Metro7_Orange\images\YouTube.png</sourceFileName>
+                        </skinFile>
+                      
+                    <skinFile>
+                        <path>DNNMetro</path>
+                        <name>DNNMetro-menudef.xml</name>
+                        <sourceFileName>Skins\Metro7_Orange\DNNMetro\DNNMetro-menudef.xml</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>DNNMetro</path>
+                        <name>MetroMenu.css</name>
+                        <sourceFileName>Skins\Metro7_Orange\DNNMetro\MetroMenu.css</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>DNNMetro</path>
+                        <name>MetroMenu.js</name>
+                        <sourceFileName>Skins\Metro7_Orange\DNNMetro\MetroMenu.js</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>DNNMetro</path>
+                        <name>ULTokens.txt</name>
+                        <sourceFileName>Skins\Metro7_Orange\DNNMetro\ULTokens.txt</sourceFileName>
+                      </skinFile>
                     </skinFiles>
                 </component>
                 <component type="Container">
