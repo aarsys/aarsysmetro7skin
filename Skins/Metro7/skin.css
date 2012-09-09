@@ -315,7 +315,10 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 
 
 
-
+/*========================================================*/
+/*  DNN Blog 5.0 CSS enhancements	                      */
+/*========================================================*/
+.dnnClear bloggerMenu div,  .ModBlogC div{max-width:500px}
 
 
 

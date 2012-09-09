@@ -312,3 +312,8 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
     .icoXing{width:32px; height:32px; background:url(images/Xing.png) no-repeat;}
     .icoGoogleplus{width:32px; height:32px; background:url(images/GooglePlus.png)no-repeat;}
     .icoGoogle{width:32px; height:32px; background:url(images/Google.png)no-repeat;}
+
+/*========================================================*/
+/*  DNN Blog 5.0 CSS enhancements	                      */
+/*========================================================*/
+.dnnClear bloggerMenu div,  .ModBlogC div{max-width:500px}
