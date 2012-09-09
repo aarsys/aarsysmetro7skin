@@ -418,6 +418,7 @@
     <Content Include="Skins\Metro7_Orange\images\Left Arrow32r.png" />
     <Content Include="Skins\Metro7_Orange\images\Like.png" />
     <Content Include="Skins\Metro7_Orange\images\LinkedIn.png" />
+    <Content Include="Skins\Metro7_Orange\images\loginIcons.png" />
     <Content Include="Skins\Metro7_Orange\images\Logout24.png" />
     <Content Include="Skins\Metro7_Orange\images\Logout32.png" />
     <Content Include="Skins\Metro7_Orange\images\Mail24.png" />
@@ -560,6 +561,7 @@
     <Content Include="Skins\Metro7_Red\images\Left Arrow32r.png" />
     <Content Include="Skins\Metro7_Red\images\Like.png" />
     <Content Include="Skins\Metro7_Red\images\LinkedIn.png" />
+    <Content Include="Skins\Metro7_Red\images\loginIcons.png" />
     <Content Include="Skins\Metro7_Red\images\Logout24.png" />
     <Content Include="Skins\Metro7_Red\images\Logout32.png" />
     <Content Include="Skins\Metro7_Red\images\Mail24.png" />
@@ -571,7 +573,7 @@
     <Content Include="Skins\Metro7_Red\images\Messenger.png" />
     <Content Include="Skins\Metro7_Red\images\Metro.png" />
     <Content Include="Skins\Metro7_Red\images\Metro24.png" />
-    <Content Include="Skins\Metro7_Red\images\Microsoft_Lync.png" />
+    <Content Include="Skins\Metro7_Red\images\Microsoft-Lync.png" />
     <Content Include="Skins\Metro7_Red\images\Minus24.png" />
     <Content Include="Skins\Metro7_Red\images\Minus32.png" />
     <Content Include="Skins\Metro7_Red\images\MSServer.png" />

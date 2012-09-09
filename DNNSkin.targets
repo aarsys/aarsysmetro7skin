@@ -9,7 +9,7 @@
         <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
         <DeployDir>$(RootDir)\_default\deploy</DeployDir>
         <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-        <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
+        <MSBuildDir>$(RootDir)_default\lib\msbuild</MSBuildDir>
         <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     </PropertyGroup>
     <ItemGroup>
@@ -118,12 +118,12 @@
               $(MSBuildProjectDirectory)\Skins\Metro7_Green\DNNMetro\*.js;
               $(MSBuildProjectDirectory)\Skins\Metro7_Green\DNNMetro\*.txt;
               $(MSBuildProjectDirectory)\Skins\Metro7_Green\*.js;
-              $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.xml;
+              $(MSBuildProjectDirectory)\Skins\Metro7_Orange\DNNMetro\*.xml;
               $(MSBuildProjectDirectory)\Skins\Metro7_Orange\DNNMetro\*.css;
               $(MSBuildProjectDirectory)\Skins\Metro7_Orange\DNNMetro\*.js;
               $(MSBuildProjectDirectory)\Skins\Metro7_Orange\DNNMetro\*.txt;
               $(MSBuildProjectDirectory)\Skins\Metro7_Orange\*.js;
-              $(MSBuildProjectDirectory)\Skins\Metro7\DNNMetro\*.xml;
+              $(MSBuildProjectDirectory)\Skins\Metro7_Red\DNNMetro\*.xml;
               $(MSBuildProjectDirectory)\Skins\Metro7_Red\DNNMetro\*.css;
               $(MSBuildProjectDirectory)\Skins\Metro7_Red\DNNMetro\*.js;
               $(MSBuildProjectDirectory)\Skins\Metro7_Red\DNNMetro\*.txt;

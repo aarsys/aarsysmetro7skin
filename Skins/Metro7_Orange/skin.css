@@ -37,7 +37,7 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
                                           
 /*-- cell containing Login table  	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #FEAD41; width:250px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 15px 15px 15px;  }
-/*-- cell containing Login table  	   --*/ .CurrentDateCell { padding-top:5px; text-align:left;}
+/*-- cell containing Login table  	   --*/ .CurrentDateCell {clear:both; padding-top:5px; text-align:left;}
 
 
 /*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px;}
@@ -90,7 +90,8 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 
  .registerGroup a {
  padding-left: 0;
- padding-right: 10px;
+ padding-right: 5px;
+ float:left;
  }
 
  .registerGroup a:hover,
@@ -100,11 +101,11 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
     }
 
  .registerGroup a img{
-			border:1px solid blue;
-			height:42px; width:42px;
+			border:1px solid #ff6a00;
+			height:32px; width:32px;
 			background:transparent;
             float:left;
-            margin: 5px 10px 0 0; 
+            margin: 5px 0px 5px 10px; 
             
             
 			
@@ -124,16 +125,18 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 			overflow: hidden;
 			text-indent:-9999px;
 		}
+
+        .registerGroup .userDisplayName a:active strong, .registerGroup .userDisplayName a:visited strong, .registerGroup .userDisplayName a:link  strong{display:table-row inline; text-align:left; width:79%; float:left; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; color: #FFFFFF; margin: 0px 0 0 0;}
 		
 		.registerGroup .userMessages strong,
 		.registerGroup .userNotifications strong{
-			margin: 0 0 0px 0px; display: table-row inline;
+			margin: 0 0 0px 0px; display: table-row inline; float:left;
 		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
-		.registerGroup .userNotifications strong{ background-position:-85px 10px; font-size: 15px; }
-		.registerGroup .userMessages strong:hover{background-position:15px -40px; font-size: 15px; color:#CCCCCC;}
-		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px;font-size: 15px; color: #CCCCCC;}
-		.registerGroup .userMessages strong:active{background-position:15px -91px; font-size: 15px;}
-		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;font-size: 15px;}
+		.registerGroup .userNotifications strong{ background-position:-85px 10px; }
+		.registerGroup .userMessages strong:hover{background-position:15px -40px; color:#CCCCCC;}
+		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px; color: #CCCCCC;}
+		.registerGroup .userMessages strong:active{background-position:15px -91px;}
+		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;}
 		.registerGroup a span{
 			position: relative;
 			right:5px; top:-7px;
@@ -174,10 +177,10 @@ p, ul, ol{margin:0;padding:0 0 1em 0;}*/
 		#Login .loginGroup a:hover{text-decoration: none; }
 
 /*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:25px;}
-                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:25px; margin:0 0 0 -5;}
+                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:25px; margin:0 0 0 0;}
 /*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
                                             a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
-/*-- Current Date Token			  	   --*/ .CurrentDate { font-family:"Segoe UI", Calibri, Arial, Serif ; font-size:15px; color:#FFFFFF;}
+/*-- Current Date Token			  	   --*/ .CurrentDate {display:table-row inherit; float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size:14px; color:#FFFFFF;}
 
 /*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri, Arial, Serif; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
 /*-- Footer Links token hover          --*/ a.FooterLinks:hover { color:#FEAD41; font-family: Calibri, Arial, Serif; font-size: 12px; text-decoration: none;  font-weight: normal; padding: 0 10px 0 10px;}

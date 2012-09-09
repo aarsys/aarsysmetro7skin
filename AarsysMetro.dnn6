@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="06.02.00.22">
+        <package name="Metro7" type="Skin" version="06.02.00.36">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -238,7 +238,7 @@
                     <skinFile>
                         <path>DNNMetro</path>
                         <name>DNNMetro-menudef.xml</name>
-                        <sourceFileName>Skins\Metro7_Green\DNNMetro\DNNMetro-menudef.xml</sourceFileName>
+                        <sourceFileName>Skins\Metro7_Red\DNNMetro\DNNMetro-menudef.xml</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>DNNMetro</path>
@@ -994,22 +994,22 @@
                       <skinFile>
                         <path>images</path>
                         <name>LinkedIn.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\LinkedIn.png</sourceFileName>
+                        <sourceFileName>Skins\Metro7_Orange\images\LinkedIn.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
                         <name>Facebook.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\Facebook.png</sourceFileName>
+                        <sourceFileName>Skins\Metro7_Orange\images\Facebook.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
                         <name>Twitter.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\Twitter.png</sourceFileName>
+                        <sourceFileName>Skins\Metro7_Orange\images\Twitter.png</sourceFileName>
                       </skinFile>
                       <skinFile>
                         <path>images</path>
                         <name>TwitterBird.png</name>
-                        <sourceFileName>Skins\Metro7_Green\images\TwitterBird.png</sourceFileName>
+                        <sourceFileName>Skins\Metro7_Orange\images\TwitterBird.png</sourceFileName>
                       </skinFile>
                         <skinFile>
                             <name>Bullets.png</name>
