@@ -35,7 +35,7 @@
 /*-- cell containing Login Container  	   --*/ .CurrentDateCell {clear:both; padding-top:5px; text-align:left;}
 
 
-/*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px;}
+/*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px; z-index:0;}
 
 /*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
 
@@ -85,10 +85,10 @@
 
  .registerGroup a img{
 			border:1px solid green;
-			height:32px; width:32px;
+			height:42px; width:42px;
 			background:transparent;
             float:left;
-            margin: 5px 0px 5px 10px; 
+            margin: 5px 10px 0 0; 
             
             
 			
@@ -99,8 +99,7 @@
 
  .registerGroup a {
  padding-left: 0;
- padding-right: 5px;
- float:left;
+ padding-right: 10px;
  }
 
  .registerGroup a:hover,
@@ -123,14 +122,12 @@
 			text-indent:-9999px;
 		}
 		
-        .registerGroup .userDisplayName a:active strong, .registerGroup .userDisplayName a:visited strong, .registerGroup .userDisplayName a:link  strong{display:table-row inline; text-align:left; width:79%; float:left; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; color: #FFFFFF; margin: 0px 0 0 0;}
-         
-		.registerGroup .userMessages strong,
+        .registerGroup .userMessages strong,
 		.registerGroup .userNotifications strong{
-			margin: 0 0 0 0; display:table-row inline; float:left;
+			margin: 0 0 0 0; display:table-row inline;
 		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
          
-		.registerGroup .userNotifications strong{ background-position:-85px 10px;  }
+		.registerGroup .userNotifications strong{ background-position:-85px 10px; width:135px; display:inline-block; }
 		.registerGroup .userMessages strong:hover{background-position:15px -40px;  color:#CCCCCC;}
 		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px; color: #CCCCCC;}
 		.registerGroup .userMessages strong:active{background-position:15px -91px; }
@@ -180,7 +177,7 @@
                                             
 /*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
                                             a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
-/*-- Current Date Token			  	   --*/ .CurrentDate { display:table-row inline; float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size:14px; color:#FFFFFF;}
+/*-- Current Date Token			  	   --*/ .CurrentDate { float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size:14px; color:#FFFFFF;}
 
 /*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri, Arial, Serif; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
 /*-- Footer Links token hover          --*/ a.FooterLinks:hover { color:#309930; font-family: Calibri, Arial, Serif; font-size: 12px; text-decoration: none;  font-weight: normal; padding: 0 10px 0 10px;}
