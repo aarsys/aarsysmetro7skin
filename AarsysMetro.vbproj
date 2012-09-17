@@ -139,6 +139,7 @@
     <Content Include="Documentation\folderopen.gif" />
     <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
     <Content Include="Documentation\file.gif" />
+    <Content Include="version.txt" />
     <None Include="AarsysMetro.dnn6" />
     <Content Include="DNNSkin.targets">
       <SubType>Designer</SubType>
@@ -635,7 +636,10 @@
     <Content Include="Skins\Metro7_Red\thumbnail_index.jpg" />
     <Content Include="Skins\Metro7_Red\thumbnail_internal.jpg" />
     <Content Include="Skins\Metro7_Red\thumbnail_pinktitle.jpg" />
-    <Content Include="version.txt" />
+    <EmbeddedResource Include="AarsysMetro_install.dnn.resources" />
+    <EmbeddedResource Include="AarsysMetro_source.dnn.resources">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
