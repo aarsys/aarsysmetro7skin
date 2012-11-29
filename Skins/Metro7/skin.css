@@ -13,7 +13,8 @@
 /* Default HTML BODY css	           --*/ body { margin:0; background-color:#E5E5E5; height:100%;  }
 /* Default HTML table and text css	   --*/ table, tr, td{ font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; }
 /* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; padding:0 0 0 0;  margin:0 0 0 0; }
-
+/* Language Object HTML Paragraph css  --*/
+#language-object p, span {margin-right: 5px;}
 /*========================================================*/
 /*  Main SKIN Elements CSS                                */
 /*========================================================*/
@@ -315,6 +316,7 @@
 /*  DNN Blog 5.0 CSS enhancements	                      */
 /*========================================================*/
 .dnnClear bloggerMenu div,  .ModBlogC div{max-width:500px}
+
 
 
 
