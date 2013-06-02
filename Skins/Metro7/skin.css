@@ -1,7 +1,7 @@
 /*========================================================*/
 /*        		 Created by AliNawaz.net             	  */
 /*		     Ali Nawaz (DNN SEO Consultant)			      */
-/*    Modified by Matthias Schlomann (Aarsys) (c) 2012    */
+/*    Modified by Matthias Schlomann (Aarsys) (c) 2013    */
 /*========================================================*/
 
 
@@ -13,7 +13,40 @@
 /* Default HTML BODY css	           --*/ body { margin:0; background-color:#E5E5E5; height:100%;  }
 /* Default HTML table and text css	   --*/ table, tr, td{ font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; }
 /* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; padding:0 0 0 0;  margin:0 0 0 0; }
-/* Language Object HTML Paragraph css  --*/ #language-object p, span {margin-right: 5px;}
+
+/* Language */
+    .language .language-object{
+	    float:left;
+	    display:block;
+	    margin:0;
+	    padding:0;
+    }
+    .language .language-object span{
+	    float:right;
+	    padding-top: 3px;
+	    padding-bottom: 3px;
+	    padding-left: 5px;
+	    margin:0;
+    }
+    .language .language-object span:first-child{
+	    padding-left:8px; 
+    }
+    .language .language-object span img{
+	    height:12px; 
+	    width:17px;
+	    opacity:0.3;
+    }
+    .language .language-object span:hover img{opacity:1;}
+    .language .language-object .Language.selected img{
+	    opacity:1;
+	    border-color:#222;
+	    -webkit-border-radius: 2px;
+	    border-radius: 2px; 
+	    -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+	    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8); 
+    }
+
+
 /*========================================================*/
 /*  Main SKIN Elements CSS                                */
 /*========================================================*/
@@ -23,21 +56,25 @@
 /*-- Skin Main banner		    	   --*/ .banner_index { float: left; position:relative; margin: 20px 10px 20px 15px; width: 930px;}
 
 /*-- 100% height 				 	   --*/ .FullHeight { height:100%; position:relative; }
-/*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
+/*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 
+bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
 .FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
 
 /*-- cell containing logo table    	   --*/ .LogoCell { float:left; position:relative; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
 
-/*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #1BA0E1; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
+/*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #1BA0E1; width:250px; 
+float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
                                           
 /*-- cell containing Login Container 	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #1BA0E1; width:250px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 15px 15px 15px;  }
-/*-- cell containing Login Container  	   --*/ .CurrentDateCell {clear:both; padding-top:5px; text-align:left;}
+                                              
+/*-- cell containing Login Container  	   --*/ .CurrentDateCell {clear:both; margin-top:5px; text-align:left;}
 
 
 /*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px; z-index:0;}
 
-/*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
+/*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; 
+margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
 
 /*-- Banner Pane internal Page         --*/ .BannerPaneCells { position:relative; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
 
@@ -57,7 +94,8 @@
 /*-- content2 pane          	       --*/ .TopPane { float:left; position:relative; text-align:left; padding: 0 0 0 0; width:640px; max-width:640px; }
 
 /*-- social Pane pane           	   --*/ .SocialPane { float:right; position:relative; margin: 0 0 0 10px; min-width: 270px; }
-/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 5px; }
+/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 
+5px; }
 
 /*-- left2 content pane          	   --*/ .LeftPane { float: left; position:relative; width: 150px; padding:5px 5px 5px 5px; }
 
@@ -69,26 +107,53 @@
 /*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; width: 922px; margin: 0 -20px 0 0; }
 
 /*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630px; height: 250px;}
-.SearchCell h2 { font-size:37px;
-    color:#FFF;
-}
+.SearchCell h2 { font-size:37px; color:#FFF;}
 
 
 /*========================================================*/
 /*  Default DNN Skin Tokens CSS                           */
 /*========================================================*/
 
+
+
+#login{	float:right; }
+buttonGroup{
+margin-right: -10px;
+}
+
+#login .registerGroup, 
+	#login .registerGroup *, 
+	#login .loginGroup, 
+	#login .loginGroup * {	display:block; }	
+
+	#login .registerGroup,
+	#login .loginGroup {
+		float:left;
+		padding:0;
+		margin:0;
+	} 
+
+.registerGroup ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
  .registerGroup LI {
  border-right-width: 0px;
- margin-left:-0px;
+ margin-top:-5px;
+ list-style-type: none;
+ max-width: inherit;
+padding-right: 0px;
+display: inline-block;
  }
 
  .registerGroup a img{
 			border:1px solid blue;
-			height:42px; width:42px;
+			height:42px; width:38px;
 			background:transparent;
             float:left;
-            margin: 5px 10px 0 0; 
+            margin: 0px 0px 0px 10px;
+
             
             
 			
@@ -99,7 +164,7 @@
 
  .registerGroup a {
  padding-left: 0;
- padding-right: 10px;
+ padding-right: 5px;
  }
 
  .registerGroup a:hover,
@@ -115,40 +180,45 @@
 			left:0; top:0;
 			width:100%; height:100%;
 			display:none;
-			font-size:16px;
+			font-size:14px;
 			font-weight:bold;
 			vertical-align:baseline;
 			overflow: hidden;
 			text-indent:-9999px;
 		}
+.registerGroup .userDisplayName a {float:right;}
 		
         .registerGroup .userMessages strong,
 		.registerGroup .userNotifications strong{
 			margin: 0 0 0 0; display:table-row inline;
-		} /*  background:url(Images/userLoginSprite.png) no-repeat 15px 12px; */
+		}   
          
-		.registerGroup .userNotifications strong{ background-position:-85px 10px; width:135px; display:inline-block; }
+		.registerGroup .userNotifications strong{ background-position:-85px 10px; display:inline-block; }
 		.registerGroup .userMessages strong:hover{background-position:15px -40px;  color:#CCCCCC;}
 		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px; color: #CCCCCC;}
 		.registerGroup .userMessages strong:active{background-position:15px -91px; }
 		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;}
 		.registerGroup a span{
 			position: static;
-			right:5px; top:-7px;
-			display:block;
+			right:5px; 
+			top:-7px;
+			display:inline;
 			padding:2px 4px;
 			min-width:7px;
+			max-width:5px;
 			text-align:left;
 			margin-right:3px;
+			margin-top: -100px;
 			background: rgb(31,152,241); /* Old browsers */
-			font-size:16px;
+			font-size:9px;
 			color:#FFF;
             overflow:hidden;
 			text-shadow: 0px 0px 0px 0px #333333;
 			
 			/*CSS3*/	
 			background: -moz-linear-gradient(top, rgba(31,152,241,1) 0%, rgba(2,111,196,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* Chrome,Safari4+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* 
+Chrome,Safari4+ */
 			background: -webkit-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Chrome10+,Safari5.1+ */
 			background: -o-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Opera 11.10+ */
 			background: linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* W3C */
@@ -172,12 +242,24 @@
 		#Login .registerGroup a:hover,
 		#Login .loginGroup a:hover{text-decoration: none; }
 
-/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:25px;}
-                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; line-height:20px; margin:0 0 0 0;}
+/* Number of message next to the message icon*/
+	#login .userMessages  a  span,
+	#login .userNotifications   a  span	{ 
+		display: inline-block; 
+		margin-top: -10px; 
+		margin-right: 0px; 
+		background-color: transparent;
+		
+		font-size: 10px;
+	}
+
+/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;}
+                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; margin:0 0 0px 0;}
                                             
-/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
-                                            a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
-/*-- Current Date Token			  	   --*/ .CurrentDate { float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size:14px; color:#FFFFFF;}
+/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0px 0 0 0;}
+                                            a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
+/*-- Current Date Token			  	   --*/ .CurrentDate { float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size: 14px; color:#FFFFFF;} 
+
 
 /*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri, Arial, Serif; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
 /*-- Footer Links token hover          --*/ a.FooterLinks:hover { color:#1BA0E1; font-family: Calibri, Arial, Serif; font-size: 12px; text-decoration: none;  font-weight: normal; padding: 0 10px 0 10px;}
@@ -227,7 +309,7 @@
 /*  Links css                                             */
 /*========================================================*/
 
-/*-- Default links 					   --*/ a:link, a:visited, a:active { color: #1BA0E1; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration: none; }
+/*-- Default links 					   --*/ a:link, a:visited, a:active { color: #1BA0E1; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration:none; }
 /*-- Default links hover               --*/ a:hover { color: #999CCC; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: underline;  font-weight: normal;}
 
 /*-- Normal links 					   --*/ a.Normal:link, a.Normal:visited, a.Normal:active { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration: none; }
