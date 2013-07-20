@@ -22,12 +22,12 @@
 
 <script runat="server">
 
-     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-	DotNetNuke.Framework.jQuery.RequestRegistration()
-	DotNetNuke.Framework.jQuery.RequestUIRegistration()
+        DotNetNuke.Framework.jQuery.RequestRegistration()
+        DotNetNuke.Framework.jQuery.RequestUIRegistration()
 
-	End Sub
+    End Sub
 </script>
 <script type="text/javascript">
     jQuery(function () {
@@ -119,3 +119,5 @@
 <dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
 <dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+
+

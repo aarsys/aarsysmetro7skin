@@ -1,4 +1,4 @@
-﻿#dnnMenu{height:auto; float:right; max-width:660px; position:relative;}
+#dnnMenu{height:auto; float:right; max-width:660px; position:relative;}
 #dnnMenu .topLevel{height:auto; position:relative; }
 #dnnMenu .topLevel li{float:left; list-style-type:none;position:relative;margin:0 10 0 0;}
 
@@ -43,4 +43,6 @@
 #dnnMenu .subLevelRight ul li.last > a div{ background-color:#EEEEEE; height:25px;}
 #dnnMenu .subLevelRight ul li.first.last > a div{background-color:#EEEEEE; height:25px; padding: 0 5px 0 5px;}
 #dnnMenu .subLevelRight ul li.first.last > a:hover div{color:#FFFFFF; height:25px; background-color:#309930;padding:0 5px 0 5px;}
+
+
 

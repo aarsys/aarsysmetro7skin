@@ -64,9 +64,11 @@ bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 
 
 /*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #1BA0E1; width:250px; 
 float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
-/*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
+/*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-
+align:left; padding:5px 0 0 8px; }
                                           
-/*-- cell containing Login Container 	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #1BA0E1; width:250px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 15px 15px 15px;  }
+/*-- cell containing Login Container 	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #1BA0E1; width:260px; 
+float:right; text-align:left; margin:0 10px 0 0; padding: 10px 10px 10px 10px;  }
                                               
 /*-- cell containing Login Container  	   --*/ .CurrentDateCell {clear:both; margin-top:5px; text-align:left;}
 
@@ -116,7 +118,7 @@ margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial,
 
 
 
-#login{	float:right; }
+#login
 buttonGroup{
 margin-right: -10px;
 }
@@ -140,19 +142,32 @@ margin-right: -10px;
 
  .registerGroup LI {
  border-right-width: 0px;
- margin-top:-5px;
+ margin-top:2px;
  list-style-type: none;
  max-width: inherit;
 padding-right: 0px;
-display: inline-block;
+float: left;
+ }
+
+.registerGroup .userProfileImg LI {
+   
+ border-right-width: 0px;
+ margin-top:2px;
+ margin-left: -100px;
+ list-style-type: none;
+ max-width: inherit;
+padding-right: 0px;
+float: left;
+
  }
 
  .registerGroup a img{
+     
 			border:1px solid blue;
 			height:42px; width:38px;
 			background:transparent;
-            float:left;
-            margin: 0px 0px 0px 10px;
+            float: left;
+            margin: 0px 0px 0px 0px;
 
             
             
@@ -165,6 +180,7 @@ display: inline-block;
  .registerGroup a {
  padding-left: 0;
  padding-right: 5px;
+ 
  }
 
  .registerGroup a:hover,
@@ -186,29 +202,30 @@ display: inline-block;
 			overflow: hidden;
 			text-indent:-9999px;
 		}
-.registerGroup .userDisplayName a {float:right;}
+.registerGroup .userDisplayName  {float:right; margin-right: 60px;}
 		
         .registerGroup .userMessages strong,
 		.registerGroup .userNotifications strong{
-			margin: 0 0 0 0; display:table-row inline;
+			margin: 0 0 0 0; float:left;
 		}   
          
-		.registerGroup .userNotifications strong{ background-position:-85px 10px; display:inline-block; }
+		.registerGroup .userNotifications strong{ background-position:-85px 0px; clear:both; }
 		.registerGroup .userMessages strong:hover{background-position:15px -40px;  color:#CCCCCC;}
 		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px; color: #CCCCCC;}
 		.registerGroup .userMessages strong:active{background-position:15px -91px; }
 		.registerGroup .userNotifications strong:active{ background-position:-85px -92px;}
 		.registerGroup a span{
 			position: static;
+            float: right;
 			right:5px; 
-			top:-7px;
-			display:inline;
-			padding:2px 4px;
-			min-width:7px;
-			max-width:5px;
+			top:5px;
+			display: run-in;
+			padding:0px 2px;
+			min-width:5px;
+			max-width:7px;
 			text-align:left;
-			margin-right:3px;
-			margin-top: -100px;
+			margin-right:0px;
+			margin-top: -20px;
 			background: rgb(31,152,241); /* Old browsers */
 			font-size:9px;
 			color:#FFF;
@@ -230,6 +247,8 @@ Chrome,Safari4+ */
 			-webkit-box-shadow: 0px 1px 0px 0px #222222;
 			-moz-box-shadow: 0px 1px 0px 0px #222222;
 			box-shadow: 0px 1px 0px 0px #222222; 		
+
+            clear:both;
 		}
          
 
@@ -246,19 +265,24 @@ Chrome,Safari4+ */
 	#login .userMessages  a  span,
 	#login .userNotifications   a  span	{ 
 		display: inline-block; 
-		margin-top: -10px; 
+		margin-top: 9px; 
 		margin-right: 0px; 
 		background-color: transparent;
 		
 		font-size: 10px;
 	}
 
-/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;}
-                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; margin:0 0 0px 0;}
-                                            
-/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0px 0 0 0;}
-                                            a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 14px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;line-height:25px;}
-/*-- Current Date Token			  	   --*/ .CurrentDate { float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size: 14px; color:#FFFFFF;} 
+#login .registerGroup span {
+    top: -9px;
+}
+/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;}
+
+                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; margin:0px 0 0px 0;}
+/*.userDisplayName { margin: 0px 0px -5px 45px; } 
+                                            .userProfileImg { margin: 0px 0px 0px 0px; max-width: 10px;} */
+/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0px 0 0 0;}
+                                            a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;}
+/*-- Current Date Token			  	   --*/ .CurrentDate { float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size: 16px; color:#FFFFFF;} 
 
 
 /*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri, Arial, Serif; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
@@ -299,8 +323,6 @@ Chrome,Safari4+ */
 
 /*-- Blog List Style	               --*/ .BlogList { background:url(bullets.png) left top no-repeat; padding-left:35px; font-family: Calibri; font-size: 13px; color: #CCCCCC; line-height:30px; }
 .DNNAligncenter { text-align:left;}
-
-
 /*-- Text in Pink Color			  	   --*/ .NormalPink { font-family:Calibri, "Segoe UI"; font-size:22px; color:#CC3399; line-height:30px; margin-bottom:10px;  }
 /*-- Posts Gray Color Heading  		   --*/ .PostsHeadingGray { font-weight:normal; background:url(Bullets.png) left top no-repeat; padding-left:45px; margin-bottom:15px; color: #999999; font-weight:normal; font-family: Calibri, "Segoe UI"; font-size: 15px; line-height:20px; margin-bottom:15px; }
 

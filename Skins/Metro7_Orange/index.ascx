@@ -52,8 +52,9 @@
     <div class="FullWidth" >
 
 	<div  id="header_index" class="header_index">
-   	  <div class="LogoCell"><dnn:LOGO runat="server" id="dnnLOGO" /><br /><br /><dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
+   	  <div class="LogoCell"><dnn:LOGO runat="server" id="dnnLOGO" /><div class="Language"><dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
       </div>
+             </div>
    		
     <div class="MenuCell">
         <ddr:MENU MenuStyle="DNNMetro" runat="server" />
@@ -85,8 +86,8 @@
         </div>
         <!-- End of Search -->
         <div class="LoginRegisterCell ">
-	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" /><br />
-    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" />
+	        <div><dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" />
+    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" /></div>
             <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" />
             </div>
       	</div>
@@ -127,9 +128,11 @@
 
 
 
-<dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="/DNNMetro_Orange/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
-<dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="/DNNMetro_Orange/MetroMenu.css" PathNameAlias="SkinPath" />
+
+
 
 
 
