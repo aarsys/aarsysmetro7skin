@@ -15,36 +15,37 @@
 /* Default HTML Paragraph css		   --*/ p, span { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; padding:0 0 0 0;  margin:0 0 0 0; }
 
 /* Language */
-    .language .language-object{
+     .language-object{
 	    float:left;
 	    display:block;
 	    margin:0;
 	    padding:0;
     }
-    .language .language-object span{
+    .language-object span{
 	    float:right;
 	    padding-top: 3px;
 	    padding-bottom: 3px;
 	    padding-left: 5px;
-	    margin:0;
+	    
     }
-    .language .language-object span:first-child{
+     .language-object span:first-child{
 	    padding-left:8px; 
     }
-    .language .language-object span img{
+     .language-object span img{
 	    height:12px; 
 	    width:17px;
 	    opacity:0.3;
     }
-    .language .language-object span:hover img{opacity:1;}
-    .language .language-object .Language.selected img{
+     .language-object span:hover img{opacity:1;}
+     .language-object .Language.selected img{
 	    opacity:1;
 	    border-color:#222;
 	    -webkit-border-radius: 2px;
 	    border-radius: 2px; 
-	    -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
-	    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8); 
-    }
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8); 
+        box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8); 
+
+     }
 
 
 /*========================================================*/
@@ -56,27 +57,22 @@
 /*-- Skin Main banner		    	   --*/ .banner_index { float: left; position:relative; margin: 20px 10px 20px 15px; width: 930px;}
 
 /*-- 100% height 				 	   --*/ .FullHeight { height:100%; position:relative; }
-/*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 
-bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
-.FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
+/*-- 100% Width					  	   --*/ .FullWidth {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position:relative;bottom:0;width:960px;height:auto;z-index:-1; margin: 0 10px 0 0;}
+                                            .FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
 
 /*-- cell containing logo table    	   --*/ .LogoCell { float:left; position:relative; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
 
-/*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #1BA0E1; width:250px; 
-float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
-/*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-
-align:left; padding:5px 0 0 8px; }
-                                          
-/*-- cell containing Login Container 	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #1BA0E1; width:260px; 
-float:right; text-align:left; margin:0 10px 0 0; padding: 10px 10px 10px 10px;  }
+/*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #1BA0E1; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
+/*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
+
+/*-- cell containing Login Container 	   --*/ .LoginRegisterCell { height:106px; background: url(LoginIconBG.png) right top no-repeat #1BA0E1; width:260px; float:right; text-align:left; margin:0 10px 0 0; padding: 10px 10px 15px 10px;  }
                                               
-/*-- cell containing Login Container  	   --*/ .CurrentDateCell {clear:both; margin-top:5px; text-align:left;}
+/*-- cell containing Login Container  	   --*/ .CurrentDateCell {clear:both; margin-top:5px; text-align:left;display:block;}
 
 
 /*-- Content Panes Cell / TD CSS 	   --*/ .ContentPanesCells {float:left; position:relative; margin: 20px 5px 20px 5px; width: 930px; z-index:0;}
 
-/*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; 
-margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
+/*-- Footer cell    				   --*/ .FooterCell { float:left; position:relative; width: 930px; border-top:1px solid #CCCCCC; padding-top:10px; margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; color:#999999; font-size:12px;}
 
 /*-- Banner Pane internal Page         --*/ .BannerPaneCells { position:relative; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
 
@@ -96,8 +92,7 @@ margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial,
 /*-- content2 pane          	       --*/ .TopPane { float:left; position:relative; text-align:left; padding: 0 0 0 0; width:640px; max-width:640px; }
 
 /*-- social Pane pane           	   --*/ .SocialPane { float:right; position:relative; margin: 0 0 0 10px; min-width: 270px; }
-/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 
-5px; }
+/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 5px; }
 
 /*-- left2 content pane          	   --*/ .LeftPane { float: left; position:relative; width: 150px; padding:5px 5px 5px 5px; }
 
@@ -109,7 +104,7 @@ margin: 10px 15px 10px 15px; font-family: Calibri, "Segoe UI", Helvetica, Arial,
 /*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; width: 922px; margin: 0 -20px 0 0; }
 
 /*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630px; height: 250px;}
-.SearchCell h2 { font-size:37px; color:#FFF;}
+                                    .SearchCell h2 { font-size:37px; color:#ffffff;}
 
 
 /*========================================================*/
@@ -137,7 +132,7 @@ margin-right: -10px;
 
 .registerGroup ul {
     list-style-type: none;
-    display: inline-block;
+    display:block;
 }
 
  .registerGroup LI {
@@ -146,18 +141,18 @@ margin-right: -10px;
  list-style-type: none;
  max-width: inherit;
 padding-right: 0px;
-float: left;
+display:inline-block;
  }
 
 .registerGroup .userProfileImg LI {
-   
  border-right-width: 0px;
- margin-top:2px;
- margin-left: -100px;
+ margin-top: 0px;
+ margin-left: -5px;
  list-style-type: none;
  max-width: inherit;
-padding-right: 0px;
-float: left;
+ padding-right: 0px;
+ float:right;
+
 
  }
 
@@ -166,11 +161,8 @@ float: left;
 			border:1px solid blue;
 			height:42px; width:38px;
 			background:transparent;
-            float: left;
-            margin: 0px 0px 0px 0px;
-
-            
-            
+                        margin: 0px 5px 0px 5px;
+			float:right;
 			
 			-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
 			-moz-box-shadow: 	0px 1px 0px 0px rgba(0, 0, 0, 0.2);
@@ -179,14 +171,15 @@ float: left;
 
  .registerGroup a {
  padding-left: 0;
- padding-right: 5px;
- 
+ padding-right: 0px;
+
  }
 
  .registerGroup a:hover,
 	.loginGroup a:hover{ 
     text-decoration:none;
-    color: #CCCCCC;	
+    color: #CCCCCC;
+    
     }
 
  
@@ -195,21 +188,23 @@ float: left;
 			position: relative;
 			left:0; top:0;
 			width:100%; height:100%;
-			display:none;
+			
 			font-size:14px;
 			font-weight:bold;
 			vertical-align:baseline;
 			overflow: hidden;
 			text-indent:-9999px;
 		}
-.registerGroup .userDisplayName  {float:right; margin-right: 60px;}
-		
-        .registerGroup .userMessages strong,
+
+.registerGroup .userDisplayName  { display:block; float:left;}
+	
+
+        .registerGroup .userMessages strong {}
 		.registerGroup .userNotifications strong{
-			margin: 0 0 0 0; float:left;
+			margin: 0 0 0 0; 
 		}   
          
-		.registerGroup .userNotifications strong{ background-position:-85px 0px; clear:both; }
+		.registerGroup .userNotifications strong{ background-position:-85px 0px; }
 		.registerGroup .userMessages strong:hover{background-position:15px -40px;  color:#CCCCCC;}
 		.registerGroup .userNotifications strong:hover{ background-position:-85px -42px; color: #CCCCCC;}
 		.registerGroup .userMessages strong:active{background-position:15px -91px; }
@@ -228,14 +223,13 @@ float: left;
 			margin-top: -20px;
 			background: rgb(31,152,241); /* Old browsers */
 			font-size:9px;
-			color:#FFF;
+			color:#ffffff;
             overflow:hidden;
-			text-shadow: 0px 0px 0px 0px #333333;
+			text-shadow: 0px 0px 0px 0px #ffffff;
 			
 			/*CSS3*/	
 			background: -moz-linear-gradient(top, rgba(31,152,241,1) 0%, rgba(2,111,196,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* 
-Chrome,Safari4+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* Chrome,Safari4+ */
 			background: -webkit-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Chrome10+,Safari5.1+ */
 			background: -o-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Opera 11.10+ */
 			background: linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* W3C */
@@ -265,9 +259,9 @@ Chrome,Safari4+ */
 	#login .userMessages  a  span,
 	#login .userNotifications   a  span	{ 
 		display: inline-block; 
-		margin-top: 9px; 
+		margin-top: -9px; 
 		margin-right: 0px; 
-		background-color: transparent;
+		background-color: blue;
 		
 		font-size: 10px;
 	}
@@ -275,14 +269,15 @@ Chrome,Safari4+ */
 #login .registerGroup span {
     top: -9px;
 }
-/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;}
 
-                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; margin:0px 0 0px 0;}
+/*-- Login Register token              -- */ .LoginTokens, a.LoginTokens:link, a.LoginTokens:visited, a.LoginTokens:active { color: #FFF; font-family: "Segoe UI", Calibri, Arial, Serif; font-size: 16px; font-weight: normal; text-decoration: none; margin: 0 0 0 0; }
+
+                                            .loginGroup, .loginGroup *, .registerGroup, .registerGroup *, .userMessages:active, .userNotifications:active { color: #FFFFFF; font-family: "Segoe UI", Calibri; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0; margin:0 0 0 0;}
 /*.userDisplayName { margin: 0px 0px -5px 45px; } 
                                             .userProfileImg { margin: 0px 0px 0px 0px; max-width: 10px;} */
-/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0px 0 0 0;}
+/*-- Login Register token hover        -- */ a.LoginTokens:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 5px 0 0 0;}
                                             a.userMessages:hover {  color: #CCCCCC; font-family: "Segoe UI", Calibri, Arial, Serif ; font-size: 16px; font-weight: normal; text-decoration: none; padding: 0 0 0 0;}
-/*-- Current Date Token			  	   --*/ .CurrentDate { float:left; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size: 16px; color:#FFFFFF;} 
+/*-- Current Date Token			  	   --*/ .CurrentDate { display:block; font-family:"Segoe UI", Calibri, Arial, Serif ; font-size: 16px; color:#FFFFFF; margin:0 0 0 0;} 
 
 
 /*-- Footer Links token                --*/ .FooterLinks, a.FooterLinks:link, a.FooterLinks:visited, a.FooterLinks:active { color: #999999; font-family: calibri, Arial, Serif; font-size: 12px; font-weight: normal;text-decoration: none; padding: 0 10px 0 10px;}
@@ -322,7 +317,7 @@ Chrome,Safari4+ */
 /*-- Quick Links hover        		   --*/ a.QuickLinks:hover { color: #000000; font-family: Calibri, "Segoe UI"; font-size: 12px; text-decoration: none; font-weight: normal; padding: 0 5px 0 25px;}
 
 /*-- Blog List Style	               --*/ .BlogList { background:url(bullets.png) left top no-repeat; padding-left:35px; font-family: Calibri; font-size: 13px; color: #CCCCCC; line-height:30px; }
-.DNNAligncenter { text-align:left;}
+                                            .DNNAligncenter { text-align:left;}
 /*-- Text in Pink Color			  	   --*/ .NormalPink { font-family:Calibri, "Segoe UI"; font-size:22px; color:#CC3399; line-height:30px; margin-bottom:10px;  }
 /*-- Posts Gray Color Heading  		   --*/ .PostsHeadingGray { font-weight:normal; background:url(Bullets.png) left top no-repeat; padding-left:45px; margin-bottom:15px; color: #999999; font-weight:normal; font-family: Calibri, "Segoe UI"; font-size: 15px; line-height:20px; margin-bottom:15px; }
 
@@ -330,20 +325,127 @@ Chrome,Safari4+ */
 /*========================================================*/
 /*  Links css                                             */
 /*========================================================*/
+/*-- PrimayAction Button               --*/ .dnnPrimaryAction, a.dnnPrimaryAction:link { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: 400; font-size: 14px; text-decoration:none; }
+                                            a.dnnPrimaryAction:visited { color: #CCCCCC; Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration:none; }
+                                            a.dnnPrimaryAction:active { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration:none; }
 
-/*-- Default links 					   --*/ a:link, a:visited, a:active { color: #1BA0E1; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration:none; }
+ /*-- SecendayAction Button		       --*/ *.dnnSecondaryAction, a.dnnSecondaryAction:link { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: 400; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px #ffffff; }
+                                            a.dnnSecondaryAction:visited { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: 400; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px #CCCCCC; }
+                                            a.dnnSecondaryAction:active { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: 400; font-size: 14px; text-decoration:none; text-shadow: 0px 1px 0px #FFFFFF; }
+
+/*-- DNN FormItem                      --*/
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only { font-weight: normal; } 
+/*.dnnFormItem button, .dnnFormItem input[type='button'],.dnnFormItem input[type='cancel'], dnnFormItem input[type='reset'], .dnnSecondayAction, a.dnnSecondaryAction, ul.dnnAdminTabNav li a, .dnnLogin .LoginTabGroup span { font-family:Calibri, "Segoe UI"; font-weight: normal; background-image: none; box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.6), inset 0 1px 0 0 rgba(255, 255, 255, 1); background-color: rgb(55, 146, 237); text-shadow: 0px 1px 0px #ffffff; }*/
+/*.dnnFormItem button:hover, .dnnFormItem input[type='button']:hover, dnnFormItem input[type='reset']:hover, .dnnSecondayAction:hover, a.dnnSecondaryAction:hover, ul.dnnAdminTabNav li a:hover, .dnnLogin:hover .LoginTabGroup span:hover { background-image: none; box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.6), inset 0 1px 0 0 rgba(255, 255, 255, 1);background-color: #1BA0E1 ;}
+ */
+/* Primary and Secondary Action  - Buttons jQuery PopUp radius default.css Line 668*/
+
+.dnnFormItem button, .dnnFormItem input[type="button"], .dnnFormItem input[type="reset"], .dnnFormItem input[type="submit"], .dnnPrimaryAction, .dnnSecondaryAction, .dnnTertiaryAction, ul.dnnAdminTabNav li a, .dnnLogin .LoginTabGroup span {
+    border-radius: 0 0 0 0;
+    
+}
+
+/* Primary Action - Buttons jQuery PopUp default.css Line 703*/
+.dnnPrimaryAction, .dnnFormItem input[type="submit"], a.dnnPrimaryAction {
+    border-color: #0D569E; /*dark blue*/
+    background: #1BA0E1;
+    background: -moz-linear-gradient(top, #1BA0E1 100%, #1BA0E1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#1BA0E1), color-stop(100%,#1BA0E1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1BA0E1 100%,#1BA0E1 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #1BA0E1 100%,#1BA0E1 100%); /* W3C */
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    
+    text-shadow: 0px 1px 0px #ffffff;
+}
+/* Primary Action - Buttons jQuery Popup default.css Line 716 */
+.dnnPrimaryAction:hover, .dnnFormItem input[type="submit"]:hover, a.dnnPrimaryAction:hover {
+        border-color: #0D569E;
+        background: #CCCCCC; /* Old browsers */
+        background: -moz-linear-gradient(top, #CCCCCC 100%, #CCCCCC 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1BA0E1), color-stop(100%,#CCCCCC)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #1BA0E1 0%,#CCCCCC 100%); /* Chrome10+,Safari5.1+ */
+        background: linear-gradient(top, #1BA0E1 0%,#CCCCCC 100%); /* W3C */
+        color: #1BA0E1;
+        text-shadow: 0px 1px 0px #1BA0E1;
+    }
+/* Secondary Action - Buttons jQuery Popup default.css Line 748 */
+.dnnFormItem button, .dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnSecondaryAction,
+a.dnnSecondaryAction,
+ul.dnnAdminTabNav li a,
+.dnnLogin .LoginTabGroup span {
+    border-color: #0D569E;
+    background: #1BA0E1; /* Old browsers */
+    background: -moz-linear-gradient(top, #1BA0E1 100%, #1BA0E1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1BA0E1), color-stop(100%, #1BA0E1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1BA0E1 100%, #1BA0E1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1BA0E1 100%,#1BA0E1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1BA0E1 100%, #1BA0E1 100%); /* IE10+ */
+    background: linear-gradient(top, #1BA0E1 100%, #1BA0E1 100%); /* W3C */
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    text-shadow: 0px 1px 0px #ffffff;
+    color: #FFFFFF;
+}
+
+
+    .dnnFormItem button:hover, .dnnFormItem input[type="button"]:hover,
+    .dnnFormItem input[type="reset"]:hover,
+    .dnnFormItem input[type="cancel"]:hover,
+    .dnnSecondaryAction:hover,
+    a.dnnSecondaryAction:hover,
+    ul.dnnAdminTabNav li a:hover,
+    .dnnLogin .LoginTabGroup span:hover {
+        background: #CCCCCC; /* Old browsers */
+        background: -moz-linear-gradient(top, #CCCCCC 100%, #CCCCCC 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#CCCCCC), color-stop(100%,#CCCCCC)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #CCCCCC 100%,#CCCCCC 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #CCCCCC 100%,#CCCCCC 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #CCCCCC 100%,#CCCCCC 100%); /* IE10+ */
+        background: linear-gradient(top, #CCCCCC 100%,#CCCCCC 100%); /* W3C */
+        color: #1BA0E1;
+        text-shadow: 0px 1px 0px #1BA0E1;
+
+    }
+
+/* Secondery Actions li UI Tabs Active */
+ul.dnnAdminTabNav li.ui-tabs-active a {
+    background: none repeat scroll 0 0 #CCCCCC;
+    margin-top: -3px;
+    padding: 12px 9px 10px;
+}
+
+/* Widget jQuery PopUp close image default.css line 2292 */
+
+.dnnFormPopup .dnnModalCtrl .ui-dialog-titlebar-close:hover {
+                background: #1BA0E1 url(../../../../images/closeBtn.png) no-repeat;
+                background-position: 8px 4px;
+	            cursor: pointer;
+            }
+/* Widget jQuery PopUp resize image default.css line 2314 */
+
+
+.dnnFormPopup .dnnModalCtrl a.dnnToggleMax:hover {
+                background: #1BA0E1 url(../../../../images/resizeBtn.png) no-repeat;
+                background-position: 10px 2px;
+            }
+
+
+/*-- Default links 					   --*/ a:link, a:visited, a:active { color: #1BA0E1 ; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration:none; }
 /*-- Default links hover               --*/ a:hover { color: #999CCC; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: underline;  font-weight: normal;}
 
 /*-- Normal links 					   --*/ a.Normal:link, a.Normal:visited, a.Normal:active { color: #FFFFFF; font-family: Calibri, "Segoe UI"; font-weight: normal; font-size: 14px; text-decoration: none; }
 /*-- Normal links hover                --*/ a.Normal:hover { color: #1BA0E1; font-family: Calibri, "Segoe UI"; font-size: 14px; text-decoration: none; font-weight: normal; }
 
-/*-- Normal links 					   --*/ a.NormalRed:link, a.NormalRed:visited, a.NormalRed:active { color: #E7002A; font-family: Calibri, "Segoe UI"; font-weight: bold; font-size: 13px; text-decoration: none; }
+/*-- Normal links 					   --*/ a.NormalRed:link, a.NormalRed:visited, a.NormalRed:active{ color: #E7002A; font-family: Calibri, "Segoe UI"; font-weight: bold; font-size: 13px; text-decoration: none; }
 /*-- Normal links hover                --*/ a.NormalRed:hover { color: #333333; font-family: Calibri, "Segoe UI"; font-size: 13px; font-weight: bold ; text-decoration: none; }
 
 /*-- More links                        --*/ .ViewMore, a.ViewMore:link, a.ViewMore:visited, a.ViewMore:active { color: #999999; font-family: Calibri, "Segoe UI"; font-size: 12px; font-weight: normal; text-decoration: none; background: #E5E5E5; display:block; text-align: left; padding:0 10px 0 10px; width:75px; line-height:21px; margin-top:10px; }
 /*-- More links hover                  --*/ a.ViewMore:hover { color: #666666; font-family: Calibri, "Segoe UI"; font-size: 12px; font-weight: normal; text-decoration: none; background: #CCCCCC; display:block; text-align:left; padding:0 10px 0 10px; width:75px; line-height:21px; margin-top:10px;}
 
-/*-- More links                        --*/ .ViewMoreIcon, a.ViewMoreIcon:link, a.ViewMoreIcon:visited, a.ViewMoreIcon:active { color: #999999; font-family: Calibri, "Segoe UI"; font-size: 12px; font-weight: normal; text-decoration: none; background: url(Icon_more.jpg) left top no-repeat #E5E5E5; display:block; text-align: left; padding:0 15px 0 38px; width:74px; line-height:21px; margin-bottom:15px; }
+/*-- More links                        --*/ .ViewMoreIcon, a.ViewMoreIcon:link, a.ViewMoreIcon:visited, a.ViewMoreIcon:active { color: #999999; font-family: Calibri, "Segoe UI"; font-size: 12px; font-weight: normal; text-decoration: none; background: url(Icon_more.jpg) left top no-repeat #E5E5E5; display:block; text-align: eft; padding:0 15px 0 38px; width:74px; line-height:21px; margin-bottom:15px; }
 /*-- More links hover                  --*/ a.ViewMoreIcon:hover { color: #666666; font-family: Calibri, "Segoe UI"; font-size: 12px; font-weight: normal; text-decoration: none; background: url(Icon_more.jpg) left top no-repeat #CCCCCC; display:block; text-align:left; padding:0 15px 0 38px; width:74px; line-height:21px; margin-bottom:15px;}
 
 /*========================================================*/
@@ -369,10 +471,9 @@ Chrome,Safari4+ */
 /*-- Data Grid TD		        	   --*/ .DataGrid_Item { font-family: Calibri, "Segoe UI"; font-size:13px; color: #666666;}
 /*-- Data Grid TD		        	   --*/ .DataGrid_Header { font-family: Calibri, "Segoe UI"; font-size:13px; color:#666666; font-weight:bold;}
 /*-- Data Grid TD		        	   --*/ .DataGrid_AlternatingItem { font-family: Calibri, "Segoe UI"; font-size:13px; color: #666666; font-weight:bold;}
-
-#dnn_dnnSEARCH_txtSearch.NormalTextBox { background: transparent; width: 183px; color: #1BA0E1; padding: 0 13px 0 0; border: 0px solid #FFFFFF; cursor:text;}
-
-
+/*-- DNN Search Text box               --*/ #dnn_dnnSEARCH_txtSearch.NormalTextBox { background: transparent; width: 177px; color: #1BA0E1; padding: 0 13px 0 0; border: 0px solid #FFFFFF; cursor:text;}
+/*-- DNN Search clear text box         --*/ a.dnnSearchBoxClearText, .searchInputContainer a.dnnShow.dnnSearchBoxClearText { margin: -17px 0;}
+/*-- DNN Search clear text box show    --*/ .searchInputContainer a.dnnSearchBoxClearText.dnnShow {background: url("/images/clear.png") no-repeat scroll center center transparent !important;}
 /*========================================================*/
 /*  Banner CSS	                                          */
 /*========================================================*/
@@ -419,6 +520,7 @@ Chrome,Safari4+ */
 /*  DNN Blog 5.0 CSS enhancements	                      */
 /*========================================================*/
 .dnnClear bloggerMenu div,  .ModBlogC div{max-width:500px}
+
 
 
 

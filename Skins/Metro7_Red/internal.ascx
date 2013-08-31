@@ -20,26 +20,6 @@
 <link href="skin.css" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" media="all" href="<%= SkinPath %>banner/style.css" />
 
-<script runat="server">
-
-     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-	DotNetNuke.Framework.jQuery.RequestRegistration()
-	DotNetNuke.Framework.jQuery.RequestUIRegistration()
-
-	End Sub
-</script>
-<script type="text/javascript">
-    jQuery(function () {
-        jQuery("#JBanner").tabs({ fx: { opacity: "toggle" } }).tabs("rotate", 10000, true);
-
-    });
-
-</script>
-
-
-
-
     <div id="Header">
         <div id="ContentBG">
             <div id="ControlPanelWrapper">
@@ -119,5 +99,6 @@
 <dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
 <dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+
 
 

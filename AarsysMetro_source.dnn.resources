@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="07.00.00.01">
+        <package name="Metro7" type="Skin" version="07.01.00.01">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -800,7 +800,7 @@
                   </skinFile>
                   <skinFile>
                     <path>images</path>
-                    <name>Twitter.png</name>
+                    <name>TwitterBird.png</name>
                     <sourceFileName>Skins\Metro7\images\TwitterBird.png</sourceFileName>
                   </skinFile>
                   <skinFile>

@@ -7,9 +7,10 @@
 #JBanner ul.banner_item li:hover { background:url(banner-active.png) no-repeat 0 0}
 #JBanner ul.banner_item li.ui-tabs-selected { background:url(banner-active.png) no-repeat left top; }
 #JBanner ul.banner_item li a { display:block; width:16px; height:14px; overflow:hidden; }
-#JBanner .ui-tabs-hide {display:none; }
+#JBanner .hide {display:none; }
 /*-- Banner Pane internal Page         --*/
 #jBanner .BannerPaneCells { float: left; margin: 15px 15px 10px 15px; width: 630px; height: 250px;}
+
 
 
 

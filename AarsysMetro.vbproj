@@ -49,18 +49,6 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetNuke, Version=6.1.1.12, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\bin\DotNetNuke.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Containers\Metro7\DefaultContainer.ascx" />
     <Content Include="Containers\Metro7\DefaultContainer.css" />
     <Content Include="Containers\Metro7\DefaultContainer.jpg" />
@@ -139,6 +127,30 @@
     <Content Include="Documentation\folderopen.gif" />
     <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
     <Content Include="Documentation\file.gif" />
+    <Content Include="Skins\Metro7\images\Clear.png" />
+    <Content Include="Skins\Metro7\js\jquery-ui-tabs-rotate.js" />
+    <Content Include="Skins\Metro7\popUpSkin.ascx" />
+    <Content Include="Skins\Metro7\popUpSkin.css" />
+    <Content Include="Skins\Metro7\skin.css" />
+    <Content Include="Skins\Metro7\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7_Green\images\Clear.png" />
+    <Content Include="Skins\Metro7_Green\js\jquery-ui-tabs-rotate.js" />
+    <Content Include="Skins\Metro7_Green\js\jquery.metro.js" />
+    <Content Include="Skins\Metro7_Green\popUpSkin.ascx" />
+    <Content Include="Skins\Metro7_Green\popUpSkin.css" />
+    <Content Include="Skins\Metro7_Green\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7_Orange\images\Clear.png" />
+    <Content Include="Skins\Metro7_Orange\js\jquery-ui-tabs-rotate.js" />
+    <Content Include="Skins\Metro7_Orange\js\jquery.metro.js" />
+    <Content Include="Skins\Metro7_Orange\popUpSkin.ascx" />
+    <Content Include="Skins\Metro7_Orange\popUpSkin.css" />
+    <Content Include="Skins\Metro7_Orange\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7_Red\images\Clear.png" />
+    <Content Include="Skins\Metro7_Red\js\jquery-ui-tabs-rotate.js" />
+    <Content Include="Skins\Metro7_Red\js\jquery.metro.js" />
+    <Content Include="Skins\Metro7_Red\popUpSkin.ascx" />
+    <Content Include="Skins\Metro7_Red\popUpSkin.css" />
+    <Content Include="Skins\Metro7_Red\popUpSkin.doctype.xml" />
     <Content Include="version.txt" />
     <None Include="AarsysMetro.dnn6" />
     <Content Include="DNNSkin.targets">
@@ -180,7 +192,6 @@
     <Content Include="Skins\Metro7\images\RSS.png" />
     <Content Include="Skins\Metro7\images\Settings24.png" />
     <Content Include="Skins\Metro7\images\Settings32.png" />
-    <Content Include="Skins\Metro7\images\style.css" />
     <Content Include="Skins\Metro7\images\twitter.png" />
     <Content Include="Skins\Metro7\images\TwitterBird.png" />
     <Content Include="Skins\Metro7\images\userLoginSprite.png" />
@@ -200,7 +211,6 @@
     <Content Include="Skins\Metro7\Metro7_logo.jpg" />
     <Content Include="Skins\Metro7\SearchBG.png" />
     <Content Include="Skins\Metro7\SearchIconBG.png" />
-    <Content Include="Skins\Metro7\skin.css" />
     <Content Include="Skins\Metro7\spacer2.gif" />
     <Content Include="Skins\Metro7\thumbnail_index.jpg" />
     <Content Include="Skins\Metro7\thumbnail_internal.jpg" />
@@ -643,6 +653,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Skins\Metro7\popUpSkin.ascx.designer.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7\popUpSkin.ascx.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7_Green\popUpSkin.ascx.designer.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7_Green\popUpSkin.ascx.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7_Orange\popUpSkin.ascx.designer.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7_Orange\popUpSkin.ascx.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7_Red\popUpSkin.ascx.designer.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Skins\Metro7_Red\popUpSkin.ascx.vb">
+      <DependentUpon>popUpSkin.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Skins\Metro7\DNNMetro\images\" />
@@ -653,22 +687,34 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DotNetNuke">
+      <HintPath>..\..\..\..\bin\DotNetNuke.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>Windows</MyType>
   </PropertyGroup>
   <Import Project="$(MSBuildProjectDirectory)\DNNSkin.Targets" />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60521</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://dev6</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://dev6/</IISAppRootUrl>
+          <IISUrl>http://dev6/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

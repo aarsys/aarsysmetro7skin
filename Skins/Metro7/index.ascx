@@ -17,18 +17,9 @@
 <%@ Register TagPrefix="dnn" TagName="LINKTOMOBILE" Src="~/Admin/Skins/LinkToMobileSite.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="CONTROLPANEL" Src="~/Admin/Skins/controlpanel.ascx" %>
 
-<link href="skin.css" rel="stylesheet" type="text/css" />
+
 <link type="text/css" rel="stylesheet" media="all" href="<%= SkinPath %>banner/style.css" />
 
-<script runat="server">
-
-     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-	DotNetNuke.Framework.jQuery.RequestRegistration()
-	DotNetNuke.Framework.jQuery.RequestUIRegistration()
-
-	End Sub
-</script>
 <script type="text/javascript">
     jQuery(function () {
         jQuery("#JBanner").tabs({ fx: { opacity: "toggle" } }).tabs("rotate", 10000, true);
@@ -36,9 +27,6 @@
     });
 
 </script>
-
-
-
 
     <div id="Header">
         <div id="ContentBG">
@@ -63,7 +51,7 @@
     <div id="banner_index" class="banner_index">
    	  	<div id="JBanner">
 <ul class="banner_item">
-       	  <li class="banner_item li.ui-tabs-selected" id="nav-banner-1" ><a href="#ui-tabs-1"></a></li>
+       	  <li class="banner_item li.ui-tabs-active" id="nav-banner-1" ><a href="#ui-tabs-1"></a></li>
           <li class="banner_item li ul.banner_item" id="nav-banner-2"><a href="#ui-tabs-2"></a></li>
           <li class="banner_item li ul.banner_item" id="nav-banner-3"><a href="#ui-tabs-3"></a></li>
           <li class="banner_item li ul.banner_item" id="nav-banner-4"><a href="#ui-tabs-4"></a></li>
@@ -72,10 +60,10 @@
        
        	
             <div class="ui-tabs-panel" id="ui-tabs-1" style=""><img alt="" src="<%= SkinPath %>banner/Banner_1.jpg" /></div>
-            <div class="ui-tabs-panel ui-tabs-hide" id="ui-tabs-2" style=""><img alt="" src="<%= SkinPath %>banner/Banner_2.jpg" /></div>
-            <div class="ui-tabs-panel ui-tabs-hide" id="ui-tabs-3" style=""><img alt="" src="<%= SkinPath %>banner/Banner_3.jpg" /></div>
-            <div class="ui-tabs-panel ui-tabs-hide" id="ui-tabs-4" style=""><img alt="" src="<%= SkinPath %>banner/Banner_4.jpg" /></div>
-            <div class="ui-tabs-panel ui-tabs-hide" id="ui-tabs-5" style=""><img alt="" src="<%= SkinPath %>banner/Banner_5.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-2" style=""><img alt="" src="<%= SkinPath %>banner/Banner_2.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-3" style=""><img alt="" src="<%= SkinPath %>banner/Banner_3.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-4" style=""><img alt="" src="<%= SkinPath %>banner/Banner_4.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-5" style=""><img alt="" src="<%= SkinPath %>banner/Banner_5.jpg" /></div>
 
        	</div>
         <!-- End of JBanner -->
@@ -127,10 +115,11 @@
 </div>
 
 
-
-<dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/jquery-ui-tabs-rotate.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
-<dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+
 
 
 

@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="07.00.00.01">
+        <package name="Metro7" type="Skin" version="07.01.00.01">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -18,13 +18,18 @@
             <releaseNotes src="releasenotes.html" />
             <dependencies>
                 <dependency type="Type">DotNetNuke.UI.Utilities.MSAJAX</dependency>
-                <dependency type="CoreVersion">07.00.00</dependency>
+                <dependency type="CoreVersion">07.01.00</dependency>
             </dependencies>
             <components>
                 <component type="Skin">
                     <skinFiles>
                         <skinName>Metro7_Red</skinName>
                         <basePath>Portals\_default\Skins\Metro7_Red</basePath>
+                      <skinFile>
+                        <path>js</path>
+                        <name>jquery-ui-tabs-rotate.js</name>
+                        <sourceFileName>Skins\Metro7_Red\js\jquery-ui-tabs-rotate.js</sourceFileName>
+                      </skinFile>
                         <skinFile>
                             <path>banner</path>
                             <name>banner-active.png</name>
@@ -111,6 +116,18 @@
                             <sourceFileName>Skins\Metro7_Red\internal.doctype.xml</sourceFileName>
                         </skinFile>
                         <skinFile>
+                            <name>popupskin.doctype.xml</name>
+                            <sourceFileName>Skins\Metro7_Red\popupskin.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.css</name>
+                            <sourceFileName>Skins\Metro7_Red\popupskin.css</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popUpSkin.ascx</name>
+                            <sourceFileName>Skins\Metro7_Red\popupskin.ascx</sourceFileName>
+                        </skinFile>
+                          <skinFile>
                             <name>index.jpg</name>
                             <sourceFileName>Skins\Metro7_Red\index.jpg</sourceFileName>
                         </skinFile>
@@ -234,7 +251,11 @@
                             <name>YouTube.png</name>
                             <sourceFileName>Skins\Metro7_Red\images\YouTube.png</sourceFileName>
                         </skinFile>
-                        
+                      <skinFile>
+                        <path>images</path>
+                        <name>Clear.png</name>
+                        <sourceFileName>Skins\Metro7_Red\images\Clear.png</sourceFileName>
+                      </skinFile>
                     <skinFile>
                         <path>DNNMetro</path>
                         <name>DNNMetro-menudef.xml</name>
@@ -332,6 +353,11 @@
                     <skinFiles>
                         <skinName>Metro7_Green</skinName>
                         <basePath>Portals\_default\Skins\Metro7_Green</basePath>
+                      <skinFile>
+                        <path>js</path>
+                        <name>jquery-ui-tabs-rotate.js</name>
+                        <sourceFileName>Skins\Metro7_Green\js\jquery-ui-tabs-rotate.js</sourceFileName>
+                      </skinFile>
                         <skinFile>
                             <path>banner</path>
                             <name>banner-active.png</name>
@@ -416,6 +442,18 @@
                         <skinFile>
                             <name>index.doctype.xml</name>
                             <sourceFileName>Skins\Metro7_Green\index.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.doctype.xml</name>
+                            <sourceFileName>Skins\Metro7_Green\popupskin.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.css</name>
+                            <sourceFileName>Skins\Metro7_Green\popupskin.css</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popUpSkin.ascx</name>
+                            <sourceFileName>Skins\Metro7_Green\popupskin.ascx</sourceFileName>
                         </skinFile>
                         <skinFile>
                             <name>index.jpg</name>
@@ -541,6 +579,11 @@
                             <name>YouTube.png</name>
                             <sourceFileName>Skins\Metro7_Green\images\YouTube.png</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Clear.png</name>
+                        <sourceFileName>Skins\Metro7_Green\images\Clear.png</sourceFileName>
+                      </skinFile>
                         
                       <skinFile>
                         <path>DNNMetro</path>
@@ -639,6 +682,11 @@
                     <skinFiles>
                         <skinName>Metro7</skinName>
                         <basePath>Portals\_default\Skins\Metro7</basePath>
+                      <skinFile>
+                        <path>js</path>
+                        <name>jquery-ui-tabs-rotate.js</name>
+                        <sourceFileName>Skins\Metro7\js\jquery-ui-tabs-rotate.js</sourceFileName>
+                      </skinFile>
                         <skinFile>
                             <path>banner</path>
                             <name>banner-active.png</name>
@@ -701,7 +749,7 @@
                       </skinFile>
                       <skinFile>
                         <path>images</path>
-                        <name>Twitter.png</name>
+                        <name>TwitterBird.png</name>
                         <sourceFileName>Skins\Metro7\images\TwitterBird.png</sourceFileName>
                       </skinFile>
                         <skinFile>
@@ -723,6 +771,18 @@
                         <skinFile>
                             <name>internal.doctype.xml</name>
                             <sourceFileName>Skins\Metro7\internal.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.doctype.xml</name>
+                            <sourceFileName>Skins\Metro7\popupskin.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.css</name>
+                            <sourceFileName>Skins\Metro7\popupskin.css</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popUpSkin.ascx</name>
+                            <sourceFileName>Skins\Metro7\popupskin.ascx</sourceFileName>
                         </skinFile>
                         <skinFile>
                             <name>index.jpg</name>
@@ -848,6 +908,11 @@
                             <name>YouTube.png</name>
                             <sourceFileName>Skins\Metro7\images\YouTube.png</sourceFileName>
                         </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Clear.png</name>
+                        <sourceFileName>Skins\Metro7\images\Clear.png</sourceFileName>
+                      </skinFile>
                         
                         <skinFile>
                             <path>DNNMetro</path>
@@ -946,6 +1011,11 @@
                     <skinFiles>
                         <skinName>Metro7_Orange</skinName>
                         <basePath>Portals\_default\Skins\Metro7_Orange</basePath>
+                      <skinFile>
+                        <path>js</path>
+                        <name>jquery-ui-tabs-rotate.js</name>
+                        <sourceFileName>Skins\Metro7_Orange\js\jquery-ui-tabs-rotate.js</sourceFileName>
+                      </skinFile>
                         <skinFile>
                             <path>banner</path>
                             <name>banner-active.png</name>
@@ -1030,6 +1100,18 @@
                         <skinFile>
                             <name>internal.doctype.xml</name>
                             <sourceFileName>Skins\Metro7_Orange\internal.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.doctype.xml</name>
+                            <sourceFileName>Skins\Metro7_Orange\popupskin.doctype.xml</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popupskin.css</name>
+                            <sourceFileName>Skins\Metro7_Orange\popupskin.css</sourceFileName>
+                        </skinFile>
+                      <skinFile>
+                            <name>popUpSkin.ascx</name>
+                            <sourceFileName>Skins\Metro7_Orange\popupskin.ascx</sourceFileName>
                         </skinFile>
                         <skinFile>
                             <name>index.jpg</name>
@@ -1155,7 +1237,11 @@
                             <name>YouTube.png</name>
                             <sourceFileName>Skins\Metro7_Orange\images\YouTube.png</sourceFileName>
                         </skinFile>
-                      
+                      <skinFile>
+                        <path>images</path>
+                        <name>Clear.png</name>
+                        <sourceFileName>Skins\Metro7_Orange\images\Clear.png</sourceFileName>
+                      </skinFile>
                     <skinFile>
                         <path>DNNMetro</path>
                         <name>DNNMetro-menudef.xml</name>
