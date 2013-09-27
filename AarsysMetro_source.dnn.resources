@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="07.01.00.01">
+        <package name="Metro7" type="Skin" version="07.01.00.02">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -252,6 +252,18 @@
                   <skinFile>
                     <name>internal.ascx</name>
                     <sourceFileName>Skins\Metro7_Red\internal.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.ascx</name>
+                    <sourceFileName>Skins\Metro7_Red\admin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Red\admin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.css</name>
+                    <sourceFileName>Skins\Metro7_Red\admin.css</sourceFileName>
                   </skinFile>
                   <skinFile>
                     <path>images</path>
@@ -561,6 +573,18 @@
                     <sourceFileName>Skins\Metro7_Green\internal.ascx</sourceFileName>
                   </skinFile>
                   <skinFile>
+                    <name>admin.ascx</name>
+                    <sourceFileName>Skins\Metro7_Green\admin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Green\admin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.css</name>
+                    <sourceFileName>Skins\Metro7_Green\admin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
                     <path>images</path>
                     <name>google-talk.png</name>
                     <sourceFileName>Skins\Metro7_Green\images\google-talk.png</sourceFileName>
@@ -868,6 +892,18 @@
                     <sourceFileName>Skins\Metro7\internal.ascx</sourceFileName>
                   </skinFile>
                   <skinFile>
+                    <name>admin.ascx</name>
+                    <sourceFileName>Skins\Metro7\admin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7\admin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.css</name>
+                    <sourceFileName>Skins\Metro7\admin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
                     <path>images</path>
                     <name>google-talk.png</name>
                     <sourceFileName>Skins\Metro7\images\google-talk.png</sourceFileName>
@@ -1173,6 +1209,18 @@
                   <skinFile>
                     <name>internal.ascx</name>
                     <sourceFileName>Skins\Metro7_Orange\internal.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.ascx</name>
+                    <sourceFileName>Skins\Metro7_Orange\admin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Orange\admin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>admin.css</name>
+                    <sourceFileName>Skins\Metro7_Orange\admin.css</sourceFileName>
                   </skinFile>
                   <skinFile>
                     <path>images</path>
