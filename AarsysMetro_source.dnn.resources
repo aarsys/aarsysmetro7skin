@@ -18,7 +18,7 @@
             <releaseNotes src="releasenotes.html" />
             <dependencies>
                 <dependency type="Type">DotNetNuke.UI.Utilities.MSAJAX</dependency>
-                <dependency type="CoreVersion">07.00.00</dependency>
+                <dependency type="CoreVersion">07.01.00</dependency>
             </dependencies>
             <components>
               
