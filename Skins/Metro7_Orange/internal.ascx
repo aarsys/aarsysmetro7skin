@@ -58,7 +58,7 @@
         </div>
         <!-- End of Search -->
         <div class="LoginRegisterCell ">
-	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" /><br />
+	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" />
     	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" />
             <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" />
             </div>
