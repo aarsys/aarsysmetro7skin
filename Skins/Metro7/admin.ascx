@@ -46,20 +46,23 @@
 </div>
 </div>
         <!-- End of JBanner -->
-          <div class="SearchCell">
+        <div class="HeadCell" >
+        <div class="SearchCell">
           <h2>Search</h2>
           <div class="SearchCellBG"><dnn:SEARCH runat="server" id="dnnSEARCH" showWeb="False" showSite="False" Submit="&lt;img src=&quot;spacer2.gif&quot; border=&quot;0&quot; hspace=&quot;2&quot; align=&quot;absmiddle&quot;&gt;"/>
           </div>
         </div>
         <!-- End of Search -->
+        
         <div class="LoginRegisterCell ">
 	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" />
     	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" />
             <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" />
             </div>
       	</div>
+            </div>
         <!-- End of Login Register -->
-        
+        </div>
     </div>
     
     <!-- End of Banner -->
@@ -68,31 +71,31 @@
   <div id="ContentPanesCells" class="ContentPanesCells">
   
    
-          <div id="FullWidth2" class="FullWidth2">   
+          <div id="FullWidth2" class="FullWidth">   
                  
-          <div class="dnnClear" >
+          
           
           <div class="ContentPane" runat="server" id="ContentPane"></div>
           
           </div>
           
           
-    </div>      
+        
   
     <div id="FooterCell" class="FooterCell"><dnn:PRIVACY runat="server" id="dnnPRIVACY" CssClass="FooterLinks" /> | <dnn:TERMS runat="server" id="dnnTERMS" CssClass="FooterLinks"/> | <dnn:COPYRIGHT runat="server" id="dnnCOPYRIGHT" CssClass="FooterLinks"/>
     </div>
     
 
+</div>
+</div>
 
-</div>
-</div>
-</div>
 
 
 <dnn:DnnJsInclude runat="server" FilePath="jquery.cycle.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
 <dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="/admin.css" PathNameAlias="SkinPath" />
 
 
 

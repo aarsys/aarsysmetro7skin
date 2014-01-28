@@ -61,7 +61,10 @@
                                             .FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
 
 /*-- cell containing logo table    	   --*/ .LogoCell { float:left; position:relative; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
-
+/*-- Cell containing Search and Login cells */.HeadCell {
+    float: right;
+    width:250px;
+}
 /*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #FEAD41; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
 

@@ -1,6 +1,7 @@
 
-.DefaultContainer-Title { font-family: Calibri, "Segoe UI"; font-size:30px; color: #1BA0E1; }
-.DefaultContainer-Body { padding: 8px 0 8px 0; }
+@charset "UTF-8";
+.DefaultContainer-Title { font-family: "Segoe UI", Calibri, Helvetica, Arial, sans-serif; font-size:30px; color: #1BA0E1; }
+.DefaultContainer-Body { padding: 8px 8px 8px 8px; }
 .DefaultContainer-Bottom { height:10px; }
 
 

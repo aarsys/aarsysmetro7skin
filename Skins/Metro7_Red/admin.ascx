@@ -46,6 +46,7 @@
 </div>
 </div>
         <!-- End of JBanner -->
+        <div class="HeadCell">
           <div class="SearchCell">
           <h2>Search</h2>
           <div class="SearchCellBG"><dnn:SEARCH runat="server" id="dnnSEARCH" showWeb="False" showSite="False" Submit="&lt;img src=&quot;spacer2.gif&quot; border=&quot;0&quot; hspace=&quot;2&quot; align=&quot;absmiddle&quot;&gt;"/>
@@ -59,6 +60,7 @@
             </div>
       	</div>
         <!-- End of Login Register -->
+            </div>
         
     </div>
     

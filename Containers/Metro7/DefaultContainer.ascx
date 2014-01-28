@@ -1,3 +1,21 @@
+<%--<%@ Control language="vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Containers.Container" %>
+<%@ Register TagPrefix="dnn" TagName="TITLE" Src="~/Admin/Containers/Title.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="VISIBILITY" Src="~/Admin/Containers/Visibility.ascx" %>
+<%@ Register TagPrefix="dnn" Assembly="DotNetNuke" Namespace="DotNetNuke.UI.Containers" %>--%>
+  
+<%--<div class="DefaultContainer-Body">
+    <h2><dnn:TITLE runat="server" id="dnnTITLE" CssClass="DefaultContainer-Title" /></h2>
+    <div id="ContentPane" class="DefaultContainer-Body" runat="server"></div>
+    <%--<div class="dnnActionButtons">
+        <dnn:ActionCommandButton runat="server" CommandName="PrintModule.Action" DisplayIcon="True" DisplayLink="False>
+		<dnn:ActionCommandButton runat="server" CommandName="SyndicateModule.Action" DisplayIcon="True" DisplayLink="False" />
+    </div>--%>
+	<div class="clear"></div>
+<%--</div>--%>
+
+ 
+
+
 <%@ Control language="vb" CodeBehind="~/admin/Containers/container.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Containers.Container" %>
 <%@ Register TagPrefix="dnn" TagName="ACTIONS" Src="~/Admin/Containers/Actions.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="ICON" Src="~/Admin/Containers/Icon.ascx" %>
@@ -12,7 +30,7 @@
   <tr>
     <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td valign="middle" nowrap="nowrap"><dnn:ACTIONS runat="server" id="dnnACTIONS" /></td>
+	    <td valign="middle" nowrap="nowrap"><dnn:ACTIONS runat="server" id="dnnACTIONS" /></td>
 	    <td valign="middle" nowrap="nowrap"><dnn:ICON runat="server" ID="dnnICON" /></td>
         <td valign="middle" width="100%" nowrap="nowrap"><dnn:TITLE runat="server" id="dnnTITLE" CssClass="DefaultContainer-Title" /></td>
         </tr>
@@ -33,6 +51,14 @@
     <td Class="DefaultContainer-Bottom"></td>
   </tr>
 </table>
+
+
+
+
+
+
+
+
 
 
 

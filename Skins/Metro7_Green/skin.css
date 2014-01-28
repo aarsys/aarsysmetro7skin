@@ -61,7 +61,10 @@
                                             .FullWidth2 {float:left; background:#FFFFFF url('') repeat-x 0 bottom;position: relative;bottom:0;width:930px;height:auto;z-index:-1; margin:0 15px 0 15px;}
 
 /*-- cell containing logo table    	   --*/ .LogoCell { float:left; position:relative; padding: 0 10px 0 0; width:auto; vertical-align:middle; }
-
+/*-- Cell containing Search and Login cells */.HeadCell {
+    float: right;
+    width:250px;
+}
 /*-- Search Main Cell containing BG    --*/ .SearchCell { margin-bottom:10px; height:83px; background:url(SearchIconBG.png) right top no-repeat #309930; width:250px; float:right; text-align:left;margin: 0 10px 10px 0; padding:10px 15px 15px 15px; }
 /*-- Search Main Cell 				   --*/ .SearchCellBG { background: url(SearchBG.png) left top no-repeat; width:248px; height:27px; float: left; text-align:left; padding:5px 0 0 8px; }
 
@@ -89,21 +92,28 @@
 /*========================================================*/
 
 
-/*-- content2 pane          	       --*/ .TopPane { float:left; position:relative; text-align:left; padding: 0 0 0 0; width:640px; max-width:640px; }
 
-/*-- social Pane pane           	   --*/ .SocialPane { float:right; position:relative; margin: 0 0 0 10px; min-width: 270px; }
-/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; width: 210px; padding:5px 5px 5px 5px; }
+/*-- content2 pane          	       --*/ .TopPane { float:left; position:relative; text-align:left; padding: 0 0 0 0; max-width:640px; }
 
-/*-- left2 content pane          	   --*/ .LeftPane { float: left; position:relative; width: 150px; padding:5px 5px 5px 5px; }
+/*-- social Pane pane           	   --*/ .SocialPane { float:right; position:relative; margin: 0 0 0 10px; max-width: 270px; }
+/*-- right2 content pane        	   --*/ .RightPane { float:right; position:relative; margin: 0 6px 0 5px; min-height:112px; max-width: 200px; padding:5px 5px 5px 5px; }
 
-/*-- left1 content pane          	   --*/ .LeftPane1 { float:left; position:relative; min-width: 65%; max-width:680px;}
-/*-- left3 content pane          	   --*/ .LeftPane3 { float:left; position:relative; width: 150px;}
-/*-- left4 content pane          	   --*/ .ContentPane { float:left; position:relative; min-width:500px; max-width:500px; padding:5px 10px 5px 10px;  }
-/*-- left2 content pane          	   --*/ .LeftPane2 { float:left; position:relative; min-width: 65%; max-width:680px; }
+/*-- left2 content pane          	   --*/ .LeftPane { float: left; position:relative; max-width: 150px; padding:5px 5px 5px 5px; }
 
-/*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; width: 922px; margin: 0 -20px 0 0; }
+/*-- left1 content pane          	   --*/ .LeftPane1 { float:left; position:relative;}
+/*-- left3 content pane          	   --*/ .LeftPane3 { float:right; position:relative;}
+/*-- left4 content pane          	   --*/ .ContentPane { position:relative; padding:5px 10px 5px 10px; display:inline; width:520px;}
+/*-- left2 content pane          	   --*/ .LeftPane2 { float:left; position:relative; }
 
-/*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative; width: 630px; height: 250px;}
+/*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; margin: 0 -20px 0 0; }
+/*-- Footer Pane                       --*/
+.FooterPane {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+/*-- Banner pane          	   --*/ .BannerPane { float: left; position:relative;  max-height: 250px;}
                                     .SearchCell h2 { font-size:37px; color:#ffffff;}
 
 

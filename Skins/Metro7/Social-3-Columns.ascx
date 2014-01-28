@@ -17,8 +17,16 @@
 <%@ Register TagPrefix="dnn" TagName="LINKTOMOBILE" Src="~/Admin/Skins/LinkToMobileSite.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="CONTROLPANEL" Src="~/Admin/Skins/controlpanel.ascx" %>
 
-<link href="skin.css" rel="stylesheet" type="text/css" />
+
 <link type="text/css" rel="stylesheet" media="all" href="<%= SkinPath %>banner/style.css" />
+
+<script type="text/javascript">
+    jQuery(function () {
+        jQuery("#JBanner").tabs({ fx: { opacity: "toggle" } }).tabs("rotate", 10000, true);
+
+    });
+
+</script>
 
     <div id="Header">
         <div id="ContentBG">
@@ -32,22 +40,33 @@
     <div class="FullWidth" >
 
 	<div  id="header_index" class="header_index">
-   	  <div class="LogoCell"><dnn:LOGO runat="server" id="dnnLOGO" /><br /><br /><dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
+   	  <div class="LogoCell"><dnn:LOGO runat="server" id="dnnLOGO" /><div class="language"><dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
       </div>
+         </div>
    		
     <div class="MenuCell">
         <ddr:MENU MenuStyle="DNNMetro" runat="server" />
     </div>
-
-    <div class="banner_index">
-   	  	<div id="JBanner">
-<div id="BannerPaneCells">
     
-          <div class="BannerPane" runat="server" id="BannerPane"></div>
-</div>
-</div>
+    <div id="banner_index" class="banner_index">
+   	  	<div id="JBanner">
+<ul class="banner_item">
+       	  <li class="banner_item li.ui-tabs-active" id="nav-banner-1" ><a href="#ui-tabs-1"></a></li>
+          <li class="banner_item li ul.banner_item" id="nav-banner-2"><a href="#ui-tabs-2"></a></li>
+          <li class="banner_item li ul.banner_item" id="nav-banner-3"><a href="#ui-tabs-3"></a></li>
+          <li class="banner_item li ul.banner_item" id="nav-banner-4"><a href="#ui-tabs-4"></a></li>
+	  <li class="banner_item li ul.banner_item" id="nav-banner-5"><a href="#ui-tabs-5"></a></li>
+          </ul>
+       
+       	
+            <div class="ui-tabs-panel" id="ui-tabs-1" style=""><img alt="" src="<%= SkinPath %>banner/Banner_1.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-2" style=""><img alt="" src="<%= SkinPath %>banner/Banner_2.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-3" style=""><img alt="" src="<%= SkinPath %>banner/Banner_3.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-4" style=""><img alt="" src="<%= SkinPath %>banner/Banner_4.jpg" /></div>
+            <div class="ui-tabs-panel .hide()" id="ui-tabs-5" style=""><img alt="" src="<%= SkinPath %>banner/Banner_5.jpg" /></div>
+
+       	</div>
         <!-- End of JBanner -->
-        <div class="HeadCell">
           <div class="SearchCell">
           <h2>Search</h2>
           <div class="SearchCellBG"><dnn:SEARCH runat="server" id="dnnSEARCH" showWeb="False" showSite="False" Submit="&lt;img src=&quot;spacer2.gif&quot; border=&quot;0&quot; hspace=&quot;2&quot; align=&quot;absmiddle&quot;&gt;"/>
@@ -55,13 +74,13 @@
         </div>
         <!-- End of Search -->
         <div class="LoginRegisterCell ">
-	        <dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" />
-    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" />
+	        <div><dnn:LOGIN runat="server" id="dnnLOGIN" cssclass="LoginTokens" LegacyMode="false" />
+    	    <dnn:USER runat="server" id="dnnUSER" cssclass="LoginTokens" LegacyMode="false" /></div>
             <div class="CurrentDateCell"><dnn:CURRENTDATE runat="server" id="dnnCURRENTDATE" cssclass="CurrentDate" />
             </div>
       	</div>
         <!-- End of Login Register -->
-        </div>
+        
     </div>
     
     <!-- End of Banner -->
@@ -71,18 +90,17 @@
   
    
           <div id="FullWidth2" class="FullWidth2">
-          <div class="TopPane" runat="server" id="TopPane"></div>
-          <div class="SocialPane" runat="server" id="SocialPane"></div>
-          <div style="clear:both;">
-          <div class="LeftPane1" runat="server" id="LeftPane1"></div>
-          <div class="RightPane" runat="server" id="RightPane"></div>
-          <div style="clear:left;">
+          
+          <!--<div style="clear:both;">-->
           <div class="LeftPane" runat="server" id="LeftPane"></div>
-          <div class="ContentPane" runat="server" id="ContentPane"></div>
-          </div>
+          
+<div class="ContentPane" runat="server" id="ContentPane"></div>
+          <div class="RightPane" runat="server" id="RightPane"></div>
+          
+          
           <div class="LeftPane2" runat="server" id="LeftPane2"></div>
-          </div>
-          <div class="ExtendedPane" runat="server" id="ExtendedPane"></div>
+          <!--</div>-->
+          <div class="ExtendedPane" runat="server" id="ExtendedPane">
           
     </div>      
   
@@ -96,10 +114,13 @@
 </div>
 
 
-<dnn:DnnJsInclude runat="server" FilePath="jquery.cycle.min.js" PathNameAlias="SkinPath" />
-<dnn:DnnJsInclude runat="server" FilePath="/DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/jquery-ui-tabs-rotate.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="DNNMetro/MetroMenu.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="~/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js" />
-<dnn:DnnCssInclude runat="server" FilePath="/DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="DNNMetro/MetroMenu.css" PathNameAlias="SkinPath" />
+
+
+
 
 
 

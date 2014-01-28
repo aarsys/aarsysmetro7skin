@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="07.01.00.05">
+        <package name="Metro7" type="Skin" version="07.01.00.12">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -808,6 +808,7 @@
                             <name>popUpSkin.ascx</name>
                             <sourceFileName>Skins\Metro7\popupskin.ascx</sourceFileName>
                         </skinFile>
+                      
                         <skinFile>
                             <name>index.jpg</name>
                             <sourceFileName>Skins\Metro7\index.jpg</sourceFileName>
@@ -864,7 +865,20 @@
                         <name>admin.css</name>
                         <sourceFileName>Skins\Metro7\admin.css</sourceFileName>
                       </skinFile>
-                        <skinFile>
+                      <skinFile>
+                        <name>Social-3-Columns.ascx</name>
+                        <sourceFileName>Skins\Metro7\Social-3-Columns.ascx</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <name>Social-3-Columns.doctype.xml</name>
+                        <sourceFileName>Skins\Metro7\Social-3-Columns.doctype.xml</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <name>Social-3-Columns.css</name>
+                        <sourceFileName>Skins\Metro7\Social-3-Columns.css</sourceFileName>
+                      </skinFile>
+
+                      <skinFile>
                             <path>images</path>
                             <name>google-talk.png</name>
                             <sourceFileName>Skins\Metro7\images\google-talk.png</sourceFileName>
@@ -948,6 +962,26 @@
                         <path>images</path>
                         <name>Clear.png</name>
                         <sourceFileName>Skins\Metro7\images\Clear.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Documents24.png</name>
+                        <sourceFileName>Skins\Metro7\images\Messages24.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Folder24.png</name>
+                        <sourceFileName>Skins\Metro7\images\Folder24.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>Images24.png</name>
+                        <sourceFileName>Skins\Metro7\images\Images24.png</sourceFileName>
+                      </skinFile>
+                      <skinFile>
+                        <path>images</path>
+                        <name>People24.png</name>
+                        <sourceFileName>Skins\Metro7\images\People24.png</sourceFileName>
                       </skinFile>
                         
                         <skinFile>

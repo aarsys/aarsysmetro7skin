@@ -127,15 +127,22 @@
     <Content Include="Documentation\folderopen.gif" />
     <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
     <Content Include="Documentation\file.gif" />
+    <Content Include="Skins\Metro7\admin.ascx" />
     <Content Include="Skins\Metro7\admin.css" />
     <Content Include="Skins\Metro7\admin.doctype.xml" />
     <Content Include="Skins\Metro7\images\Clear.png" />
+    <Content Include="Skins\Metro7\images\Documents24.png" />
+    <Content Include="Skins\Metro7\images\Folder24.png" />
+    <Content Include="Skins\Metro7\images\Images24.png" />
+    <Content Include="Skins\Metro7\images\People24.png" />
     <Content Include="Skins\Metro7\js\jquery-ui-tabs-rotate.js" />
-    <Content Include="Skins\Metro7\admin.ascx" />
+    <Content Include="Skins\Metro7\js\jquery.metro.js" />
     <Content Include="Skins\Metro7\popUpSkin.ascx" />
     <Content Include="Skins\Metro7\popUpSkin.css" />
-    <Content Include="Skins\Metro7\skin.css" />
     <Content Include="Skins\Metro7\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7\Social-3-Columns.ascx" />
+    <Content Include="Skins\Metro7\Social-3-Columns.css" />
+    <Content Include="Skins\Metro7\Social-3-Columns.doctype.xml" />
     <Content Include="Skins\Metro7_Green\admin.ascx" />
     <Content Include="Skins\Metro7_Green\admin.css" />
     <Content Include="Skins\Metro7_Green\admin.doctype.xml" />
@@ -183,31 +190,115 @@
     <Content Include="Skins\Metro7\DNNMetro\MetroMenu.css" />
     <Content Include="Skins\Metro7\DNNMetro\MetroMenu.js" />
     <Content Include="Skins\Metro7\DNNMetro\ULTokens.txt" />
-    <Content Include="Skins\Metro7\images\banner-active.png" />
-    <Content Include="Skins\Metro7\images\banner-idel.png" />
-    <Content Include="Skins\Metro7\images\Banner_1.jpg" />
-    <Content Include="Skins\Metro7\images\Banner_2.jpg" />
-    <Content Include="Skins\Metro7\images\Banner_3.jpg" />
-    <Content Include="Skins\Metro7\images\Banner_4.jpg" />
-    <Content Include="Skins\Metro7\images\Banner_5.jpg" />
+    <Content Include="Skins\Metro7\images\Add24.png" />
+    <Content Include="Skins\Metro7\images\Add32.png" />
+    <Content Include="Skins\Metro7\images\Adobe24.png" />
+    <Content Include="Skins\Metro7\images\Adobe32.png" />
+    <Content Include="Skins\Metro7\images\AIM32.png" />
+    <Content Include="Skins\Metro7\images\AOL32.png" />
+    <Content Include="Skins\Metro7\images\Archive24.png" />
+    <Content Include="Skins\Metro7\images\Archive32.png" />
+    <Content Include="Skins\Metro7\images\Bookmark24.png" />
+    <Content Include="Skins\Metro7\images\Bookmark32.png" />
+    <Content Include="Skins\Metro7\images\Calendar.png" />
+    <Content Include="Skins\Metro7\images\Cancel24.png" />
+    <Content Include="Skins\Metro7\images\Cancel32.png" />
+    <Content Include="Skins\Metro7\images\Category.png" />
+    <Content Include="Skins\Metro7\images\Chat.png" />
+    <Content Include="Skins\Metro7\images\Close24.png" />
+    <Content Include="Skins\Metro7\images\Close32.png" />
+    <Content Include="Skins\Metro7\images\Cloud.png" />
+    <Content Include="Skins\Metro7\images\Conference24.png" />
+    <Content Include="Skins\Metro7\images\Conference32.png" />
+    <Content Include="Skins\Metro7\images\Contact.png" />
+    <Content Include="Skins\Metro7\images\Copy24.png" />
+    <Content Include="Skins\Metro7\images\Copy32.png" />
+    <Content Include="Skins\Metro7\images\CSV Export24.png" />
+    <Content Include="Skins\Metro7\images\CSV Export32.png" />
+    <Content Include="Skins\Metro7\images\Date24.png" />
+    <Content Include="Skins\Metro7\images\Date32.png" />
+    <Content Include="Skins\Metro7\images\Download.png" />
+    <Content Include="Skins\Metro7\images\Dynamics.png" />
+    <Content Include="Skins\Metro7\images\Excel.png" />
     <Content Include="Skins\Metro7\images\Facebook.png" />
     <Content Include="Skins\Metro7\images\favicon.ico" />
-    <Content Include="Skins\Metro7\images\GooglePlus.png" />
-    <Content Include="Skins\Metro7\images\GoogleSearch.png" />
     <Content Include="Skins\Metro7\images\Google-Talk.png" />
     <Content Include="Skins\Metro7\images\Google.png" />
+    <Content Include="Skins\Metro7\images\GooglePlus.png" />
+    <Content Include="Skins\Metro7\images\GoogleSearch.png" />
+    <Content Include="Skins\Metro7\images\Help24.png" />
+    <Content Include="Skins\Metro7\images\Help32.png" />
+    <Content Include="Skins\Metro7\images\Home24.png" />
+    <Content Include="Skins\Metro7\images\Home24r.png" />
+    <Content Include="Skins\Metro7\images\Home32.png" />
+    <Content Include="Skins\Metro7\images\Home32r.png" />
+    <Content Include="Skins\Metro7\images\In24.png" />
+    <Content Include="Skins\Metro7\images\In24r.png" />
+    <Content Include="Skins\Metro7\images\In32.png" />
+    <Content Include="Skins\Metro7\images\In32r.png" />
+    <Content Include="Skins\Metro7\images\Information24.png" />
+    <Content Include="Skins\Metro7\images\Information32.png" />
+    <Content Include="Skins\Metro7\images\Key24.png" />
+    <Content Include="Skins\Metro7\images\Key32.png" />
+    <Content Include="Skins\Metro7\images\Left Arrow24.png" />
+    <Content Include="Skins\Metro7\images\Left Arrow24r.png" />
+    <Content Include="Skins\Metro7\images\Left Arrow32.png" />
+    <Content Include="Skins\Metro7\images\Left Arrow32r.png" />
     <Content Include="Skins\Metro7\images\LinkedIn.png" />
     <Content Include="Skins\Metro7\images\loginIcons.png" />
+    <Content Include="Skins\Metro7\images\Logout24.png" />
+    <Content Include="Skins\Metro7\images\Logout32.png" />
+    <Content Include="Skins\Metro7\images\Mail24.png" />
+    <Content Include="Skins\Metro7\images\Mail32.png" />
+    <Content Include="Skins\Metro7\images\Message24.png" />
+    <Content Include="Skins\Metro7\images\Message32.png" />
+    <Content Include="Skins\Metro7\images\Messages24.png" />
+    <Content Include="Skins\Metro7\images\Messages32.png" />
+    <Content Include="Skins\Metro7\images\Messenger.png" />
     <Content Include="Skins\Metro7\images\Metro.png" />
+    <Content Include="Skins\Metro7\images\Metro16.png" />
     <Content Include="Skins\Metro7\images\Metro24.png" />
     <Content Include="Skins\Metro7\images\Microsoft-Lync.png" />
+    <Content Include="Skins\Metro7\images\Minus24.png" />
+    <Content Include="Skins\Metro7\images\Minus32.png" />
+    <Content Include="Skins\Metro7\images\MSServer.png" />
+    <Content Include="Skins\Metro7\images\Myspace.png" />
+    <Content Include="Skins\Metro7\images\Next.png" />
+    <Content Include="Skins\Metro7\images\Next24.png" />
+    <Content Include="Skins\Metro7\images\Next24r.png" />
+    <Content Include="Skins\Metro7\images\Next32.png" />
+    <Content Include="Skins\Metro7\images\Next32r.png" />
+    <Content Include="Skins\Metro7\images\Office 2013.png" />
+    <Content Include="Skins\Metro7\images\OneNote.png" />
+    <Content Include="Skins\Metro7\images\Out24.png" />
+    <Content Include="Skins\Metro7\images\Out24r.png" />
+    <Content Include="Skins\Metro7\images\Out32.png" />
+    <Content Include="Skins\Metro7\images\Out32r.png" />
+    <Content Include="Skins\Metro7\images\Outlook32.png" />
+    <Content Include="Skins\Metro7\images\Pdf Export24.png" />
+    <Content Include="Skins\Metro7\images\Pdf Export32.png" />
+    <Content Include="Skins\Metro7\images\Pin24.png" />
+    <Content Include="Skins\Metro7\images\Pin32.png" />
+    <Content Include="Skins\Metro7\images\PowerPoint.png" />
+    <Content Include="Skins\Metro7\images\PowerShell.png" />
+    <Content Include="Skins\Metro7\images\Preview.png" />
+    <Content Include="Skins\Metro7\images\Preview24.png" />
+    <Content Include="Skins\Metro7\images\Previous.png" />
     <Content Include="Skins\Metro7\images\RSS.png" />
     <Content Include="Skins\Metro7\images\Settings24.png" />
     <Content Include="Skins\Metro7\images\Settings32.png" />
+    <Content Include="Skins\Metro7\images\Skype-1.png" />
+    <Content Include="Skins\Metro7\images\Skype.png" />
+    <Content Include="Skins\Metro7\images\SocialMedia.png" />
+    <Content Include="Skins\Metro7\images\Tag.png" />
+    <Content Include="Skins\Metro7\images\Talk.png" />
     <Content Include="Skins\Metro7\images\twitter.png" />
     <Content Include="Skins\Metro7\images\TwitterBird.png" />
+    <Content Include="Skins\Metro7\images\Upload.png" />
     <Content Include="Skins\Metro7\images\userLoginSprite.png" />
     <Content Include="Skins\Metro7\images\WarningMessage.png" />
+    <Content Include="Skins\Metro7\images\Windows 8.png" />
+    <Content Include="Skins\Metro7\images\Word.png" />
     <Content Include="Skins\Metro7\images\Xing.png" />
     <Content Include="Skins\Metro7\images\Yahoo.png" />
     <Content Include="Skins\Metro7\images\Yahoo1.png" />
@@ -218,11 +309,11 @@
     <Content Include="Skins\Metro7\internal.ascx" />
     <Content Include="Skins\Metro7\internal.doctype.xml" />
     <Content Include="Skins\Metro7\internal.jpg" />
-    <Content Include="Skins\Metro7\js\jquery.metro.js" />
     <Content Include="Skins\Metro7\LoginIconBG.png" />
     <Content Include="Skins\Metro7\Metro7_logo.jpg" />
     <Content Include="Skins\Metro7\SearchBG.png" />
     <Content Include="Skins\Metro7\SearchIconBG.png" />
+    <Content Include="Skins\Metro7\skin.css" />
     <Content Include="Skins\Metro7\spacer2.gif" />
     <Content Include="Skins\Metro7\thumbnail_index.jpg" />
     <Content Include="Skins\Metro7\thumbnail_internal.jpg" />
@@ -665,12 +756,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="Skins\Metro7\popUpSkin.ascx.designer.vb">
-      <DependentUpon>popUpSkin.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Skins\Metro7\popUpSkin.ascx.vb">
-      <DependentUpon>popUpSkin.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Skins\Metro7_Green\popUpSkin.ascx.designer.vb">
       <DependentUpon>popUpSkin.ascx</DependentUpon>
     </Compile>
@@ -691,7 +776,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Skins\Metro7\DNNMetro\images\" />
+    <Folder Include="Skins\Metro7\DNNMetro\Images\" />
     <Folder Include="Skins\Metro7_Green\DNNMetro\Images\" />
     <Folder Include="Skins\Metro7_Orange\DNNMetro\images\" />
     <Folder Include="Skins\Metro7_Red\DNNMetro\images\" />
@@ -722,15 +807,16 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60521</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://dev6/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://dev6/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://dev6</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
