@@ -92,7 +92,7 @@ font: bold 20px Calibri, "Segoe UI", Helvetica, Arial, sans-serif;
     padding: 10px 8px 10px 40px;
     margin: 0;
     border-bottom: solid 1px #fff;
-    background: rgba(27, 160, 255, .6) 18px center no-repeat;
+    background: rgba(48, 153, 48, .8) 18px center no-repeat;
     color: #fff;
     font-size: 13px;
     line-height: 1;
@@ -104,7 +104,7 @@ font: bold 20px Calibri, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 .console-mouseon {
-    background-color: rgba(27, 160, 255, .9); /* Menu Hover Background Color */
+    background-color: rgba(3, 86, 5, .9); /* Menu Hover Background Color */
 }
 
 /* ----------------------------------*/
@@ -908,4 +908,19 @@ div#journalOptionArea div.journal_onlineFileShare a.dnnSecondaryAction {
 div#journalOptionArea div.journal_localFileShare .dnnInputFileWrapper {
     display: inline-block;
     margin: 15px 0 0 -10px;
+}
+
+.dnnAdminTabNav a span {
+    background-color: rgba(3,86,5, .8);
+    background: #035605; /***Support older Browsers***/
+}
+
+.DnnModule-Messaging-Notifications .smListings .active .ActiveToggle, .smListings .ActiveToggle:hover  {
+    background-color: -moz-linear-gradient(center top, #FFFFFF 0%, #035605 100%);
+    background: #035605;
+}
+
+.DnnModule-Messaging-Notifications .smListings .active .ActiveToggle:hover, .smListings .ActiveToggle {
+    background-color: -moz-linear-gradient(center top, #FFFFFF 0%, #309930 100%);
+    background: #309930;
 }

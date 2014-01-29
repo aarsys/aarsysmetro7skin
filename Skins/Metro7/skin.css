@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*========================================================*/
 /*        		 Created by AliNawaz.net             	  */
 /*		     Ali Nawaz (DNN SEO Consultant)			      */
@@ -102,7 +102,7 @@
 
 /*-- left1 content pane          	   --*/ .LeftPane1 { float:left; position:relative;}
 /*-- left3 content pane          	   --*/ .LeftPane3 { float:right; position:relative;}
-/*-- left4 content pane          	   --*/ .ContentPane { position:relative; padding:5px 10px 5px 10px; display:inline; width:520px;}
+/*-- left4 content pane          	   --*/ .ContentPane { position:relative; float: left; width:520px;}
 /*-- left2 content pane          	   --*/ .LeftPane2 { float:left; position:relative; }
 
 /*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; margin: 0 -20px 0 0; }
@@ -535,11 +535,13 @@ ul.dnnAdminTabNav li.ui-tabs-active a {
 
 
 /*========================================================*/
-/*  DNN Blog 5.0 CSS enhancements	                      */
+/*  DNN Blog 6.0 CSS enhancements	                      */
 /*========================================================*/
 .dnnClear bloggerMenu div,  .ModBlogC div{max-width:500px}
 
-
+.ui-datepicker { 
+margin-left: -30px;
+}
 
 
 

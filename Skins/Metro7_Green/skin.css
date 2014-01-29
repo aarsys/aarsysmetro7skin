@@ -102,7 +102,7 @@
 
 /*-- left1 content pane          	   --*/ .LeftPane1 { float:left; position:relative;}
 /*-- left3 content pane          	   --*/ .LeftPane3 { float:right; position:relative;}
-/*-- left4 content pane          	   --*/ .ContentPane { position:relative; padding:5px 10px 5px 10px; display:inline; width:520px;}
+/*-- left4 content pane          	   --*/ .ContentPane { position:relative; float:left; width:520px;}
 /*-- left2 content pane          	   --*/ .LeftPane2 { float:left; position:relative; }
 
 /*-- Extended inside pane 2  	       --*/ .ExtendedPane {float:left; position:relative; margin: 0 -20px 0 0; }
@@ -237,11 +237,11 @@ display:inline-block;
 			text-shadow: 0px 0px 0px 0px #ffffff;
 			
 			/*CSS3*/	
-			background: -moz-linear-gradient(top, rgba(31,152,241,1) 0%, rgba(2,111,196,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Opera 11.10+ */
-			background: linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* W3C */
+			background: -moz-linear-gradient(top, rgba(3,86,5,1) 0%, rgba(3,86,5,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(3,86,5,1)), color-stop(100%,rgba(3,86,5,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, rgba(3,86,5,1) 0%,rgba(3,86,5,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, rgba(3,86,5,1) 0%,rgba(3,86,5,1) 100%); /* Opera 11.10+ */
+			background: linear-gradient(top, rgba(3,86,5,1) 0%,rgba(3,86,5,1) 100%); /* W3C */
 			
 			-webkit-border-radius: 	3px;
 			-moz-border-radius: 	3px;
@@ -535,11 +535,13 @@ ul.dnnAdminTabNav li.ui-tabs-active a {
 
 
 /*========================================================*/
-/*  DNN Blog 5.0 CSS enhancements	                      */
+/*  DNN Blog 6.0 CSS enhancements	                      */
 /*========================================================*/
 .dnnClear bloggerMenu div,  .ModBlogC div{max-width:500px}
 
-
+.ui-datepicker { 
+margin-left: -30px;
+}
 
 
 
