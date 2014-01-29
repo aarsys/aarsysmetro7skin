@@ -152,6 +152,9 @@
     <Content Include="Skins\Metro7_Green\popUpSkin.ascx" />
     <Content Include="Skins\Metro7_Green\popUpSkin.css" />
     <Content Include="Skins\Metro7_Green\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7_Green\Social-3-Columns.ascx" />
+    <Content Include="Skins\Metro7_Green\Social-3-Columns.css" />
+    <Content Include="Skins\Metro7_Green\Social-3-Columns.doctype.xml" />
     <Content Include="Skins\Metro7_Orange\admin.ascx" />
     <Content Include="Skins\Metro7_Orange\admin.css" />
     <Content Include="Skins\Metro7_Orange\admin.doctype.xml" />
@@ -161,6 +164,9 @@
     <Content Include="Skins\Metro7_Orange\popUpSkin.ascx" />
     <Content Include="Skins\Metro7_Orange\popUpSkin.css" />
     <Content Include="Skins\Metro7_Orange\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7_Orange\Social-3-Columns.ascx" />
+    <Content Include="Skins\Metro7_Orange\Social-3-Columns.css" />
+    <Content Include="Skins\Metro7_Orange\Social-3-Columns.doctype.xml" />
     <Content Include="Skins\Metro7_Red\admin.ascx" />
     <Content Include="Skins\Metro7_Red\admin.css" />
     <Content Include="Skins\Metro7_Red\admin.doctype.xml" />
@@ -170,6 +176,9 @@
     <Content Include="Skins\Metro7_Red\popUpSkin.ascx" />
     <Content Include="Skins\Metro7_Red\popUpSkin.css" />
     <Content Include="Skins\Metro7_Red\popUpSkin.doctype.xml" />
+    <Content Include="Skins\Metro7_Red\Social-3-Columns.ascx" />
+    <Content Include="Skins\Metro7_Red\Social-3-Columns.css" />
+    <Content Include="Skins\Metro7_Red\Social-3-Columns.doctype.xml" />
     <Content Include="version.txt" />
     <None Include="AarsysMetro.dnn6" />
     <Content Include="DNNSkin.targets">
@@ -749,7 +758,9 @@
     <Content Include="Skins\Metro7_Red\thumbnail_index.jpg" />
     <Content Include="Skins\Metro7_Red\thumbnail_internal.jpg" />
     <Content Include="Skins\Metro7_Red\thumbnail_pinktitle.jpg" />
-    <EmbeddedResource Include="AarsysMetro_install.dnn.resources" />
+    <EmbeddedResource Include="AarsysMetro_install.dnn.resources">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="AarsysMetro_source.dnn.resources">
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -103,7 +103,7 @@
           <div class="LeftPane2" runat="server" id="LeftPane2"></div>
           </div>
           <div class="ExtendedPane" runat="server" id="ExtendedPane"></div>
-              <div class="FooterPane" runat="server" id="FooterPane"></div>
+          <div class="ExtendedPane" runat="server" id="BottomPane"></div>
           
     </div>      
   

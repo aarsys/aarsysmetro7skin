@@ -266,6 +266,30 @@
                     <sourceFileName>Skins\Metro7_Red\admin.css</sourceFileName>
                   </skinFile>
                   <skinFile>
+                    <name>popUpSkin.css</name>
+                    <sourceFileName>Skins\Metro7_Red\popUpSkin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Red\popUpSkin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.ascx</name>
+                    <sourceFileName>Skins\Metro7_Red\popUpSkin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.ascx</name>
+                    <sourceFileName>Skins\Metro7_Red\Social-3-Columns.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Red\Social-3-Columns.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.css</name>
+                    <sourceFileName>Skins\Metro7_Red\Social-3-Columns.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
                     <path>images</path>
                     <name>google-talk.png</name>
                     <sourceFileName>Skins\Metro7_Red\images\google-talk.png</sourceFileName>
@@ -583,6 +607,30 @@
                   <skinFile>
                     <name>admin.css</name>
                     <sourceFileName>Skins\Metro7_Green\admin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.css</name>
+                    <sourceFileName>Skins\Metro7_Green\popUpSkin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Green\popUpSkin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.ascx</name>
+                    <sourceFileName>Skins\Metro7_Green\popUpSkin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.ascx</name>
+                    <sourceFileName>Skins\Metro7_Green\Social-3-Columns.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Green\Social-3-Columns.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.css</name>
+                    <sourceFileName>Skins\Metro7_Green\Social-3-Columns.css</sourceFileName>
                   </skinFile>
                   <skinFile>
                     <path>images</path>
@@ -904,7 +952,19 @@
                     <sourceFileName>Skins\Metro7\admin.css</sourceFileName>
                   </skinFile>
                   <skinFile>
-                    <name>Social-3Columns.ascx</name>
+                    <name>popUpSkin.css</name>
+                    <sourceFileName>Skins\Metro7\popUpSkin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7\popUpSkin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.ascx</name>
+                    <sourceFileName>Skins\Metro7\popUpSkin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.ascx</name>
                     <sourceFileName>Skins\Metro7\Social-3-Columns.ascx</sourceFileName>
                   </skinFile>
                   <skinFile>
@@ -915,7 +975,6 @@
                     <name>Social-3-Columns.css</name>
                     <sourceFileName>Skins\Metro7\Social-3-Columns.css</sourceFileName>
                   </skinFile>
-                  
                   <skinFile>
                     <path>images</path>
                     <name>google-talk.png</name>
@@ -1254,6 +1313,30 @@
                   <skinFile>
                     <name>admin.css</name>
                     <sourceFileName>Skins\Metro7_Orange\admin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.css</name>
+                    <sourceFileName>Skins\Metro7_Orange\popUpSkin.css</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Orange\popUpSkin.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>popUpSkin.ascx</name>
+                    <sourceFileName>Skins\Metro7_Orange\popUpSkin.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.ascx</name>
+                    <sourceFileName>Skins\Metro7_Orange\Social-3-Columns.ascx</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.doctype.xml</name>
+                    <sourceFileName>Skins\Metro7_Orange\Social-3-Columns.doctype.xml</sourceFileName>
+                  </skinFile>
+                  <skinFile>
+                    <name>Social-3-Columns.css</name>
+                    <sourceFileName>Skins\Metro7_Orange\Social-3-Columns.css</sourceFileName>
                   </skinFile>
                   <skinFile>
                     <path>images</path>

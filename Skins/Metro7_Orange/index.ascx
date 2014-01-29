@@ -66,7 +66,7 @@
             <div class="ui-tabs-panel .hide()" id="ui-tabs-5" style=""><img alt="" src="<%= SkinPath %>banner/Banner_5.jpg" /></div>
 
        	</div>
-        <!-- End of JBanner -->
+        <!-- End of JBanner --> 
         <div class="HeadCell">
           <div class="SearchCell">
           <h2>Search</h2>
@@ -103,6 +103,7 @@
           <div class="LeftPane2" runat="server" id="LeftPane2"></div>
           </div>
           <div class="ExtendedPane" runat="server" id="ExtendedPane"></div>
+          <div class="ExtendedPane" runat="server" id="BottomPane"></div>
           
     </div>      
   
