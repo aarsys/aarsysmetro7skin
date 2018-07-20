@@ -1,4 +1,4 @@
-﻿.ContentPane {
+.ContentPane {
     max-width: 100%;
     
 }
@@ -10,4 +10,5 @@
 .dnnScroll {
  width: 850px !important;
 }
+
 

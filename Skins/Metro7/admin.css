@@ -1,4 +1,4 @@
-﻿.ContentPane {
+.ContentPane {
     width: 90%;
     padding-left: 10px;
     padding-right: 10px;
@@ -11,4 +11,5 @@
 .dnnScroll {
  width: 850px !important;
 }
+
 

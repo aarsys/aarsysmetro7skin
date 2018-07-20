@@ -4,12 +4,12 @@
   <PropertyGroup>
     <CompanyName>AARSYS</CompanyName>
     <SkinName>MetroPackage</SkinName>
-    <DotNetNukeDir>C:\Develope\DEV6\website</DotNetNukeDir>
+    <DotNetNukeDir>D:\InetPub\DNN920\DNN920\Website</DotNetNukeDir>
 
     <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
-    <DeployDir>$(RootDir)\_default\deploy</DeployDir>
+    <DeployDir>$(RootDir)\0-System\deploy</DeployDir>
     <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-    <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
+    <MSBuildDir>$(RootDir)\0-System\lib\msbuild</MSBuildDir>
     <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     
   </PropertyGroup>
