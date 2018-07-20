@@ -1,0 +1,15 @@
+.ContentPane {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dnnHostSettings {
+    width: 90%;
+}
+
+.dnnScroll {
+ width: 850px !important;
+}
+
+

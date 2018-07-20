@@ -1,0 +1,48 @@
+#dnnMenu{height:auto; float:right; max-width:660px; position:relative;}
+#dnnMenu .topLevel{height:auto; position:relative; }
+#dnnMenu .topLevel li{float:left; list-style-type:none;position:relative;margin:0 0 0 0;}
+
+#dnnMenu .topLevel li a{display:block;color:#999999; line-height:33px; font-size:18px; font-family: calibri, arial, serif; font-size: 18px; white-space:nowrap; z-index:100;}
+#dnnMenu .topLevel li.hover a, #dnnMenu .topLevel li.selected a, #dnnMenu .topLevel li a:hover{color:#FFF;text-decoration:none;font-family: calibri, arial, serif; font-size: 18px; z-index:1;}
+
+
+#dnnMenu .topLevel li a div{display:block;line-height:23px;background-color:#EEEEEE; padding-top:60px; padding-left:10px; padding-right:10px; margin:10px 10px 0 0;}
+#dnnMenu .topLevel li.hover a div, #dnnMenu .topLevel li a:hover div{background-color:#309930; padding-top:60px; padding-left:10px; padding-right:10px; z-index:1200;}
+#dnnMenu .topLevel li.active a div, #dnnMenu .topLevel li.selected a div, #dnnMenu .topLevel li a:active div{background-color:#309930; padding-top:60px; padding-left:10px; padding-right:10px;}
+
+#dnnMenu .subLevel ul{display: block; padding: 0 0px 0 0px;position: static;z-index:1200;background-color:#EEEEEE;}
+#dnnMenu .subLevel li{float: none; display:block; margin:0 0 0 -13px; z-index:10000;}
+/*#dnnMenu .subLevel li{margin-bottom:-.5em;height:30px; border: 1 0 #000; margin:0 -5px 0 0;  }*/
+#dnnMenu .subLevel li.item a{background-color:#EEEEEE; height:25px;padding:0 0px 0 0px;margin:0 0 0 0px;}
+#dnnMenu .subLevel li.item a div{position: relative; background-color:#EEEEEE; font-size:small; color:#999999;line-height:25px;padding:0 0px 0 5px; margin:0 0 0 -5px; border: 1px solid #999CCC;}
+/*#dnnMenu .subLevel li.item a div img{margin-right:.5em;width:16px;height:30px;vertical-align:middle; }*/
+#dnnMenu .subLevel li.item a div span{ height:25px; margin:0 0 0 -5px; padding:5px 10px 5px 10px;}
+#dnnMenu .subLevel li.item a:hover div:hover{color:#ffffff; font-size:small; background-color:#309930; z-index:10000;}
+#dnnMenu .subLevel{display: none;position:absolute;width:auto;margin:0;padding:0 0 0 0;z-index:1210;}
+
+#dnnMenu .topLevel li.hover .subLevel{display:block;white-space:nowrap; padding: 0 5px 0 0px; margin: 0px 0px 0 0;}
+#dnnMenu .subLevel li.first > a{background-color:#EEEEEE;margin: 0 0 0 0px; padding: 0 0 0 0; }
+#dnnMenu .subLevel li.first > a div{background-color:#EEEEEE;height:25px;line-height:25px;padding:0 5px 0 5px;margin:0 0 0 -5px;}
+#dnnMenu .subLevel li.last > a{background-color:#EEEEEE;padding:0 0 0 5px; margin:0 0 0 0px;}
+#dnnMenu .subLevel li.last > a div{background-color:#EEEEEE;height:25px;line-height:25px;padding:0 20px 0 -5px; margin:0 0 0 -10px;}
+#dnnMenu .subLevel li.first.last > a{background-color:#EEEEEE; padding:0 0 0 0; margin:0 0 0 0; }
+#dnnMenu .subLevel li.first.last > a div{display:block;background-color:#EEEEEE; padding:0 0 0 0; margin:0px 0px 0 -5px;}
+
+
+#dnnMenu .subLevelRight{display:none;position: relative;left:100%;height:25px;}
+#dnnMenu .subLevel li.first > .subLevelRight{top:0px; height:25px; margin:0 0px 0 0px; }
+#dnnMenu .subLevel li.first.last > .subLevelRight{height:25px;}
+#dnnMenu .subLevel li.hover > .subLevelRight{display:block; margin: 0 -10px 0 -1px;}
+#dnnMenu .subLevel li.first > .subLevelRight li.first > .subLevelRight {height:25px;}
+#dnnMenu .subLevelRight ul{display:block; margin:-25px 0 0 0;}
+#dnnMenu .subLevelRight ul li{display:block; margin:0 0 0 5px;}
+#dnnMenu .subLevelRight ul li a{display:block;}
+#dnnMenu .subLevelRight ul li a div{display:block; white-space:nowrap;}
+#dnnMenu .subLevelRight ul li.first > a{ background-color:transparent; height:25px;}
+#dnnMenu .subLevelRight ul li.first > a div{ background-color:#EEEEEE; height:25px;}
+#dnnMenu .subLevelRight ul li.last > a div{ background-color:#EEEEEE; height:25px;}
+#dnnMenu .subLevelRight ul li.first.last > a div{background-color:#EEEEEE; height:25px; padding: 0 5px 0 5px;}
+#dnnMenu .subLevelRight ul li.first.last > a:hover div:hover{color:#FFFFFF; height:25px; background-color:#309930;padding:0 5px 0 5px;}
+
+
+
