@@ -1,4 +1,15 @@
+.DefaultContainer {
+    text-align: left;
+    vertical-align: middle;
+    width: 95%;
+}
 
+.DefaultContainer-Icon {
+    text-align: left;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 5%;
+}
 .DefaultContainer-Title { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; font-size:30px; color: #309930; }
 .DefaultContainer-Body { padding: 8px 8px 8px 8px; }
 .DefaultContainer-Bottom { height:10px; }

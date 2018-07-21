@@ -1,6 +1,15 @@
+.GrayTitle {
+    text-align: left;
+    vertical-align: middle;
+    width: 95%;
+}
 
-
-
+.GrayTitleIcon {
+    text-align: left;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 5%;
+}
 .GrayTitleTitle { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; font-size:30px; color: #666666; }
 .GrayTitleBody { padding: 8px 8px 8px 8px; }
 .GrayTitleBottom { height:10px; }

@@ -1,4 +1,15 @@
+.PinkTitle {
+    text-align: left;
+    vertical-align: middle;
+    width: 95%;
+}
 
+.PinkTitleTIcon {
+    text-align: left;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 5%;
+}
 
 
 .PinkTitleTitle { font-family: Calibri, "Segoe UI", Helvetica, Arial, sans-serif; font-size:30px; color: #CC3399; }

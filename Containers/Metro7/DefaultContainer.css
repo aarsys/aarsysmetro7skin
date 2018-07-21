@@ -1,6 +1,20 @@
+﻿.DefaultContainer {
+    text-align: left;
+    vertical-align: middle;
+    width: 95%;
+}
 
-@charset "UTF-8";
-.DefaultContainer-Title { font-family: "Segoe UI", Calibri, Helvetica, Arial, sans-serif; font-size:30px; color: #1BA0E1; }
+.DefaultContainer-Icon {
+    text-align: left;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 5%;
+}
+.DefaultContainer-Title {
+    font-family: "Segoe UI", Calibri, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #1BA0E1;
+}
 .DefaultContainer-Body { padding: 8px 8px 8px 8px; }
 .DefaultContainer-Bottom { height:10px; }
 

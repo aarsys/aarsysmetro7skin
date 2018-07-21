@@ -822,12 +822,12 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60521</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://dev6/</IISUrl>
+          <IISUrl>http://dev920/</IISUrl>
           <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://dev6/</IISAppRootUrl>
+          <IISAppRootUrl>http://dev920/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
-          <CustomServerUrl>http://dev6</CustomServerUrl>
+          <CustomServerUrl>http://dev920</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
