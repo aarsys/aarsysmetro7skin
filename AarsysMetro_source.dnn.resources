@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="6.0">
     <packages>
-        <package name="Metro7" type="Skin" version="09.02.00.02">
+        <package name="Metro7" type="Skin" version="09.02.00.05">
             <friendlyName>AarsysMetro SkinPackage</friendlyName>
             <description>A 4 color Metro7 style DotNetNuke skin package. </description>
             <iconFile></iconFile>
@@ -41,7 +41,7 @@
                   <skinfile>
                     <path>Lib</path>
                     <name>Microsoft.ApplicationBlocks.Data.dll</name>
-                    <sourceFileName>Lib\atMicrosoft.ApplicationBlocks.Data.dll</sourceFileName>
+                    <sourceFileName>Lib\Microsoft.ApplicationBlocks.Data.dll</sourceFileName>
                   </skinfile>
                   <skinfile>
                     <path>Lib\MSBuild</path>

@@ -123,12 +123,6 @@
     <Content Include="Containers\Metro7_Red\thumbnail_graysmalltitle.jpg" />
     <Content Include="Containers\Metro7_Red\thumbnail_graytitle.jpg" />
     <Content Include="Containers\Metro7_Red\thumbnail_pinktitle.jpg" />
-    <Content Include="Documentation\Documentation.css" />
-    <Content Include="Documentation\Documentation.html" />
-    <Content Include="Documentation\logo.gif" />
-    <Content Include="Documentation\folderopen.gif" />
-    <Content Include="Documentation\CodeEndeavorsWebCasts.png" />
-    <Content Include="Documentation\file.gif" />
     <Content Include="Skins\Metro7\admin.ascx" />
     <Content Include="Skins\Metro7\admin.css" />
     <Content Include="Skins\Metro7\admin.doctype.xml" />
@@ -795,17 +789,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DotNetNuke">
-      <HintPath>..\..\bin\DotNetNuke.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AarsysMetro.dnn7" />

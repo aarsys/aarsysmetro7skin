@@ -7,9 +7,9 @@
     <DotNetNukeDir>D:\InetPub\DNN920</DotNetNukeDir>
 
     <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
-    <DeployDir>$(RootDir)\0-System\deploy</DeployDir>
+    <DeployDir>$(RootDir)\_default\deploy</DeployDir>
     <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-    <MSBuildDir>$(RootDir)\0-System\lib\msbuild</MSBuildDir>
+    <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
     <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     
   </PropertyGroup>
