@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- PLEASE NOTE THAT CHANGES TO THIS FILE WILL NOT TAKE AFFECT UNTIL YOU UNLOAD AND RELOAD YOUR PROJECT! -->
   <PropertyGroup>
@@ -9,7 +9,7 @@
     <RootDir>$(MSBuildProjectDirectory)\..</RootDir>
     <DeployDir>$(RootDir)\0-System\deploy</DeployDir>
     <InstallDir>$(MSBuildProjectDirectory)\installation</InstallDir>
-    <MSBuildDir>$(RootDir)\0-System\lib\msbuild</MSBuildDir>
+    <MSBuildDir>$(RootDir)\_default\lib\msbuild</MSBuildDir>
     <BackupDotNetNukeDir>$(DotNetNukeDir)</BackupDotNetNukeDir>
     
   </PropertyGroup>
@@ -122,7 +122,7 @@
   <!-- Create Install Package -->
   <Target Name="ZipFiles" DependsOnTargets="SetVersionInfo">
     <!-- Obtain reference to installation files -->
-    <Copy SourceFiles="AarsysMetro_install.dnn.resources" DestinationFiles="$(MSBuildProjectDirectory)\AarsysMetro.dnn6" />
+    <Copy SourceFiles="AarsysMetro_install.dnn.resources" DestinationFiles="$(MSBuildProjectDirectory)\AarsysMetro.dnn7" />
     <CreateItem Include="@(InstallInclude);">
    
       <Output TaskParameter="Include" ItemName="InstallZipFiles" />
@@ -138,7 +138,7 @@
 
     <!-- Obtain reference to source files -->
     <!-- Create Source Package -->
-    <Copy SourceFiles="AarsysMetro_source.dnn.resources" DestinationFiles="$(MSBuildProjectDirectory)\AarsysMetro.dnn6" />
+    <Copy SourceFiles="AarsysMetro_source.dnn.resources" DestinationFiles="$(MSBuildProjectDirectory)\AarsysMetro.dnn7" />
     <CreateItem Include="@(SourceInclude);@(InstallInclude);" Exclude="@(DefaultExclude);">
       <Output TaskParameter="Include" ItemName="SourceZipFiles"/>
     </CreateItem>

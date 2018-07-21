@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\Containers",
+    "\\Containers\\Metro7_Red"
   ],
   "PreviewInSolutionExplorer": false
 }
